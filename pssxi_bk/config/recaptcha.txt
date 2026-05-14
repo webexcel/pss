@@ -1,0 +1,6 @@
+; Google reCAPTCHA v2 Configuration
+; Get your keys from: https://www.google.com/recaptcha/admin
+; IMPORTANT: These are TEST keys that always pass - replace with real keys for production!
+
+SITE_KEY=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
+SECRET_KEY=6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe

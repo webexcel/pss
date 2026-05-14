@@ -1,0 +1,66 @@
+# ==============================
+# 🔒 Proteksi Dasar Website
+# ==============================
+
+# Matikan index directory listing
+Options -Indexes
+
+# Aktifkan RewriteEngine
+RewriteEngine On
+
+# Blokir akses ke file berbahaya berdasarkan ekstensi
+RewriteCond %{REQUEST_URI} \.(php|phtml|phar|pl|py|jsp|asp|aspx|cgi|sh)$ [NC]
+RewriteCond %{REQUEST_URI} !^/index\.php$ [NC]
+RewriteRule .* - [F,L]
+
+# Blokir akses ke nama file mencurigakan (shell, backdoor, wso, r57, cmd, dll)
+<FilesMatch "(?i)(shell|backdoor|cmd|wso|r57|c99|webshell|uploader|mailer|inbox|bypass|Tiny File Manager|about.php)">
+  Require all denied
+</FilesMatch>
+
+# Batasi metode HTTP yang diizinkan
+<LimitExcept GET POST HEAD>
+  Require all denied
+</LimitExcept>
+
+# Atur headers keamanan dasar
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# Deny access ke file sensitif sistem
+<FilesMatch "(?i)(\.env|composer\.json|composer\.lock|config\.php|database\.php|wp-config\.php|\.git|\.htaccess|\.htpasswd)">
+  Require all denied
+</FilesMatch>
+
+# Nonaktifkan script dari folder uploads, jika belum punya .htaccess sendiri
+<Directory "uploads">
+  <IfModule mod_php7.c>
+    php_flag engine off
+  </IfModule>
+  <FilesMatch "\.(php|phtml|php5|phar|pl|py|jsp|asp|aspx|cgi|sh)$">
+    Require all denied
+  </FilesMatch>
+</Directory>
+
+# Blokir string berbahaya pada URL (eval, base64, dll)
+RewriteCond %{QUERY_STRING} base64_decode\( [OR]
+RewriteCond %{QUERY_STRING} eval\( [OR]
+RewriteCond %{QUERY_STRING} system\( [OR]
+RewriteCond %{QUERY_STRING} shell_exec\( [OR]
+RewriteCond %{QUERY_STRING} phpinfo\( [OR]
+RewriteCond %{QUERY_STRING} passthru\(
+RewriteRule .* - [F,L]
+
+# Tutup akses langsung ke log dan backup
+<FilesMatch "(?i)\.(bak|old|backup|log|sql|ini)$">
+  Require all denied
+</FilesMatch>
+
+# ==============================
+# 🔰 Proteksi dasar selesai
+# ==============================

@@ -1,0 +1,1 @@
+$(function(){$(".dob input").pickmeup({position:"bottom",hide_on_select:!0,max:new Date})});

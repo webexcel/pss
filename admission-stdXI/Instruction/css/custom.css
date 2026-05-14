@@ -1,0 +1,72 @@
+﻿@media (min-width:980px) and (max-width:1024px) {
+    #divEvents {
+        bottom: 0;
+        position: fixed;
+        width: 92% !important;
+    }
+
+    .modelChange {
+        height: 94%;
+        left: 36% !important;
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    #divEvents {
+        bottom: 0;
+        position: fixed;
+        width: 100% !important;
+    }
+
+    .modelChange {
+        height: 94%;
+        width: 98% !important;
+        left: 1% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #divEvents {
+        bottom: 0;
+        position: fixed;
+        width: 100% !important;
+    }
+
+    .modelChange {
+        height: 94%;
+        left: 1% !important;
+        width: 80%;
+    }
+.school-logo {
+    display: block;
+    float: left;
+    margin-top: 1em;
+    max-width: 75%;
+    position: relative !important;
+}
+}
+
+#divEvents {
+    bottom: 0;
+    position: fixed;
+    width: 78.5%;
+}
+
+.modelChange {
+    height: 94%;
+    left: 26%;
+    width: 80%;
+}
+
+.imgLookup {  
+    float: right;
+    margin-top: -23px;
+    margin-right: -23px;
+    cursor: pointer;
+}
+.tablelookup {
+    padding: 10px;
+}
+
+

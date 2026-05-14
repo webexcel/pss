@@ -1,0 +1,31 @@
+# Integrated Course Fee Payment - Security Rules
+
+# Deny access to sensitive directories and files
+<FilesMatch "^(\.env|\.git|composer\.(json|lock)|database\.sql)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Deny access to includes and logs directories
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block direct access to includes
+    RewriteRule ^includes/ - [F,L]
+
+    # Block direct access to logs
+    RewriteRule ^logs/ - [F,L]
+
+    # Block direct access to templates
+    RewriteRule ^templates/ - [F,L]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Disable directory listing
+Options -Indexes

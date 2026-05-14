@@ -1,0 +1,453 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+}
+*{ margin:0; padding:0;}
+.bgmid {
+	background-image: url(../../img/Temlate_131/bg_mid.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.hmsmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3367b2;
+	font-weight: bold;
+	padding-left:8px;
+}
+.hmsmall a {
+text-decoration:underline;
+color:#9d1b00;
+}
+.hmsmall a:hover{
+text-decoration:underline;
+color:#9d1b00;
+}
+
+.top-nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: 0A1F3F;
+	text-align:center;
+}
+.top-nav a { 
+text-decoration:none;
+color:#0A1F3F;
+}
+.top-nav a:hover
+{
+text-decoration:none;
+color:#122D57;
+}
+.second-nav{
+font-style:normal;
+
+color:#9d1b00;
+}
+.second-nav a {
+text-decoration:none;
+color:#9d1b00;
+}
+.second-nav a:hover{
+text-decoration:underline;
+color:#333333;
+}
+.h1
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#c6262e; padding:9px;
+}
+.h1 A{
+	color:#3367b2;
+	text-decoration:none;
+	}
+.h1 A:hover{
+	color:#3367b2;
+	text-decoration:underline;
+	}
+
+.h2
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#F55600;
+padding:5px 0px 0px 0px;
+}
+
+.text {
+	/*font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	LINE-HEIGHT: 18px;
+	color:#000000;
+	/*PADDING-LEFT: 10px;
+	PADDING-RIGHT: 10px;*/
+}
+.text A{
+	color:#000000;
+	text-decoration:none;
+	}
+.text A:hover{
+	color:#000000;
+	text-decoration:underline;
+	}
+
+.text1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color:#0A1F3F;
+	text-align:center;
+	PADDING-LEFT: 5px;
+}
+.text2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	LINE-HEIGHT: 16px;
+	color:#ffffff;
+	text-align:justify;
+	PADDING-RIGHT: 8px; 
+	PADDING-LEFT: 8px;
+}
+.text2 A{
+	color:#0A1F3F;
+	text-decoration:none;
+	}
+.text2 A:hover{
+	color:#F55600;
+	text-decoration:none;
+	}
+.form2 {
+PADDING-RIGHT:2px; 
+PADDING-LEFT: 2px; 
+FONT-SIZE: 11px; 
+COLOR: #000000; 
+LINE-HEIGHT: 16px;
+BORDER-RIGHT: #1C385D 1px solid; 
+BORDER-TOP: #1C385D 1px solid; 
+VERTICAL-ALIGN: middle; 
+BORDER-LEFT: #1C385D 1px solid; 
+TEXT-INDENT: 2px; 
+BORDER-BOTTOM: #1C385D 1px solid; 
+BACKGROUND-COLOR: #ffffff; 
+TEXT-ALIGN: left 
+FONT-FAMILY: tahoma, Verdana, Arial, sans-serif
+}
+.form2 A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.form2 A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+
+.heading
+{
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size:14px;
+color:#9d1b00;
+padding-left:10px;
+}
+.heading A {	COLOR: #F55600; TEXT-DECORATION: none
+}
+.heading A:hover {	COLOR: #F55600; TEXT-DECORATION: underline
+}
+.heading1
+{
+font-family:thoma, Verdana, Arial, Helvetica, sans-serif;
+font-size:12px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; LINE-HEIGHT: 18px;
+color:#333333;
+}
+.heading1 A {	COLOR: #333333; TEXT-DECORATION: none
+}
+.heading1 A:hover {	COLOR: #333333; TEXT-DECORATION: underline
+}
+.facu .author {
+	font-family: tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color:#fff;
+	font-weight:bold;
+	PADDING:6px 4px; 
+	LINE-HEIGHT: 29px;
+	background:#7dc661;
+}
+.author {
+	font-family: tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color:#333;
+	font-weight:bold;
+	PADDING:6px 4px; 
+	LINE-HEIGHT: 20px;
+
+}
+.author1 {
+	font-family: tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color:#333;
+	font-weight:bold;
+	PADDING:0px 4px; 
+	LINE-HEIGHT: 20px;
+
+}
+.author A {
+	COLOR: #333333;
+	TEXT-DECORATION: none;
+	padding-right: 10px;
+}
+.author A:hover {	COLOR: #333333; TEXT-DECORATION: underline
+}
+
+.srch_hd {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+}
+.srch_numb {
+	padding: 3px;
+	height: 10px;
+	width: 10px;
+	font-family: Tahoma;
+	font-size: 10px;
+	border: 1px dotted #C4E8FF;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	background-image: url(../../img/Temlate_131/bg_midbar.gif);
+}
+
+.srch_numb a {
+	text-decoration: none;
+	color: #666666;
+}
+#srchd {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EAEBED;
+	background-image: url(../../img/Temlate_131/icon_topic.gif);
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 26px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-left: 26px;
+}
+.srch_hd #srch_nu {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 26px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(../../icon_page.gif);
+}
+
+.srch_hd #srchd a {
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000066;
+}
+
+.bottom-nav{
+font-family:Arial, Helvetica, sans-serif; font-size:11px; font-style:normal;font-weight:bold;color:#000000;
+
+}
+.bottom-nav a{text-decoration:none;color:#000000;}
+.bottom-nav a:hover{text-decoration:underline;color:#000000;
+}
+
+
+.bottom-nav1{
+font-family:tahoma,Arial, Helvetica, sans-serif;
+font-size:11px;
+font-style:normal;
+color:#9d1b00;
+}
+.bottom-nav1 a{
+text-decoration:none;
+color:#FF7800;
+}
+.bottom-nav1 a:hover{
+text-decoration:underline;
+color:#FF7800;
+}
+/*home css starts*/
+
+.top {
+	font-family:  Tahoma, Arial, Verdana, tahoma, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-weight:bold;
+	text-align:center;
+}
+.top a{
+text-decoration:none;
+color:#000000;
+}
+.top a:hover{
+text-decoration:underline;
+color:#9D1C00;
+}
+
+.home-head
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#C8DDFF;
+padding:0px 0px 0px 17px;
+}
+.home-text
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#ffffff;
+padding:0px 0px 0px 17px;
+}
+
+.img{border: 1px solid #333333;}
+
+
+/*#nav ul{
+width: 100%;
+margin:0px;
+padding: 0px;
+font-size:11px;
+color:#000000;
+font-weight:bold;
+	
+ }
+
+#nav ul li{
+list-style: none;
+float: left;
+margin: 0px;
+padding: 0px;
+font-size:11px;
+color:#000000;
+font-weight:bold;
+}
+
+#nav ul li a{
+border-right:1px solid #d5d6d7;
+font-size:11px;
+padding: 0px 8px;
+display: inline;
+text-align:center;
+color:#000000;
+text-decoration: none;
+font-weight:bold;
+font-family:  Tahoma, Arial, Verdana, tahoma, sans-serif;
+ }
+
+#nav ul li a:hover{color:#9D1C00; text-decoration:underline; }
+*/
+.footerlink{
+color:#000000;
+font-size:11px;
+padding:15px 0;
+text-align:center;
+text-transform:capitalize;
+font-family:  Tahoma, Arial, Verdana, tahoma, sans-serif;
+}
+
+.footerlink a{
+	color:#000000;
+	text-decoration:none;
+}
+
+.footerlink a:hover{
+	color:#000000;
+	text-decoration:underline;	
+}
+
+.style1 {color: #fff; padding:0 1px; font-size:15px;}
+.style4 {color: #9D1B00}
+.style5 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style6 {font-weight: bold; font-size:14px; padding-left:5px; font-family: Arial, Helvetica, sans-serif;}
+.style7 {color: #000000}
+.style2 {color: #9D1C00}
+.style8 {color: #9d1b00}
+.style9 {color: #393939}
+
+
+.new-table {
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+}
+
+.newslett_txt{
+display:none;
+}
+#subdiv{
+color:#FF0000;
+}
+.headbar{
+width:80px;
+color:#770000;
+}
+.btn{
+background:#999999;
+color:#FFFFFF;
+}
+.list ul{
+	margin-left:3px;
+	padding:0px;
+}
+
+.list ul li {
+	list-style-type: none;
+	background:url("/app/webroot/img/Temlate_131/doonpublic/red_pat.png") repeat scroll 0 0 rgba(0, 0, 0, 0); /*url(../../img/Temlate_131/icon.jpg) no-repeat 0.75em 0.75em;*/
+	font-size: 12px;
+	line-height:15px;
+	color: #fff;
+	text-align:left;
+	font-weight:bold;
+	border-bottom:1px solid #cccccc;
+	margin-bottom:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	position:relative;
+	
+	
+}
+.list ul li a{ text-decoration:none; color:#fff; font-weight:15px; font-size:14px; padding:7px 2%; display:block;}
+.list ul li a:hover{ /*text-decoration:underline;*/ color:#ccc;  background:url("/app/webroot/img/Temlate_131/doonpublic/submenu.png") no-repeat;  }
+.list ul li ul{ position:absolute; display:none;}
+.list ul li:hover ul{ display:block; left:156px; top:0px; z-index:999;}
+.list ul li ul li{border-bottom:1px solid #ccc; width:240px; background:url("/app/webroot/img/Temlate_131/doonpublic/red_pat.png") repeat scroll 0 0 rgba(0, 0, 0, 0); margin:0;}
+.list ul li ul li a{ font-size:14px !important; line-height:20px; padding-left:10px;}
+
+.navigation{ width:534px; float:left; color:#333333;  }
+.navigation ul{}
+.navigation ul li{ float:left; line-height:20px; color:#333333; font-family:Arial, Helvetica, sans-serif; background-color:#eeeeee right bottom 2px; position:relative; list-style:none; font-size:12px; text-decoration:none; padding-right:2px;}
+
+.navigation ul li ul{ position:absolute; display:none;}
+.navigation ul li:hover ul{ display:block; top:20px; z-index:9999; text-decoration:none;  color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif;}
+.navigation ul li ul li{border:1px solid #fff; width:200px; background:#eeeeee; line-height:25px; color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif; list-style:none; font-size:12px; text-decoration:none;  }
+.style4 {font-weight: bold; color:#333;}
+.style5 {color: #FFFFFF;
+	font-weight: bold;
+	}
+	
+.text ul li{ padding-bottom:7px;}	
+.text p{ margin-bottom:5px;}
+/*.main-text{ float:left; margin-left:10px;}*/
+.main-text p{ padding-bottom:6px;}

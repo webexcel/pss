@@ -1,0 +1,904 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{  /*background:url(/Temlate_131/doonpublic/body_bg.png) repeat; background:#e7e7e7;*/}
+@font-face {
+    font-family: 'EdoSZRegular';
+    src: url('../fonts/edosz.eot');
+    src: url('../fonts/edosz.eot') format('embedded-opentype'),
+         url('../fonts/edosz.woff2') format('woff2'),
+         url('../fonts/edosz.woff') format('woff'),
+         url('../fonts/edosz.ttf') format('truetype'),
+         url('../fonts/edosz.svg#EdoSZRegular') format('svg');
+}
+@font-face {
+	font-family: '/fonts/Calligrapher';
+	src: url('../fonts/CalligrapherRegular.eot');
+	src: url('../fonts/CalligrapherRegular-1.eot') format('embedded-opentype'),
+		url('../fonts/CalligrapherRegular.woff') format('woff'),
+		url('../fonts/CalligrapherRegular.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'fonts/Calligrapher';
+	src: url('fonts/CalligrapherRegular.eot');
+	src: url('fonts/CalligrapherRegular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/CalligrapherRegular.woff') format('woff'),
+		url('fonts/CalligrapherRegular.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+img{ max-width:100%;}
+img,ul,li,a{ border:none; outline:none; list-style-type:none; text-decoration:none;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal; }
+.main{ width:98%; margin:12px auto; overflow:hidden; background:#f5f5f5; border-radius: 5px}
+.header{ width:1000px; float:left; background:#f5f5f5;}
+/*.logo{ width:150px; float:left; margin:10px 10px 10px 5px;}*/
+.header-mid{ float:left; margin-top:36px; width:59%; }
+.mar-he{ margin-top:13px;}
+nav{ width:100%; float:left;}
+nav ul{}
+nav ul li { float:left;  background:url(../Temlate_131/doonpublic/linemenu.png) no-repeat right;  position:relative; line-height:46px;}
+nav ul li a{ padding:0px 26px; color:#fff; display:block; text-transform:capitalize; font-size:18px;  }
+nav ul li a:hover{ color:#f6cca0; }
+nav ul li:last-child { 
+    margin:0;
+}
+ nav ul li ul{ position:absolute; display:none; }
+ nav ul li:hover ul{ display:block; top:43px; z-index:999; background:url(../Temlate_131/doonpublic/submenu.png) no-repeat;  }
+ nav ul li ul li{  border-bottom:1px dotted #5d544b!important;border-radius:0px;   width:160px; background:none; border:none; line-height:24px; }
+ .sub-top{ margin-top:15px;}
+ nav ul li ul li a{ font-size:13px; padding:0 5px; text-align:center; color:#d9b38c;}
+ nav ul li ul li a:hover{ background:none; color:#ccc;}
+
+.banner{ width:75%; float:left; margin-right:12px; }
+.fanc-ho{ width:23%; float:left;}
+.mandaty{/*  border: 1px solid #ccc;
+   border-radius: 5px;*/
+    margin-bottom: 3px;
+    padding: 10px 10px;
+    width: 90%;}
+#country{border: 1px solid #ccc; margin-bottom: 3px;padding: 3px 10px; width: 98%;}
+#txtInput {
+     border: 1px solid #ccc;
+ /*   border-radius: 5px;*/
+    margin-bottom: 3px;
+    padding: 3px 10px; color:#fff;
+    width: 32%; background:none;
+}
+.fanc-ho h2 {
+    padding: 8px 0;}
+.jaco{float:left; margin-top:5px; line-height:15px;}
+.ba{ margin:0!important;}		
+#information{ height:30px; width:100%;}
+.event-head{ /*background:#fff;url(/Temlate_131/doonpublic/red_pat.png) repeat;*/  width:100%; float:left;}
+.event-head-blo{width:24%; float:left; height:41px; background:url(../Temlate_131/doonpublic/line_grid3.png) no-repeat 2px bottom; margin-bottom:5px; padding-top:15px; margin-left:12px; }
+.event-head-blo h2{ font-size:36px; line-height:46px; text-align:center; /*text-shadow:1px 1px 2px #000;*/ color:#fff; font-family:"Engagement",cursive;}
+
+.event-head-blo1{width:24%; float:left; height:41px;  background:url(../Temlate_131/doonpublic/line_grid3.png) no-repeat 0px bottom; margin-bottom:5px; padding-top:15px; margin-left:12px;}
+.event-head-blo1 h2{ font-size:36px; line-height:46px;  text-align:center; /*text-shadow:1px 1px 2px #000;*/ color:#fff; font-family:"Engagement",cursive;}
+
+.event{ width:99%; float:left; margin:0 0 15px 0;  /*background:url(/Temlate_131/doonpublic/red_pat.png) repeat;*/ padding:0 10px 20px 10px; } 
+.event-block{ width:23.7%; float:left; margin-right:20px; }
+.event-block p{ margin-top:10px; font-size:13px; line-height:16px; color:#555; text-align:justify}
+.event-block li {  float:left; position:relative; width:100%; text-align:center;}
+ .event-block ul li ul{ position:absolute; display:none; }
+ .event-block ul li:hover ul{ display:block; top:150px; z-index:999; background:url(../Temlate_131/doonpublic/ev-block.png) no-repeat;  }
+ .event-block ul li ul li{  border-bottom:1px solid #ccc!important;border-radius:0px;   width:100%; background:none; border:none; line-height:21px; }
+  .event-block ul li ul li a{ display:block; font-size:14px; color:#fff; text-align:center;}
+   .event-block ul li ul li a:hover{ background:#df7a73;}
+   .event-block:last-child, .hom-ab-blcok:last-child { 
+    margin:0;
+}
+
+a.button {
+    background: /*url("../Temlate_131/doonpublic/button_sprite.png") repeat-x scroll 0 0 #931b02;*/
+	#931b02 url("../Temlate_131/doonpublic/button_sprite.png") repeat-x scroll 0 34px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px #592215;
+    color: #fff;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 6px 10px;
+    transition: all 0.5s ease 0s;
+	margin-top:15px;
+}
+
+a.button:hover {
+    background-color: #cb4725;
+  background-position: 0 0;
+}
+
+.hom-ab{ width:98%; float:left; margin:10px 0;  padding:0 9px 20px 9px; }
+.hom-ab-blcok{ width:23%; float:left; margin-right:20px;}
+.hom-ab-blcok h2{ padding:10px 0 15px;  color: #977e60;
+    font-family: "Engagement",cursive;
+    font-size: 38px;
+    font-weight: normal;
+    letter-spacing: 0;
+	border-bottom:1px solid #cec1b2;
+	margin-bottom:15px;
+} 
+
+a.button2 {
+    background: url("../Temlate_131/doonpublic/button_sprite.png") repeat-x scroll 0 34px #931b02;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px #592215;
+    color: #fff;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 6px 10px;
+    transition: all 0.5s ease 0s;
+	margin-top:23px;
+}
+a.button2:hover {
+    background-color: #977c60;
+    background-position: 0 0;
+}
+
+.hom-ab-blcok p{ line-height:18px; }
+.hom-ab-blcok h3 a{ display:inline-block; color:#fff; background:#333; padding:2px 15px; border-radius:5px; margin-top:10px; font-weight:bold; font-size:13px; transition: all 0.5s ease 0s;}
+.hom-ab-blcok h3 a:hover{ color:#da1f14;  background-color: #e3e3e3;
+    background-position: 0 10px;}
+.maq-news p{ text-align:justify;}
+.inp1{ width:90%!important;}
+.inp{ border:1px solid #ccc; border-radius:5px; width:90%; margin-bottom:5px; padding:12px 10px;} 
+.sub{ color:#fff; background: url("../Temlate_131/doonpublic/button_sprite.png") repeat-x scroll 0 34px #931b02; padding:7px 20px; border-radius:3px; margin-top:10px; font-weight:bold; font-size:13px; transition: all 0.5s ease 0s; border:none ; cursor:pointer;}
+.sub:hover{color:#fff;  background-color: #c6262e; background-position: 0 0px;}
+.hom-ab-blcok strong{ color:#cb3828;}	
+.footer{ width:98%; float:left; border-top:1px solid #cec1b2; margin:0 10px; padding-bottom:30px;}
+.footer ul{ margin-top:20px;}
+.footer ul li{ float:left; background:url(../Temlate_131/doonpublic/footer-li.jpg) no-repeat right; }	
+.footer ul li:last-child{ background:none;}
+.footer a{ padding:0 2px; color:#333; font-weight:normal;}
+.footer a:hover{ color:#da251c;}
+.footer-bottom{ width:100%; float:left; margin:10px 0;}
+.footer-bottom p{ color:#333; padding: 0 10px}
+.footer-bottom p span{ float:right;}
+.footer-bottom p{ font-weight:normal;}
+.footer-bottom p span a{ color:#000;}
+.footer-bottom p span a:hover{ color:#333;}
+.socal{ width:119px; float:right; margin-top:27px;}
+.new-g{margin-top:20px; float:left;}
+.socal h2{ font-size:16px; text-align:left; font-weight:bold; margin:10px 0 5px;}
+.socal h3 a{ color:#333; font-size:16px; text-align:right; font-weight:bold; margin:0px 0 5px;}
+.socal span{ line-height:30px; display:block; font-size:16px; font-weight:bold; text-align:left;}
+.if{ width:100%; float:left; border:none; height:441px;}
+
+.maq-dat{ width:35px; height:35px; border-radius:5px; color:#fff; text-align:center; line-height:16px; background:url(../Temlate_131/doonpublic/submenu.png) no-repeat; float:left; margin-right:10px; padding:10px 10px 5px; font-size:16px; }
+.maq{ width:100%; float:left; margin-bottom:9px;}
+.mrn{ margin:0;}
+.maq strong{ color:#cb3828;}
+.hide-right{ display:none;}
+.text h1{ margin:10px 0; font-size:25px; line-height:35px; font-family:"Open Sans",sans-serif/*"Engagement",cursive*/; color:#ca3239;  }
+.sid-blcok{width:94%; float:left; margin:5px ;}
+.sid-blcok h2{ padding:10px 0 15px;  color: #ca3239;
+    font-family: "Open Sans",sans-serif;
+    font-size:22px;
+    font-weight: normal;
+    letter-spacing: 0;
+	border-bottom:1px dotted #ca3239;
+	margin-bottom:12px;
+	padding-bottom:5px;
+} 
+.sid-font h2{
+ padding:10px 0 13px 10px;  
+  color: #ca3239;
+    font-family:"Open Sans",sans-serif; /*"Engagement",cursive;*/
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0;
+	border-bottom:1px dotted #ca3239;
+	margin-bottom:1px;
+}
+
+.main-text h2{margin:10px 0 9px 0; font-size:23px; line-height:19px; font-family:"Open Sans",sans-serif/*"Engagement",cursive*/; color:#ca3239; text-align:left; }
+.event-head-blo h2, .event-head-blo1 h2{ color:#977e60;}
+.ifrem-ho{ width:100%; height:473px; border:none;}
+.ev-h{ display:none;}
+
+/*------------menu-----------*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  /*font-family: Montserrat, sans-serif;
+  background: url("/Temlate_131/doonpublic/menushape.png") repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+ width:100%; float:left;
+}
+#cssmenu > ul > li {
+  float: left;
+ /* background:url("../Temlate_131/doonpublic/linemenu.png") no-repeat scroll right center rgba(0, 0, 0, 0);*/
+  padding:0 15px;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 17px 3px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#cssmenu > ul > li:hover > a {
+  color: #e89742;
+}
+#cssmenu > ul > li.has-sub > a {
+/*  padding-right: 30px;*/
+}
+#cssmenu > ul > li.has-sub > a:after {
+  position: absolute;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+/*  content: '';*/
+}
+#cssmenu > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+/*  content: '';*/
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 23px;
+  height: 0;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+  z-index:9;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu li:hover > ul {
+  left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu li:hover > ul > li {
+  height: 35px;
+}
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu ul ul li a {
+    border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 16px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 191px;
+	border: 2px solid #fff;
+/* background:url(../Temlate_131/doonpublic/submenu.png) no-repeat;  */
+background:#1b2f59;
+}
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last-item > a {
+  border-bottom: 0;
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #ffffff;
+}
+#cssmenu ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: '';
+}
+#cssmenu.align-right ul ul li.has-sub > a:after {
+  right: auto;
+  left: 11px;
+}
+#cssmenu ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu.align-right ul ul li.has-sub > a:before {
+  right: auto;
+  left: 14px;
+}
+#cssmenu ul ul > li.has-sub:hover > a:before {
+  top: 17px;
+  height: 0;
+}
+.mandaty1{  border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    padding: 3px 10px;}
+.tex-fa{ height:90px!important;   border: 1px solid #ccc;
+    border-radius: 5px; width:100%!important;}	
+.ssco{ width:97%;}	
+.lin-rag p{ line-height:24px;}
+.rag-widt{ width:100%;}
+.main-text{ width:98%;}
+/*------------------------------NEW DESIGN NOVE-------CSS--------------------------------------------*/
+/*------------------------------NEW DESIGN NOVE-------CSS--------------------------------------------*/
+ 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{ color:#333; font-family: 'Roboto', sans-serif;}
+img{ max-width:100%;}
+.franch-ul{ margin:0; padding:0; float:right;}
+.franch-ul li{ float:left; margin:28px 3px; list-style-type:none;}
+.franch-ul li:last-child{ margin-right:0;}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img { margin: auto; min-width:100%;}
+.fanc-ho{ position:absolute; right:5px; width:243px; top:0; background-color:rgba(93,0,0,.6);}
+.welcomcon .fanc-ho h2{background: #ad2829; color: #fff; font-size: 18px!important; margin: 0; padding: 6px; text-align: center;}
+.fanc-ho .mandaty, .fanc-ho #country{ width:100%; padding:5px 5px; margin-bottom:3px; background:none; color:#fff; border:1px solid #ccc;}
+.jaco{ float:left; width:100%; color:#fff; padding:2px 0% ; line-height:19px; font-weight:normal; font-size:12px;}
+.capt{ color:#fff;}
+.sub{ color:#fff; background:#00923f; padding:8px 30px; border:none; border:1px solid #ccc; }
+#information{ height:52px;}
+
+/* bootstrap 3 helpers */
+.affix-top .navbar-brand{ display:none}
+.affix .navbar-brand{ display: block;}
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10; margin-top:0;
+}
+.nav > li > a{ padding:15px 34px; font-size:15px; text-transform:uppercase}
+.affix .nav li a{ padding:15px 22px;}
+.carousel-indicators{ z-index:3;}
+.co-mahend{ text-align:center; background:#d59300; padding:0 0 25px;}
+.co-academic{ background:#5ead28; text-align:center;padding:0 0 25px;}
+.co-facilities{ background:#2860ad; text-align:center;padding:0 0 25px;}
+.co-school-lif{ background:#ad5a28; text-align:center;padding:0 0 25px;}
+.co-Knowl-shar{ background:#6a6a6a; text-align:center;padding:0 0 25px;}
+.co-nessl{ background:#28a9ad; text-align:center;padding:0 0 25px;}
+.co-global{ background:#adac28; text-align:center;padding:0 0 25px;}
+.co-dpce{ background:#557f78; text-align:center;padding:0 0 25px;}
+.co-socalcons{ background:#8b2a6a; text-align:center;padding:0 0 25px;}
+.co-studen-consbody{background:#208961; text-align:center;padding:0 0 25px;}
+.co-faculti{ background:#d54700; text-align:center;padding:0 0 25px;}
+.co-alumn{ background:#e2b900; text-align:center;padding:0 0 25px;}
+.blck-col{ background:#333;text-align:center;padding:0 0 25px;}
+.orange-col{ background:#fd871f;text-align:center;padding:0 0 25px;}
+.blue-col{ background:#2958ae;text-align:center;padding:0 0 25px;}
+.gray-col{ background:#7d7d7d;text-align:center;padding:0 0 25px;}
+.light-lamen-col{ background:#e9db02;text-align:center;padding:0 0 25px;}
+.apple-col{ background:#a2d063;text-align:center;padding:0 0 25px;}
+
+.pabot-55{ padding-bottom:55px;}
+.headings{ font-size:21px; color:#fff; display:block; padding:20px 0 10px;}
+.more-newd{ color:#fff; display:block; position:relative; font-size:15px;}
+.more-newd:after{  bottom: -1px;  content: " >"; font-size: 15px; font-weight: bold; left: 64%; position: absolute;}
+.more-newd:hover{ color:#f1f1f1; text-decoration:none;}
+.top25{ margin-top:25px; padding:0;}
+.imag-effec{ overflow:hidden;}
+.imag-effec img{transition: all 2.75s cubic-bezier(0, 0.83, 0.17, 1) 0s;}
+.imag-effec img:hover {transform: scale(1.4, 1.4);}
+.widthcustom{ width:23.1%; margin:0 0px;}
+.welcomcon{	background: url(../Temlate_131/doonpublic/welcom-prexl.jpg) 50% 0 no-repeat fixed; color: #fff;	background-size: cover; text-align:center; margin:44px 0 20px; padding-bottom:80px;}
+.welcomcon h2{ padding:40px 0;}
+.welcomcon p{ font-size:17px; line-height:24px;}
+.newslte-er h2{ text-align:center; font-size:31px; padding:0 0 25px 0; }
+.new-block{ background:#efefef; min-height: 250px;}
+.new-leter{ background:#1b2e59; color:#fff; display:block; padding:10px 0; text-align:center; font-size:21px; margin-bottom:15px;} 
+.newsl-ul{ margin:0; padding:2%;}
+.newsl-ul li{ position:relative; list-style-type:none; line-height:20px; padding-left:24px; font-size:17px; font-weight:600; margin-bottom:10px;}
+.newsl-ul li:before{ content:" "; background:url(../Temlate_131/doonpublic/tickmark.png) no-repeat left; height:15px; position:absolute; left:3px; top:5px; width:15px;}
+.newsbg{background: url(../Temlate_131/doonpublic/newsletter-prexl.jpg) 50% 0 no-repeat fixed; color: #fff;	background-size: cover; text-align:center; margin:44px 0 20px; padding-bottom:40px;}
+.eml-newsl{ padding:14px; width:400px; color:#333; border:none; border-radius:5px 0 0 5px}
+.eml-nebutton{ color:#fff; background:#e25c4c; padding:13px 25px; border:none; border-radius:0 5px 5px 0; font-size:18px; }
+.input-gape{ padding:1% 0 5% 0; display:block;}
+.newsbg h2{padding:30px 0 16px; color:#333; text-align:center; font-size:31px; }
+footer{ background:#404040; padding:2% 0;}
+.foot-title{ font-size:27px; color:#fff; margin:10px 0 25px; display:block;}
+.footerul{ padding:0; margin:0;}
+.footerul li{ list-style-type:none; line-height:25px;}
+.footerul li a{ color:#fff;}
+footer p{ color:#fff; line-height:23px;}
+footer p a{ color:#fff;}
+.affix-top{ margin-top:3px;}
+.main-text .welcomcon h2{ color:#fff; text-align:center; font-size:30px;}
+
+.affix #cssmenu{ width:100%;}
+.affix #cssmenu > ul > li{ /*padding:0 7px;*/}
+.lefrt-menainner h3{ background:#ad2829; color:#fff; padding:10px; margin-bottom:15px; font-size:20px;}
+.lefrt-menainner li{ line-height:35px; border-bottom:1px dashed #ccc;}
+.lefrt-menainner li a{ font-size:12px; padding-left:10px; color:#333;}
+.right-inn-er{ background:#f3f3f3;}
+.intern-al{ margin-bottom:20px;}
+.fran-inprg{ width:100%; float:left; margin-bottom:1px;}
+.fran-inprg .mandaty, .fran-inprg #country{ width:32.5%; float:left; margin:0 3px 5px; padding:9px;}
+.capach-frach .mandaty, .capach-frach #txtInput{width:43.4%; float:left;}
+.capach-frach #txtInput{ color:#333;}
+.style12{  color: #fff; background:gray;
+    float: left; margin:0 5px;
+    padding: 12px 16px;}
+.capach-frach #txtInput{ padding:10px 5px;}
+.ifanch-formed #information {border-radius: 0;  height: 52px;  margin-top: 7px;  padding: 10px;}
+.ifanch-formed .submit { margin-bottom:20px; padding:13px 53px; text-transform:uppercase;}
+.box-even{ background:#7dc661; text-align:center; padding:4% 1%;  transition: all 0.5s ease 0s; margin:3% 7px;  width: 23%; min-height: 92px;}
+.box-even:hover{ background:#ad2829 }
+.box-even a{ display:block;  color:#fff ; font-size:16px;}
+.box-even a:hover{ color:#fff; text-decoration:none;} 
+.top25 table{ width:100%;}
+.school-lf .box-even{margin:1% 7px; }
+.section-fran {  border-top: 2px dashed #ca3239; /*box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.28);*/ float: left; margin: 2% 0; padding:2% 1%;    width: 98.5%;}
+.school-lf{ margin:0;}
+.mrt70{ margin-top:75px;}
+.newsl-ul li a{ color:#333;}
+.top10{ margin-top:8px;}
+.galmore{ background:#00923f; color:#fff; padding:13px 38px; display:inline-block; font-size:17px; transition: all 0.5s ease 0s;}
+.galmore:hover{ color:#fff; background:#ad2829 ; text-decoration:none; }
+.newsbg p img{ border:5px solid #fff; }
+.teache-ar{ float:left; width:30%; margin:30px 14px;}
+.fac-head-ing{ display:block; background:#7dc661; color:#fff; padding:7px; text-align:center; font-size:19px; margin-bottom:8px}
+.teache-ar ul{ margin-top:20px;}
+.teache-ar ul li{ position:relative; line-height:23px; list-style:disc; margin-left: 15px;}
+/*.teache-ar ul li:before{content: ">>";
+    font-size: 9px;
+    font-weight: 400;
+    padding-right: 5px;}*/
+.fanc-ho .body_box option{ color:#333;}
+.pub-lictsd{ width:100%; float:left}
+.new-publ{ width:48.5%; float:left; margin-right:1%;}
+.no-nin{ float:left; width:100%; font-size:19px; margin-top:10px;}
+.welcomcon .font-doon{font-family: Calligrapher!important;}
+.school-lf .headings a{ color:#fff;}	
+.main-text p:nth-of-type(1) { margin-top:20px ;}
+.colord2, .colord19, .colord26{ background:#28a9ad!important}
+.colord1, .colord10, .colord27{ background:#2860ad!important}
+.colord3, .colord8, .colord25{ background:#d59300!important}
+.colord4, .colord24, .colord20{ background:#adac28!important}
+.colord12, .colord6, .colord23{ background:#557f78!important}
+.colord22, .colord14, .colord16{ background:#ad2829!important}
+.colord9, .colord17, .colord18, .colord21{background:#fd871f!important;}
+.colord11, .colord5, .colord15{ background:#8b2a6a }
+.mobile-menue, .pzon{ display:none;}
+
+/*------------------new design responsive-----------*/
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    width: 100%;
+	background:#2a2a2a;
+  }
+  #cssmenu ul {
+    width: 100%;
+    display: none;
+  }
+  #cssmenu.align-center > ul {
+    text-align: left;
+  }
+  #cssmenu ul li {
+    width: 100%;
+    border-top: 1px solid rgba(120, 120, 120, 0.2);
+  }
+  #cssmenu ul ul li,
+  #cssmenu li:hover > ul > li {
+    height: auto;
+  }
+  #cssmenu ul li a,
+  #cssmenu ul ul li a {
+    width: 100%;
+    border-bottom: 0;
+  }
+  #cssmenu > ul > li {
+    float: none;
+  }
+  #cssmenu ul ul li a {
+    padding-left: 25px;
+  }
+  #cssmenu ul ul ul li a {
+    padding-left: 35px;
+  }
+  #cssmenu ul ul li a {
+    color: #dddddd;
+    background: none;
+  }
+  #cssmenu ul ul li:hover > a,
+  #cssmenu ul ul li.active > a {
+    color: #ffffff;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul ul ul,
+  #cssmenu.align-right ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #cssmenu > ul > li.has-sub > a:after,
+  #cssmenu > ul > li.has-sub > a:before,
+  #cssmenu ul ul > li.has-sub > a:after,
+  #cssmenu ul ul > li.has-sub > a:before {
+    display: none;
+  }
+  #cssmenu #menu-button {
+    display: block;
+    padding: 17px;
+    color: #dddddd;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #cssmenu #menu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 17px;
+    display: block;
+    height: 4px;
+    width: 20px;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    content: '';
+  }
+  #cssmenu #menu-button:before {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu #menu-button.menu-opened:after {
+    top: 23px;
+    border: 0;
+    height: 2px;
+    width: 15px;
+    background: #ffffff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  #cssmenu #menu-button.menu-opened:before {
+    top: 23px;
+    background: #ffffff;
+    width: 15px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.2);
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+  }
+  #cssmenu .submenu-button.submenu-opened {
+    background: #454545;
+  }
+  #cssmenu ul ul .submenu-button {
+    height: 34px;
+    width: 34px;
+  }
+  #cssmenu .submenu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 19px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu ul ul .submenu-button:after {
+    top: 15px;
+    right: 13px;
+  }
+  #cssmenu .submenu-button.submenu-opened:after {
+    background: #ffffff;
+  }
+  #cssmenu .submenu-button:before {
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu ul ul .submenu-button:before {
+    top: 12px;
+    right: 16px;
+  }
+  #cssmenu .submenu-button.submenu-opened:before {
+    display: none;
+  }
+}
+@media screen and (max-width: 810px){
+.main{ width:100%; margin:0 auto;}
+.logo {
+    float: left;
+    padding:1% 0 0 1%;
+
+    width:auto;
+	margin:0;
+}
+.socal{ margin-top:2px;}
+.header-mid{ margin:0;}
+.new-bl{ display:block;} 
+.event-head{ display:none;}
+#wrapper ul li img{ max-width:100%!important;} 
+.ifrem-ho{ height:306px;}
+.hom-ab-blcok{ width:42%}
+.footer{ margin:0; width:100%; padding:0;}
+.footer a{ padding:3px ; display:inline-block;}
+.footer-bottom{ background:#222;}
+.footer-bottom p, .footer-bottom p span a{ color:#fff;}
+.footer-bottom p span{ float:none;}
+.event-block{ width:42%;}
+.ev-h{ display:block; color:#fff!important;}
+.imdon{ width:100%; float:left;}
+.mar-he{ margin:0;}
+ #cssmenu ul ul li a:hover {
+  color: #d9b38c;
+ }
+ #cssmenu ul ul li a{ text-align:left; padding-left:20px;} 
+ #cssmenu > ul > li.has-sub > a{ padding-right:0;}
+ #cssmenu > ul > li > a{ letter-spacing:0;}
+ #cssmenu > ul > li.has-sub > a:before{ right:-10px;}
+  #cssmenu > ul > li.has-sub > a:after{ right:-13px;}
+ .doon-bod{ width:59%; float:left;}
+ .left-dooon-lis {
+    display: block;
+    float: left;
+    width: 189px;}
+	
+.GB_frame{ width:auto;}
+#GB_window{ left:auto;}	
+.imdon img{ width:auto;} 
+.widthcustom{ width:auto;}	
+.fanc-ho{ display:none;}
+.affix-top .navbar-toggle, .affix .navbar-brand, .affix .navbar-toggle{ display:none;}
+.affix #cssmenu{ width:100%;}
+.widthcustom, .eml-newsl { width: 45%;}
+.franch-ul li {   margin: 5px 33px;}
+ }
+@media screen and (max-width: 680px){
+.main{ width:100%; margin:0 auto;}
+.logo { float: left;  padding:1% 0 0 1%; width: 98%;margin:0;}
+.socal{ margin-top:2px;}
+.header-mid{ margin:0;}
+.new-bl{ display:block;} 
+.event-head{ display:none;}
+#wrapper ul li img{ max-width:100%!important;} 
+.ifrem-ho{ height:306px;}
+.hom-ab-blcok{ width:42%}
+.footer{ margin:0; width:100%; padding:0;}
+.footer a{ padding:3px ; display:inline-block;}
+.footer-bottom{ background:#222;}
+.footer-bottom p, .footer-bottom p span a{ color:#fff;}
+.footer-bottom p span{ float:none;}
+.event-block{ width:42%;}
+.ev-h{ display:block; color:#fff!important;}
+.imdon{ width:100%; float:left;}
+.mar-he{ margin:0;}
+ #cssmenu ul ul li a{ text-align:left; padding-left:20px;}
+.left-dooon-lis{ display:none;}
+ #cssmenu ul ul li a:hover {
+  color: #d9b38c;
+}
+.doon-bod{ width:59%; float:left;}
+.doon-bod {
+    float: left;
+    width: 47%;
+}
+.widthcustom{ width:45.1%;}
+.fanc-ho, .banner{ width:100%;}	
+#country{ width:93%;}
+.jaco{ margin:10px 3px;}
+.franch-ul, .fanc-ho{ display:none;}
+.affix-top .navbar-toggle, .affix .navbar-brand, .affix .navbar-toggle{ display:none;}
+.affix #cssmenu{ width:100%;}
+.mobile-menue{ display:block;}
+.affix-top{ display:none;}
+.mobile-menue .navbar{    min-height: 0;margin:0;}
+.mobile-menue .navbar-inverse .navbar-toggle:hover{    width: 50px;}
+.mobile-menue .glyphicon{background: #fff;     height: 2px;
+    width: 15px;
+    display: block;
+    margin: 2px;}
+ }
+
+@media screen and (max-width: 480px){
+.main{ width:100%; margin:0 auto;}
+.logo {
+    float: left;
+    padding:5% 0 0 ;
+    width: 100%;
+	margin:0;
+}
+.socal{ margin-top:2px;}
+.header-mid{ margin:0;}
+.new-bl, .event-head{ display:none;}
+#wrapper ul li img{ max-width:100%!important;} 
+.ifrem-ho{ height:229px}
+.hom-ab-blcok{ width:94%}
+.footer{ margin:0; width:100%; padding:0;}
+.new-bl, .event-head{ display:none;}
+.hom-ab-blcok, .capach-frach .mandaty, .capach-frach #txtInput, .fran-inprg .mandaty, .fran-inprg #country{ width:94%}
+.footer{ margin:0; width:100%; padding:0;}
+.footer a{ padding:3px ; display:inline-block;}
+.footer-bottom{ background:#222;}
+.footer-bottom p, .footer-bottom p span a{ color:#fff;}
+.footer-bottom p span{ float:none;}
+.event-block{ width:96%;}
+.ev-h{ display:block; color:#fff!important;}
+.imdon{ width:100%; float:left;}
+.left-dooon-lis{ display:none;}
+/*.main-text { float: left;
+      width: 49%;}*/
+	   #cssmenu ul ul li a{ text-align:left; padding-left:20px;}
+.GB_frame{ width:100%!important;}
+#GB_window{ left:0!important;}	
+.imdon img{ width:378px;} 
+#cssmenu ul ul li a:hover {
+  color: #d9b38c;
+} 
+.fanc-ho, .banner{ width:100%;}
+.doon-bod{ width:99.1%;}
+.franch-ul, .fanc-ho{ display:none;}
+.affix-top .navbar-toggle, .affix .navbar-brand, .affix .navbar-toggle{ display:none;}
+.affix #cssmenu{ width:100%;}
+.widthcustom, .eml-newsl { width: 100%;}
+.pzon{ display:block; float:right; color:#333; font-weight:bold; font-size:18px; text-transform:capitalize;}
+.widthcustom .img-responsive{ display:inline-block;     border: 9px solid #fff;}
+ }
+ 
+ @media screen and (max-width: 360px){
+.main{ width:100%; margin:0 auto;}
+.logo {
+    float: left;
+    padding:5% 0 0 0%;
+    width: 100%;
+	margin:0;
+}
+.socal{ margin-top:2px;}
+.header-mid{ margin:0;}
+.new-bl, .event-head{ display:none;}
+#wrapper ul li img{ max-width:100%!important;} 
+.ifrem-ho{ height:auto}
+.hom-ab-blcok{ width:94%}
+.footer{ margin:0; width:100%; padding:0;}
+.footer a{ padding:3px ; display:inline-block;}
+.footer-bottom{ background:#222;}
+.footer-bottom p, .footer-bottom p span a{ color:#fff;}
+.footer-bottom p span{ float:none;}
+.event-block{ width:96%;}
+.ev-h{ display:block; color:#fff!important;}
+.imdon{ width:100%; float:left;}
+.left-dooon-lis{ display:none;}
+/*.main-text { float: left;
+      width: 33%;}*/
+.GB_frame{ width:100%!important;}
+#GB_window{ left:0!important;}	
+.imdon img{ width:278px;}  
+ #cssmenu ul ul li a{ text-align:left; padding-left:20px;}
+#cssmenu ul ul li a:hover {
+  color: #d9b38c;}
+.doon-bod {
+    float: left;
+    width: 37%;
+}
+.fanc-ho, .banner{ width:100%;}
+.award-d{ width:100%; text-align:left;}
+.award-d td{ width:30px}
+.award-d1 { float: left; width: 57%;}
+.widthcustom, .eml-newsl{ width:93%;}
+ }
+ @media screen and (max-width: 360px){
+.doon-bod {
+    float: left;
+    width: 100%;
+} 
+
+ }
+.imag-effec1{ padding:8px 0;}
+.navbar-inverse{    z-index: 99;}
+.red #txtInput{ color:#333}
+.list li{     background: url(../Temlate_131/doonpublic/dwonlod-co.png) #eee no-repeat left 19px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+    padding-top: 26px; margin-bottom:2px; }

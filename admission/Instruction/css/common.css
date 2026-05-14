@@ -1,0 +1,209 @@
+﻿.timeMgmt {
+    border-radius: 7px !important;
+    bottom: 2px;
+    padding: 21px;
+    position: absolute;
+    right: 6px;
+    vertical-align: middle;
+    width: 385px;
+}
+
+.time-border {
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+.news-blocks {
+    background: #faf6ea none repeat scroll 0 0;
+    border-top: 2px solid #faf6ea;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+.timeMgmt.news-blocks > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.timeMgmt.news-blocks li {
+    float: left;
+    margin-right: 1em;
+    margin-top: 1.5em;
+}
+
+    .timeMgmt.news-blocks li:nth-child(2) {
+        border: 2px solid;
+        border-radius: 10px !important;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0;
+        padding: 5px;
+    }
+
+.timeMgmt ul li i {
+}
+
+.timeMgmt.news-blocks li:nth-child(1) {
+    margin-top: 1.5em;
+}
+
+.page-breadcrumb li {
+    float: left;
+    list-style: outside none none;
+}
+.tools {
+    height: 4em;
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+
+.tblth {
+    font-size: 15px;
+    font-weight: 700;
+    color: #808080;
+}
+
+.tblhead {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+     
+.tbldt {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+     
+.required {
+    color: red;
+}
+     
+.displayHide {
+    display: none;
+}
+
+.heading {
+    color: #111;
+}
+
+.note-success p {
+    color: #111;
+    margin-left: 15px;
+} 
+
+.fa.fa-check.icon-default {
+    margin-right: 5px;
+}
+   
+#divSuccessIn {
+    height: 100px;
+    margin-left: 5px;
+    overflow: hidden;
+    width: 100px;
+}
+.btn.default.fa.fa-refresh {
+    height: 40px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    height: 300px !Important;
+}
+
+/*.fancybox-skin {
+    top: -100px;
+}*/
+
+
+
+/*.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened {
+    top:15px ! Important;
+}*/
+
+/*.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened {
+    top:30px ! Important;
+    width:90% ! Important;
+    left: 5%  ! Important;
+}
+
+
+.fancybox-inner {
+width:auto ! Important;
+}*/
+
+.radio-list {
+    left: 20px ;
+}
+.label-select {
+    background-color: #5BB75B;
+}
+.label-Waiting {
+    background-color: #F89406;
+}
+.label-Allocated {
+    background-color: #49AFCD;
+}
+.label-Enquired {
+    background-color: #8A2BE2;
+}
+.label-Registered {
+    background-color: #006DCC;
+}
+.label-Cancelled {
+    background-color: #00bcd4;
+}
+.label-Merit {
+    background-color: #FF1091;
+}
+.label-Admitted {
+    background-color: #B7EA01;
+}
+.label-Withdrawn {
+    background-color: #FF0500;
+}
+
+
+
+.Selected {
+        background-color: #5BB75B;
+    }
+
+    .Rejected {
+        background-color: #B94A48;
+    }
+
+    .Waiting {
+        background-color: #F89406;
+    }
+
+    .Cancelled {
+        background-color: #999999;
+    }
+
+    .Enquired {
+        background-color: BlueViolet;
+    }
+
+    .Registered {
+        background-color: #006DCC;
+    }
+
+    .Admitted {
+        background-color: #b7ea01;
+    }
+
+    .Withdrawn {
+        background-color: #ffd6cc;
+    }
+
+
+

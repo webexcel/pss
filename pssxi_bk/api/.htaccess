@@ -1,0 +1,17 @@
+# API Directory - Apache Configuration
+
+RewriteEngine On
+RewriteBase /pssxi/api/
+
+# Route all requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Block direct access to PHP files except index.php
+<FilesMatch "^(?!index\.php$).+\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Disable directory listing
+Options -Indexes

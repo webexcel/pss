@@ -1,0 +1,113 @@
+# School Admission Portal - Apache Configuration
+# PHP 8.x / MySQL
+
+# Enable URL Rewriting
+RewriteEngine On
+
+# Set base directory
+RewriteBase /pssxi/
+
+# Security Headers
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # XSS Protection
+    Header always set X-XSS-Protection "1; mode=block"
+
+    # Prevent MIME type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Referrer Policy
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Content Security Policy
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.tailwindcss.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.google.com; connect-src 'self';"
+
+    # Remove server signature
+    Header unset Server
+    Header always unset X-Powered-By
+</IfModule>
+
+# Disable directory listing
+Options -Indexes
+
+# Disable server signature
+ServerSignature Off
+
+# Protect sensitive files
+<FilesMatch "(^\.htaccess|\.htpasswd|\.env|\.git|composer\.(json|lock)|package\.json|config\.php)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect config directory
+<IfModule mod_rewrite.c>
+    RewriteRule ^config/ - [F,L]
+    RewriteRule ^sql/ - [F,L]
+    RewriteRule ^includes/ - [F,L]
+</IfModule>
+
+# Block access to sensitive file extensions
+<FilesMatch "\.(sql|log|ini|conf|bak|backup|old|orig)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# API Routing
+<IfModule mod_rewrite.c>
+    # Handle API requests
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^api/(.*)$ api/index.php [QSA,L]
+
+    # Default page
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^$ step1.php [L]
+</IfModule>
+
+# PHP Settings (if allowed)
+<IfModule mod_php.c>
+    # Hide PHP version
+    php_flag expose_php Off
+
+    # Session security
+    php_value session.cookie_httponly 1
+    php_value session.cookie_secure 1
+    php_value session.use_only_cookies 1
+    php_value session.cookie_samesite Strict
+
+    # Upload limits
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+
+    # Error handling (disable display in production)
+    php_flag display_errors Off
+    php_flag log_errors On
+
+    # Timezone
+    php_value date.timezone "Asia/Kolkata"
+</IfModule>
+
+# Enable compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Cache static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 month"
+</IfModule>
+
+# Custom error pages
+ErrorDocument 403 /pssxi/error.php?code=403
+ErrorDocument 404 /pssxi/error.php?code=404
+ErrorDocument 500 /pssxi/error.php?code=500

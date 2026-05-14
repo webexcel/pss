@@ -1,0 +1,372 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f5f5f5 url(../images/Bg.png)top left ; 	}
+.group-banner{margin-top:10px;}
+.group-banner .logo img{border-right:1px solid #999;}
+.institution h1{color:#006cb9;}
+.institution ul li{float:left;margin-right:30px;color:#727377;}
+.admission{margin-top:10px;}
+.admission h2{color:#006cb9;text-align:center;}
+.admission h3{color:#727375;text-align:center;}
+.list-inst .con-in{width:235px;margin:0px auto;}
+.list-inst .con-inA{width:250px;margin:0px auto;}
+.con-inA ul li a{color:#C00 !important; padding:5px; background:#FFF; border:1px solid #CCC;}
+.list-inst img{width:100%;height:153px; }
+.list-inst ul li img{width:auto;height:auto;   }
+.list-inst h1{text-align:center;font-size:20px;margin-bottom:5px;line-height:22px;color:#0061a9;}
+.list-inst ul li{display:block;padding:8px 0px;text-align:center;border-bottom:2px dotted #999;color:#666; width:280px;}
+.list-inst ul li a{color:#666}
+.list-inst ul{padding:0px;margin:0px;}
+.group-link{margin-top:20px;}
+.group-link p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12%;
+    text-align: center;
+}
+.group-link p a{color:#F60;font-size:20px}
+
+.list-page h1 {
+    border: 1px solid #0061a9;
+    border-radius: 9px;
+    color: #0061a9;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    padding: 9px;
+    text-align: center;
+}
+
+#pad1 {
+    margin-top: 14%;
+}
+
+.admission_txt h2 {
+    background: none repeat scroll 0 0 #006cb9;
+    border-radius: 67px;
+    color: #fff;
+    font-size: 27px;
+    margin-bottom: 6%;
+    margin-left: 11%;
+    margin-right: 11%;
+    padding: 6px 0;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.img-polorid {
+    background-image: url("../images/Engg.jpg");
+    height: 158px;
+	
+  }
+
+.img-polorid:hover {
+    background-image: url("../images/engg1.jpg");
+	height: 158px;
+	transition-delay: 5s;
+}
+
+.img-polorid2 {
+    background-image: url("../images/Medicine.jpg");
+    height: 158px;
+  }
+
+.img-polorid2:hover {
+    background-image: url("../images/medical.jpg");
+    height: 158px;
+  }
+
+.img-polorid3 {
+    background-image: url("../images/Schools-18-19.png");
+    height: 158px;
+  }
+
+.img-polorid3:hover {
+    background-image: url("../images/Schools-2019.jpg");
+    height: 158px;
+  }
+
+/*
+.admission_txt h2 {
+    background: none repeat scroll 0 0 #006cb9;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 12%;
+    padding: 8px 0;
+    text-align: center;
+}*/
+
+.course-1{
+  float: left;
+  padding: 10px 0;
+  margin-top: 2em;
+}
+
+.course-2{
+  padding: 10px 0;
+   margin-top: 2em;
+} 
+.course-2 > h4{
+    text-align: center;
+       font-size: 20px;
+       color: #005BAB;
+}
+.course-1 > h4{
+    text-align: center;
+       font-size: 20px;
+        color: #005BAB;
+}
+
+
+.course-1 {
+    background: #C3D3E2;
+    border-radius: 15px;
+    float: left;
+    width: 50%;
+}
+
+.course-2 {
+    background:#C3D3E2;
+    border-radius: 15px;
+    margin-left: 35em;
+    width: 50%;
+}
+
+.course-1 li {
+    background: rgb(238, 238, 238) none repeat scroll 0 0;
+    border: 1px solid;
+    margin: 10px;
+    padding: 6px;
+    list-style-type: none;
+   
+}
+.course-2 li {
+    background: rgb(238, 238, 238) none repeat scroll 0 0;
+    border: 1px solid;
+    margin: 10px;
+    padding: 6px;
+     list-style-type: none;
+     border-radius: 3px;
+      font-size: 14px;
+    font-weight: bold;
+}
+
+.course-1 li:hover{
+    background-color:#A7CF3A;
+   
+}
+.course-2 li:hover{
+    background-color:#A7CF3A;
+    border-radius: 3px;
+}
+.course-1 li a:hover{
+  color:#005BAA;
+  text-decoration: none;
+}
+.course-2 li a:hover{
+  color:#005BAA;
+  text-decoration: none;
+}
+.course-1 a{
+     font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.course-2 a{
+     font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+ .engg-list {
+    background-color: rgb(0, 90, 170);
+    border-radius: 8px;
+    margin-left: 42px;
+    padding: 3px 4px;
+    position: absolute;
+    top: 47.5em;
+}
+ .engg-list > li {
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    margin-bottom: 2px;
+    padding: 8px;
+   
+}
+.engg-list a {
+    color: rgb(255, 102, 0);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.engg-list  a:hover{
+  color: #005BAA;
+}
+.engg-list > li:hover{
+  background-color: #F5F5F5;
+}
+
+.scholarship p{
+  font-size: 16px;
+    color: #000;
+    line-height: 27px;
+    padding: 6px 0px;
+
+}
+.scholarship img{
+  margin: 10px 0px;
+}
+.round{
+ border: 1px solid #1164AE;
+    border-radius: 50%;
+    color: #989898;
+    font-size: 12px;
+    height: 15px;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    width: 15px;
+    margin-right: 5px;
+    margin-left: 4px;
+    color: #1164AE;
+}
+.admission-enq b{
+  color: #006cb9;
+}
+.admission-enq {
+    border: 1px solid #959595;
+    display: table;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+.admission-enq b{
+  padding: 10px;
+    display: inline-block;
+    background-color: #005AAA;
+    border-radius: 5px 20px 20px 5px;
+}
+.admission-enq{
+  text-align: center;
+}
+.admission-enq span{
+  font-size: 15px;
+    color: #1164AE;
+}
+.admission-enq a:hover{
+  text-decoration: none;
+}
+
+.blinker{  
+animation: changecolor 2s infinite;  
+-moz-animation: changecolor 2s infinite; 
+-webkit-animation: changecolor 2s infinite; 
+-ms-animation: changecolor 2s infinite; 
+-o-animation: changecolor 2s infinite; 
+} 
+
+@keyframes changecolor 
+{ 
+0% {color: #fff;}  
+25% {color: #EFDC47;}  
+50% {color: #C1F433;}  
+100% {color: #66F742;}  
+} 
+/* Mozilla Browser */ 
+@-moz-keyframes changecolor 
+{ 
+0% {color: #fff;}  
+50% {color: #EFDC47;}  
+75% {color: #C1F433;}  
+100% {color: #66F742;}  
+} 
+/* WebKit browser Safari and Chrome */ 
+@-webkit-keyframes changecolor 
+{ 
+0% {color: #fff;}  
+50% {color: #EFDC47;}  
+75% {color: #C1F433;}  
+100% {color: #66F742;}  
+} 
+/* IE 9,10*/ 
+@-ms-keyframes changecolor 
+{ 
+0% {color: #fff;}  
+50% {color: #EFDC47;}  
+75% {color:#C1F433;}  
+100% {color: #66F742;}  
+} 
+/* Opera Browser*/ 
+@-o-keyframes changecolor 
+{ 
+0% {color: #fff;}  
+50% {color: #EFDC47;}  
+75% {color: #C1F433;}  
+100% {color: #66F742;}  
+} 
+
+
+
+
+
+/*video widget styles*/
+
+.border {
+    border-top: 1px dotted #cecece;
+    display: block;
+    margin: 50px 0 0;
+}
+.videosections {
+   border-bottom: 1px dotted #cecece;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 30px;
+                
+margin: 0 auto;
+}
+.video_widget {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:46%;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overallvideowidget {
+    padding-bottom: 30px;
+}
+.video_title > p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+
+
