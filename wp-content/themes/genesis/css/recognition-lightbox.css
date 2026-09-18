@@ -1,0 +1,244 @@
+/* Viewer used by the photos of a single recognition item on Recognitions.php.
+   Scoped to [data-recognition-gallery] so no other gallery on the site is
+   affected. Styled to match the gallery lightbox already used elsewhere. */
+
+[data-recognition-gallery] img {
+	cursor: pointer;
+}
+
+.pss-recbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99999;
+	background: #000;
+	display: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.pss-recbox.is-open {
+	display: block;
+}
+
+/* The window the photo is drawn in. Anything that grows past it while zoomed
+   is clipped, so the buttons around it always stay reachable. */
+.pss-recbox-stage {
+	position: absolute;
+	top: 52px;
+	left: 0;
+	right: 0;
+	bottom: 62px;
+	z-index: 1;
+	padding: 0 66px;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.pss-recbox-stage:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.pss-recbox-image {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+	transform: translate(0, 0) scale(1);
+	-webkit-transform: translate(0, 0) scale(1);
+	transform-origin: center center;
+	-webkit-transform-origin: center center;
+	transition: opacity 0.15s ease-in, transform 0.15s ease-out;
+	-webkit-transition: opacity 0.15s ease-in, -webkit-transform 0.15s ease-out;
+}
+
+.pss-recbox.is-loading .pss-recbox-image {
+	opacity: 0.25;
+}
+
+/* While zoomed the photo can be dragged, so it follows the finger or pointer
+   immediately instead of easing into place. */
+.pss-recbox.is-zoomed .pss-recbox-image {
+	cursor: move;
+	cursor: grab;
+	cursor: -webkit-grab;
+}
+
+.pss-recbox.is-panning .pss-recbox-image {
+	cursor: grabbing;
+	cursor: -webkit-grabbing;
+	transition: none;
+	-webkit-transition: none;
+}
+
+.pss-recbox-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	padding: 14px 60px 30px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	text-shadow: 0 1px 3px #000;
+	pointer-events: none;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.pss-recbox-close,
+.pss-recbox-nav,
+.pss-recbox-zoom {
+	position: absolute;
+	/* must sit above the stage, otherwise the stage swallows the clicks */
+	z-index: 3;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: rgba(0, 0, 0, 0.45);
+	color: #fff;
+	cursor: pointer;
+	line-height: 1;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-appearance: none;
+	-webkit-touch-callout: none;
+	touch-action: manipulation;
+}
+
+.pss-recbox-close:hover,
+.pss-recbox-nav:hover,
+.pss-recbox-zoom:hover,
+.pss-recbox-close:focus,
+.pss-recbox-nav:focus,
+.pss-recbox-zoom:focus {
+	background: #395c97;
+}
+
+.pss-recbox-close {
+	top: 10px;
+	right: 12px;
+	width: 40px;
+	height: 40px;
+	font-size: 28px;
+	border-radius: 50%;
+}
+
+.pss-recbox-nav {
+	top: 50%;
+	width: 46px;
+	height: 64px;
+	margin-top: -32px;
+	font-size: 34px;
+	border-radius: 3px;
+}
+
+.pss-recbox-prev {
+	left: 14px;
+}
+
+.pss-recbox-next {
+	right: 14px;
+}
+
+/* Zoom buttons and the photo counter, centred along the bottom edge. */
+.pss-recbox-bar {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	height: 62px;
+	text-align: center;
+	pointer-events: none;
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.pss-recbox-zoom {
+	position: static;
+	display: inline-block;
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	margin: 11px 10px;
+	font-size: 24px;
+	border-radius: 50%;
+	pointer-events: auto;
+}
+
+.pss-recbox-zoom[disabled] {
+	opacity: 0.35;
+	cursor: default;
+}
+
+.pss-recbox-zoom[disabled]:hover,
+.pss-recbox-zoom[disabled]:focus {
+	background: rgba(0, 0, 0, 0.45);
+}
+
+.pss-recbox-counter {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 58px;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 3px #000;
+}
+
+.pss-recbox.is-single .pss-recbox-nav {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	/* on a phone the photo uses nearly the full width and the arrows sit
+	   over its edges, so the picture stays as large as possible */
+	.pss-recbox-stage {
+		top: 46px;
+		bottom: 54px;
+		padding: 0 10px;
+	}
+
+	.pss-recbox-title {
+		padding: 11px 52px 26px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.pss-recbox-nav {
+		width: 34px;
+		height: 52px;
+		margin-top: -26px;
+		font-size: 26px;
+	}
+
+	.pss-recbox-prev {
+		left: 6px;
+	}
+
+	.pss-recbox-next {
+		right: 6px;
+	}
+
+	.pss-recbox-bar {
+		height: 54px;
+	}
+
+	.pss-recbox-zoom {
+		width: 36px;
+		height: 36px;
+		margin: 9px 8px;
+		font-size: 21px;
+	}
+}

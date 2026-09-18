@@ -1,0 +1,102 @@
+ul>li, a{cursor: pointer;}
+
+.cur tbody tr {
+	cursor:pointer
+}
+#simple-table1 tbody {
+	cursor:default !important;
+}
+.page-header {
+	padding-bottom: 0px;
+}
+.modal-header {
+	padding:15px 10px 10px 15px !important
+}
+.font-20 {
+	font-size:20px !important;
+}
+.modal-footer {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+label {
+	font-weight:normal;
+}
+.col-centered {
+    margin: 0 auto;
+    float: none;
+}
+.link {
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-pink {
+	color:#d6487e;
+}
+.main-content-inner {
+	width:99%;
+}
+.table>thead>tr>th:last-child {
+    border-right-color: #ddd; 
+}
+
+.pHeading {
+	color: #fff;
+    font-size: 24px;
+    text-shadow: none;
+	/*padding:10px 8px;*/
+    height: auto;
+}
+.bodyContent {
+	border-width:1px 1px;
+	border-style:dotted;
+	border-color:#F58323;
+	min-height:415px;
+	padding: 10px 2px 5px 8px;
+}
+.footer-content {
+	border-top:1px solid #c4deee !important;
+	background-color:#ebf4f9 !important;
+	position:unset !important;
+}
+.footer-color {
+	color:#ccc;
+}
+.school-tree {
+	color:#8cc63f;
+}
+.school-tree-leaf {
+	color:#f58323;
+}
+
+
+
+
+#simple-table1 tbody {
+	cursor:default !important;
+}
+.page-header {
+	padding-bottom: 6px;
+}
+.modal-header {
+	padding:15px 10px 10px 15px !important
+}
+.font-20 {
+	font-size:20px !important;
+}
+.modal-footer {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+label {
+	font-weight:normal;
+}
+.col-centered {
+    margin: 0 auto;
+    float: none;
+}
+
+table#simple-table tr:last-child {
+    font-weight: bold;
+    background-color: aliceblue;
+}

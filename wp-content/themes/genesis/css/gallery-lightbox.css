@@ -1,0 +1,183 @@
+/* Lightbox used by the Gallery page to show all the photos of an album */
+
+[data-gallery-group] img {
+	cursor: pointer;
+}
+
+.pss-lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99999;
+	background: #000;
+	display: none;
+}
+
+.pss-lightbox.is-open {
+	display: block;
+}
+
+.pss-lightbox-stage {
+	position: absolute;
+	top: 12px;
+	left: 0;
+	right: 0;
+	bottom: 12px;
+	z-index: 1;
+	padding: 0 66px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.pss-lightbox-stage:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/* Holds the photo. Capped so a small source file is not blown up too far. */
+.pss-lightbox-figure {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 1500px;
+	height: 100%;
+}
+
+.pss-lightbox-image {
+	width: 100%;
+	height: 100%;
+	/* contain keeps the whole photo visible - it is scaled, never cropped */
+	object-fit: contain;
+	object-position: center;
+	-o-object-fit: contain;
+	-o-object-position: center;
+	transition: opacity 0.15s ease-in;
+}
+
+.pss-lightbox.is-loading .pss-lightbox-image {
+	opacity: 0.25;
+}
+
+/* Title and counter float over the stage so the photo itself gets the full
+   height. pointer-events:none keeps them from swallowing arrow clicks. */
+.pss-lightbox-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	padding: 14px 60px 30px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	text-shadow: 0 1px 3px #000;
+	pointer-events: none;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.pss-lightbox-counter {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	padding: 28px 0 14px;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-shadow: 0 1px 3px #000;
+	pointer-events: none;
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.pss-lightbox-close,
+.pss-lightbox-nav {
+	position: absolute;
+	/* must sit above the stage, otherwise the stage swallows the clicks */
+	z-index: 3;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: rgba(0, 0, 0, 0.45);
+	color: #fff;
+	cursor: pointer;
+	line-height: 1;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+.pss-lightbox-close:hover,
+.pss-lightbox-nav:hover,
+.pss-lightbox-close:focus,
+.pss-lightbox-nav:focus {
+	background: #395c97;
+}
+
+.pss-lightbox-close {
+	top: 10px;
+	right: 12px;
+	width: 40px;
+	height: 40px;
+	font-size: 28px;
+	border-radius: 50%;
+}
+
+.pss-lightbox-nav {
+	top: 50%;
+	width: 46px;
+	height: 64px;
+	margin-top: -32px;
+	font-size: 34px;
+	border-radius: 3px;
+}
+
+.pss-lightbox-prev {
+	left: 14px;
+}
+
+.pss-lightbox-next {
+	right: 14px;
+}
+
+.pss-lightbox.is-single .pss-lightbox-nav {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	/* on a phone the photo uses nearly the full width and the arrows sit
+	   over its edges, so the picture stays as large as possible */
+	.pss-lightbox-stage {
+		top: 8px;
+		bottom: 8px;
+		padding: 0 10px;
+	}
+
+	.pss-lightbox-title {
+		padding: 11px 52px 26px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.pss-lightbox-nav {
+		width: 34px;
+		height: 52px;
+		margin-top: -26px;
+		font-size: 26px;
+	}
+
+	.pss-lightbox-prev {
+		left: 6px;
+	}
+
+	.pss-lightbox-next {
+		right: 6px;
+	}
+}

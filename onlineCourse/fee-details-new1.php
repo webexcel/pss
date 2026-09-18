@@ -137,61 +137,153 @@ label {
 											
 								</form>
 							</div>
-							<form id="myForm" name="myForm" method="post" enctype="multipart/form-data">
-							<div class="col-md-6" style="padding-top:17px;">
-									<table class="table table-bordered">
-									<tr><td  colspan="3" bgcolor="#307ecc"  style="color:#FFFFFF;"><b>Fees Details</b></td></tr>
-									
-									<td colspan="2">Fees Amount</td>								
-										<td>
-											<span style="color:red">RS.{{ user.amount }}</span><!--Change Here amount -->
-										</td>
-									</tr>
-									
-									<tr>
-									<td colspan="2"></td>								
-										
-										<td ng-show="user1.pay_id == null">
-											<button type="submit" ng-click="payFees(user)" class="btn btn-xs btn-success">
-												<b>Select to Pay</b>
-											</button>
-										</td>
-									</tr>	
-									</table>
-							</div>
-							</form>
-							</div>
+							<form id="myForm"
+      name="myForm"
+      method="post"
+      enctype="multipart/form-data">
+
+    <div class="col-md-6"
+         style="padding-top:17px;"
+         ng-show="pendingHistory.length > 0">
+
+        <table class="table table-bordered">
+
+            <tr>
+                <td colspan="3"
+                    bgcolor="#307ecc"
+                    style="color:#FFFFFF;">
+
+                    <b>FEES TO BE PAID</b>
+
+                </td>
+            </tr>
+
+            <tr>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+
+            <tr ng-repeat="pending in pendingHistory">
+
+                <td>
+                    {{ pending.game }}
+                </td>
+
+                <td>
+                    <span style="color:red">
+                        RS.{{ pending.amount }}
+                    </span>
+                </td>
+
+                <td>
+                    <button type="button"
+                            ng-click="payFees(pending)"
+                            class="btn btn-xs btn-success">
+
+                        <b>Select to Pay</b>
+
+                    </button>
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</form>							</div>
 							</div>
 					  
-							<div class="col-md-6" style="padding-top:17px;" ng-show="user1.pay_id != null">
-							<!--<div class="col-md-6" style="padding-top:17px;" ng-repeat="(key1, val1) in user2">	-->							
-								<div class="table-header table-header profile-user-info width mb-5"><b>FEES PAID HISTORY</b></div>                
-								
-									<table class="table table-bordered">
-									<thead>
-										<th>Date</th>
-										<th>Pay_Id</th>
-										<th>Game</th>
-										<th>Amount</th>
-										<th>Print</th>
-									</thead>
-									<tr>
-										<td>{{ user1.date }}</td>
-										<td>{{ user1.pay_id }}</td>
-										<td>{{ user1.game }}</td>
-										<td>{{ user1.amount | currency:""}}</td>
-										<td><a href='bills/pssenior.php?r={{user1.pay_id}}&adno={{user.ADNO}}&amount={{user1.amount}}&name={{user.NAME}}&game={{user1.game}}&date={{user1.date}}&classsec={{user.SECTION}}&yearid=6' target='_blank' class="btn btn-minier btn-success no-border"><i class="fa fa-print" aria-hidden="true"></i>&nbsp;Print</a></td>
-									</tr>
-									<tr>
-										<td colspan='2'>Total</td>
-										<td ><b>{{FEE_PAID_AMT}}</b></td>
-										<td></td>
-									</tr>
-									</table>
-							</div>	
-										
-							
-						</div> 		
+							<div class="row"
+     ng-show="paidHistory.length > 0">
+
+    <div class="col-md-12"
+         style="padding-top:17px;">
+
+        <div class="table-header table-header profile-user-info width mb-5">
+
+            <b>FEES PAID HISTORY</b>
+
+        </div>
+
+        <table class="table table-bordered">
+
+            <thead>
+
+                <tr>
+                    <th>Date</th>
+                    <th>Pay ID</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Print</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr ng-repeat="history in paidHistory">
+
+                    <td>
+                        {{ history.date }}
+                    </td>
+
+                    <td>
+                        {{ history.pay_id }}
+                    </td>
+
+                    <td>
+                        {{ history.game }}
+                    </td>
+
+                    <td>
+                        {{ history.amount | currency:"" }}
+                    </td>
+
+                    <td>
+
+                        <a href="bills/pssenior.php?r={{history.pay_id}}&adno={{user.ADNO}}&amount={{history.amount}}&name={{user.NAME}}&game={{history.game}}&date={{history.date}}&classsec={{user.SECTION}}&yearid=6"
+                           target="_blank"
+                           class="btn btn-minier btn-success no-border">
+
+                            <i class="fa fa-print"
+                               aria-hidden="true"></i>
+
+                            &nbsp;Print
+
+                        </a>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td colspan="3">
+
+                        <b>Total Paid</b>
+
+                    </td>
+                    <td>
+
+                        <b>
+                            {{ paidHistory | sumOfValue:'amount' }}
+                        </b>
+
+                    </td>
+
+                    <td></td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>		
 					</div>
 				
 					<!-- scrool Up starts Here --> 
@@ -337,39 +429,72 @@ var fetch = angular.module('myApp', ["xeditable", "ui.bootstrap", "angularjs-dat
 		}
 		
 	
-		$scope.payFees	=	function(user) {						
-			console.log(user);
-			//console.log(game);
-			if ($scope.myForm.$valid) {	
-				var stuFeeDetails1	=	new Array();			
-				var fadno		=	user.ADNO;
-				var name		=	user.NAME;
-				var classsec	=	user.SECTION;
-				var amount		=	user.amount;
-				stuFeeDetails1.push({  "ADNO":fadno,"name":name,"classsec":classsec,"amount":amount});
-				console.log("Testsqqq",stuFeeDetails1);
-				
-				var request = $http({				
-					method: "post",
-					url: "ajax/insertData/insFeeReceiptNew2.php",
-					data: {stuFeeDetails1:stuFeeDetails1},
-					headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-				});
-				request.success(function (data) {
-					$scope.payConfirmIsDisabled = false;
-					$window.location.href = 'pay.php';
-					$scope.SessConfirmIsdisabled = true;
-				});
-				request.error(function (data) {
-					
-					$scope.message = "From PHP file : "+data;
-				});
-			} else {
-				alert("There are invalid fields");
-				return false;	
-			}
-		}
-		
+		$scope.payFees = function(pending) {
+
+    console.log("Selected Fee:", pending);
+
+    if ($scope.myForm.$valid) {
+
+        var stuFeeDetails1 = new Array();
+
+        var fadno = $scope.user.ADNO;
+        var name = $scope.user.NAME;
+        var classsec = $scope.user.SECTION;
+        var amount = pending.amount;
+        var game = pending.game;
+
+        stuFeeDetails1.push({
+            "ADNO": fadno,
+            "name": name,
+            "classsec": classsec,
+            "amount": amount,
+            "game": game
+        });
+
+        console.log("Payment Details:", stuFeeDetails1);
+
+        var request = $http({
+
+            method: "post",
+
+            url: "ajax/insertData/insFeeReceiptNew2.php",
+
+            data: {
+                stuFeeDetails1: stuFeeDetails1
+            },
+
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+
+        });
+
+        request.success(function(data) {
+
+            console.log(data);
+
+            $scope.payConfirmIsDisabled = false;
+
+            $window.location.href = 'pay.php';
+
+            $scope.SessConfirmIsdisabled = true;
+
+        });
+
+        request.error(function(data) {
+
+            $scope.message = "From PHP file : " + data;
+
+        });
+
+    } else {
+
+        alert("There are invalid fields");
+
+        return false;
+    }
+
+};		
 		
 		$scope.GetAdno = function() {
 			$scope.adnoss =  $scope.section;			
@@ -382,13 +507,37 @@ var fetch = angular.module('myApp', ["xeditable", "ui.bootstrap", "angularjs-dat
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
 			});
 			request.success(function (data1) {
-				$scope.user = data1;
-				//$scope.user2 = data1.FEE_HISTORY;
-				$scope.user1 = data1.TOT_HISTORY;
-				console.log("welcome",$scope.user1);
-				
-			});
-			request.error(function (data) {
+
+    $scope.user = data1;
+
+    // Initialize arrays
+    $scope.paidHistory = [];
+    $scope.pendingHistory = [];
+
+    // Get all fee records
+    var history = data1.TOT_HISTORY || [];
+
+    // Separate Paid and Pending records
+    angular.forEach(history, function(item) {
+
+        if (item.pay_id != null && item.pay_id != '') {
+
+            // Already Paid
+            $scope.paidHistory.push(item);
+
+        } else {
+
+            // Pending Payment
+            $scope.pendingHistory.push(item);
+
+        }
+
+    });
+
+    console.log("PAID HISTORY:", $scope.paidHistory);
+    console.log("PENDING HISTORY:", $scope.pendingHistory);
+
+});			request.error(function (data) {
 				$scope.message = "From PHP file : "+data;
 			});		
 		};	

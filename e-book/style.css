@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    #myBar{
+        display:none;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+#myBar{
+    position: absolute;
+    top: 1vh;
+    left: 2vh;
+    height: 4vh;
+    width: 50vh;
+    z-index: 1;
+}
+#check{
+    position: absolute;
+    right: 2vh;
+    top: 1vh;
+    cursor: pointer;
+    z-index: 1;
+    height: 4vh;
+    width: 6vh;
+}
+.dark-mode{
+    background-color: rgb(73, 79, 82);
+    color: rgb(184, 184, 184);
+}
+.container{
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100%;
+}
+.fullscreen{
+    background-color: rgb(73, 79, 82);
+}
+.examples{
+    position: relative;
+}
+.examples div{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.examples a{
+    color: #ccc;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.examples a:hover{
+    color: #fff;
+}

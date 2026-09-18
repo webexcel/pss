@@ -1,0 +1,841 @@
+
+<!DOCTYPE html>
+
+<style>
+   .page-footer
+    {
+    padding:1px 0 !important;
+
+    }
+
+</style>
+
+
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+
+    <meta charset="utf-8">
+    <title>Admission</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
+    <link href="instructionassets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css">
+    <link href="assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css">
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN PAGE STYLES -->
+    <link href="assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css" />
+    <link href="assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
+    <!-- BEGIN PAGE LEVEL STYLES -->
+
+    <link href="css/common.css"rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="assets/global/plugins/select2/select2.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
+
+
+
+    <link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" />
+
+    <link href="assets/admin/pages/css/lock.css"rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-toastr/toastr.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css"/>
+      <link rel="stylesheet" type="text/css" href="css/RegistrationLayout.css"/>
+
+    <!-- END PAGE LEVEL STYLES -->
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="assets/global/plugins/jcrop/css/jquery.Jcrop.min.css" rel="stylesheet"/>
+    <!-- BEGIN THEME STYLES -->
+    <!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag -->
+    
+    
+
+    <link href="assets/global/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css"/>
+    <link href="assets/global/css/plugins-md.css" rel="stylesheet" type="text/css"/>
+
+
+
+    <link href="assets/admin/layout3/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="assets/admin/layout3/css/themes/grey.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="assets/admin/layout3/css/custom.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME STYLES -->
+    <style>
+        .btnHeight {
+            height: 40px;
+        }
+    </style>
+    <link rel="shortcut icon" href="favicon.ico">
+    
+      
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- DOC: Apply "page-header-menu-fixed" class to set the mega menu fixed  -->
+<!-- DOC: Apply "page-header-top-fixed" class to set the top menu fixed  -->
+<body>
+    <!-- DELETE MODAL -->
+    <!-- Selected id for deletionL -->
+    <input type="hidden" id="selectedid" />
+
+    <div id="staticdelete" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+        <div class="modal-header">
+            
+            <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+            <p id="description">
+            </p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-default" id="clearselectedid">No</button>
+            <button type="button" id="confirmed" data-dismiss="modal" class="btn blue">Yes</button>
+        </div>
+    </div>
+
+    
+
+
+    <!-- BEGIN PAGE CONTAINER -->
+    <div class="page-container" onclick="refreshSession()">
+        <!-- BEGIN PAGE HEAD -->
+       
+        <!-- END PAGE HEAD -->
+        <!-- BEGIN PAGE CONTENT -->
+        <div class="page-content">
+            <div class="container">
+                <!-- BEGIN PAGE BREADCRUMB -->
+                <ul class="page-breadcrumb breadcrumb">
+                    
+
+                </ul>
+                <!-- END PAGE BREADCRUMB -->
+                <!-- BEGIN PAGE CONTENT INNER -->
+                
+
+<title>ImageUpload</title>
+<style>
+    .alert.alert-success.instruction {
+        color: black;
+        line-height: 2;
+    }
+    ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+#divSuccessIn {
+    height: 168px;
+    margin-left: -15px;
+    overflow: hidden;
+    width: 133px;
+}
+
+</style>
+
+<form action="application.php" enctype="multipart/form-data" id="frmRegistrationBasicInfo" method="post">    <div class="row">
+        <div class="col-md-12">
+            <div id="sticky-anchor"></div>
+            
+            <div class="row">
+                <div class="col-lg-12  col-md-12 col-sm-12 col-xs-12 innercont-layout">
+
+                    <div class="col-lg-0  col-md-0 col-sm-0 col-xs-0"></div>
+
+                    <div class="col-lg-12  col-md-12 col-sm-12 col-xs-12">
+
+                        <div class="">
+                             <h2 class="regheading" style="text-align: center;">ONLINE REGISTRATION (2022-2023)</h2>
+                              <h4 class="block heading text-success" style="text-align: center;"><strong>IMAGE UPLOAD INSTRUCTIONS</strong></h4>
+
+							<!-- marquee -->
+								<div class="container">
+									<div class="search-course-form h-white text-center">
+										<!--<div class="col-lg-12"> 
+											   <marquee style="color:red; font-size:16px;" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+												<b> &nbsp  Online Registration closes on : 15<sup>th</sup> Apr 2020 and 6.00 p.m &nbsp  </b>
+											  </marquee>
+										   </div>-->
+									</div>
+								</div>
+							<!--marquee -->	
+							<br>
+
+                            <label class=" alert alert-success  instruction   col-lg-12  col-md-12 col-sm-12 col-xs-12">
+
+
+                                    <ul class="list-unstyled">
+                                    <li># Image Size should be<strong  class="text-danger"> 3.5 X 4.5 cms (138 x 177 pixels) </strong></li>
+                                    <li># Only png and jpeg images are allowed </li>
+                                   </ul >
+
+                                    <ol>
+                                            <li> Choose file. </li>
+                                            <li> Select and open the application image </li>
+                                            <li> If you select the image then click the submit button </li>
+                                     </ol>
+
+                                     <ul class="">
+                                    <li>Any complaint or queries kindly contact the office in person no guidance or advice from outsiders would be entertained. </li>
+                                    <li>I have read the instructions furnished above. We would like to be a part of your esteemed institution. </li>
+
+                                    </ul>
+                            </label>
+
+
+                        </div>
+  
+						<div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label class="col-lg-6 col-md-6 col-sm-6 col-xs-6 textalign">
+                                         Child photo <span class="required" style="color: red">* </span>
+                                    </label>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <input type="file" class="form-control"  id="file_name1" name="file_name" required=""/>
+										</div>																		 
+                                    </div>
+                                </div>
+								<div class="form-group">
+                                    <label class="col-lg-6 col-md-6 col-sm-6 col-xs-6 textalign">
+                                         Father photo 
+                                    </label>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <input type="file" class="form-control"  id="file_name2" name="file_name1"/>
+										</div>																		 
+                                    </div>
+                                </div>
+								<div class="form-group">
+                                    <label class="col-lg-6 col-md-6 col-sm-6 col-xs-6 textalign">
+                                         Mother photo 
+                                    </label>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <input type="file" class="form-control"  id="file_name3" name="file_name2"/>
+										</div>																		 
+                                    </div>
+                                </div>
+								<div class="form-group">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									<input type="submit" id="submit" class="btn default" name="submit" value="submit">
+									</div>
+								</div>	
+                            </div>
+                        </div>
+						
+					</form>	
+						
+                        <!--<div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label class="col-lg-6 col-md-6 col-sm-6 col-xs-6 textalign">
+                                         Upload photo <span class="required" style="color: red">* </span>
+                                    </label>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="fileinput fileinput-new" data-provides="fileinput">
+                                            <div id="hid">
+											
+													<span class="btn default btn-file">
+                                                    <span class="fileinput-new">Browse</span>
+                                                    <span class="fileinput-exists">Change </span>
+                                                    <input type="file" id="fupImage" name="fileUpload" onchange="readURL(this);" />
+                                                    </span>
+                                                    <a href="javascript:;" class="btn red fileinput-exists" data-dismiss="fileinput">Remove </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+
+
+
+
+                    </div>
+
+                    <div class="col-lg-0  col-md-0 col-sm-0 col-xs-0"></div>
+                    <div class="col-lg-2  col-md-2 col-sm-2 col-xs-2"></div>
+                    <div class="col-lg-12  col-md-12 col-sm-12 col-xs-12"></div>
+                                   <!-- <div class="row photo-cropcon">
+                                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                            <div class="form-group crop-imgalign">
+                                              
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                  
+                                                    <div id="divtest" style="display: table; margin: auto">
+                                                    </div>
+                                                    
+                                                    <input data-val="true" data-val-number="The field x must be a number." data-val-required="The x field is required." id="x" name="x" type="hidden" value="0" />
+                                                    <input data-val="true" data-val-number="The field y must be a number." data-val-required="The y field is required." id="y" name="y" type="hidden" value="0" />
+                                                    <input data-val="true" data-val-number="The field x2 must be a number." data-val-required="The x2 field is required." id="x2" name="x2" type="hidden" value="0" />
+                                                    <input data-val="true" data-val-number="The field y2 must be a number." data-val-required="The y2 field is required." id="y2" name="y2" type="hidden" value="0" />
+                                                    <input data-val="true" data-val-number="The field w must be a number." data-val-required="The w field is required." id="w" name="w" type="hidden" value="0" />
+                                                    <input data-val="true" data-val-number="The field h must be a number." data-val-required="The h field is required." id="h" name="h" type="hidden" value="0" />
+                                                    <input id="HdImagePath" name="HdImagePath" type="hidden" value="" />
+
+
+                                                    <input data-val="true" data-val-number="The field startX must be a number." data-val-required="The startX field is required." id="startX" name="startX" type="hidden" value="100" />
+                                                    <input data-val="true" data-val-number="The field startY must be a number." data-val-required="The startY field is required." id="startY" name="startY" type="hidden" value="100" />
+                                                    <input data-val="true" data-val-number="The field startW must be a number." data-val-required="The startW field is required." id="startW" name="startW" type="hidden" value="200" />
+                                                    <input data-val="true" data-val-number="The field startH must be a number." data-val-required="The startH field is required." id="startH" name="startH" type="hidden" value="200" />
+                                                    <input data-val="true" data-val-number="The field maxX must be a number." data-val-required="The maxX field is required." id="maxX" name="maxX" type="hidden" value="344" />
+                                                    <input data-val="true" data-val-number="The field maxY must be a number." data-val-required="The maxY field is required." id="maxY" name="maxY" type="hidden" value="443" />
+                                                    <input data-val="true" data-val-number="The field minX must be a number." data-val-required="The minX field is required." id="minX" name="minX" type="hidden" value="207" />
+                                                    <input data-val="true" data-val-number="The field minY must be a number." data-val-required="The minY field is required." id="minY" name="minY" type="hidden" value="266" />
+                                                    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                            <div class="form-group crop-imgalignout">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div id="divSuccessIn">
+                                                    </div>
+                                                     
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row">
+                                            <button id="btnProceed" type="submit" data-target="" data-toggle="modal" class="btn blue">Proceed to registration</button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class=" text-center">
+                                       
+                                    </div>-->
+
+
+                </div>
+            </div>
+
+            
+
+
+
+
+
+
+        </div>
+    </div>
+</form>
+<script>
+/*
+    //initial load
+    $(document).ready(function () {
+
+        var msg = '';
+        var cls = '';
+        if (msg != "") {
+            toastr.options = {
+                closeButton: true
+            };
+            var $toast = toastr[cls](msg, 'Registration');
+        }
+
+
+        $("#fupImage").change(function () {
+
+            checkfile();
+        });
+
+
+    });
+	
+
+    var jcrop_api = "";
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            $("#divtest").html("<img id='jcrop_target' alt='' src='#' />");
+            $("#divSuccessIn").html("<img id='preview' src='#'/>");
+
+            var fileReader = new FileReader();
+            fileReader.onload = function (e) {
+                console.log(e);
+                var mapImage = e.target.result;
+                $('#jcrop_target').attr('src', mapImage);
+				
+                $("#preview").attr('src', mapImage);
+					$.post("cropimg.php",{"imagdata":mapImage},function(result){
+					console.log(result);
+				});
+                $('#jcrop_target').Jcrop({
+                    onRelease: releaseCheck,
+                    onChange: updatePreview,
+                    onSelect: updatePreview
+                }, function () {
+                    var startx = $('#startX').val();
+                    var starty = $('#startY').val();
+                    var startw = $('#startW').val();
+                    var starth = $('#startH').val();
+                    var maxX = $('#maxX').val();
+                    var maxY = $('#maxY').val();
+                    var minX = $('#minX').val();
+                    var minY = $('#minY').val();
+                    jcrop_api = this;
+                    //jcrop_api.animateTo([AnimationTo]);
+                    jcrop_api.animateTo([startx, starty, startw, starth]);
+                    jcrop_api.setOptions({
+                        minSize: [minX, minY],
+                        maxSize: [maxX, maxY]
+                    });
+                });
+
+
+                function releaseCheck() {
+                    jcrop_api.setOptions({ allowSelect: true });
+                    jcrop_api.focus();
+                };
+
+                function updatePreview(c) {
+                    $('#x').val(c.x);
+                    $('#y').val(c.y);
+                    $('#x2').val(c.x2);
+                    $('#y2').val(c.y2);
+                    $('#w').val(c.w);
+                    $('#h').val(c.h);
+
+                    var rx = 135 / c.w;
+                    var ry = 170 / c.h;
+
+                    rx = (rx == 0) ? 1 : rx;
+                    ry = (ry == 0) ? 1 : ry;
+
+                    var photoX = $("#jcrop_target").width();
+                    var photoY = $("#jcrop_target").height();
+
+                     $("#preview").css({
+                        width: Math.round(rx * photoX) + 'px',
+                        height: Math.round(ry * photoY) + 'px',
+                        marginLeft: '-' + Math.round(rx * c.x) + 'px',
+                        marginTop: '-' + Math.round(ry * c.y) + 'px'
+                    });
+
+                }
+            }
+            fileReader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    // validation
+    function validation() {
+        try {
+            var img = $('#fupImage').val();
+
+            if (img.length == 0) {
+                $('#fupImage').focus();
+                throw 'Please choose the image';
+            }
+            return true;
+        }
+
+        catch (err) {
+
+            var message = "";
+            message += "<b>Please correct below errors.</b>" + "<br/>" + "<ul>";
+
+            message += "<li>" + err + "</li>";
+
+            message += "</ul>"
+            toastr.clear();
+            toastr.options = {
+                "positionClass": "toast-top-right",
+                closeButton: true
+            };
+            var $toast = toastr['error'](message, '');
+
+            return false;
+
+        }
+    }
+
+
+    // submit second popup data
+    $('#btnProceed').click(function (event) {
+        var result = validation();
+        if (result == true) {
+            $("form").unbind('submit').submit();
+        }
+
+
+    });
+
+
+
+    $('.fileinput-exists').click(function (event) {
+        $("#divtest").empty();
+        $('#divSuccessIn').empty();
+    });
+
+
+
+    function checkfile() {
+        try {
+            var file = getNameFromPath($("#fupImage").val());
+            if (file != null) {
+                var extension = file.substr((file.lastIndexOf('.') + 1));
+                switch (extension) {
+                    case 'jpg':
+                    case 'jpeg':
+                    case 'png':
+                    case 'gif':
+                    case 'bmp':
+                    case 'JPG':
+                    case 'JPEG':
+                    case 'PNG':
+                    case 'GIF':
+                    case 'BMP':
+                        //case 'pdf':
+                        flag = true;
+                        break;
+                    default:
+                        flag = false;
+                }
+            }
+            if (flag == false) {
+                throw 'You can upload only jpg,png,gif,bmp extension file';
+            }
+            else {
+                var size = GetFileSize('fupImage');
+                if (size > 2) {
+                    throw 'You can upload file upto 3 MB';
+                }
+            }
+        }
+        catch (err) {
+            //$('.fileinput-exists').click();
+            $("#divtest").empty();
+            $('#divSuccessIn').empty();
+            var message = "";
+            message += "<b>Please correct below errors.</b>" + "<br/>" + "<ul>";
+            message += "<li>" + err + "</li>";
+            message += "</ul>"
+            toastr.clear();
+            toastr.options = {
+                "positionClass": "toast-top-right",
+                closeButton: true
+            };
+            var $toast = toastr['error'](message, '');
+            return false;
+        }
+    }
+    function GetFileSize(fileid) {
+        try {
+            var fileSize = 0;
+            //for IE
+            if ($.browser.msie) {
+                //before making an object of ActiveXObject, 
+                //please make sure ActiveX is enabled in your IE browser
+                var objFSO = new ActiveXObject("Scripting.FileSystemObject"); var filePath = $("#" + fileid)[0].value;
+                var objFile = objFSO.getFile(filePath);
+                var fileSize = objFile.size; //size in kb
+                fileSize = fileSize / 1048576; //size in mb 
+            }
+                //for FF, Safari, Opeara and Others
+            else {
+                fileSize = $("#" + fileid)[0].files[0].size //size in kb
+                fileSize = fileSize / 1048576; //size in mb 
+            }
+            return fileSize;
+        }
+        catch (e) {
+            // alert("Error is :" + e);
+        }
+    }
+    function getNameFromPath(strFilepath) {
+        var objRE = new RegExp(/([^\/\\]+)$/);
+        var strName = objRE.exec(strFilepath);
+
+        if (strName == null) {
+            return null;
+        }
+        else {
+            return strName[0];
+        }
+    }
+*/
+</script>
+
+                <!-- END PAGE CONTENT INNER -->
+            </div>
+
+            <!-- BEGIN QUICK SIDEBAR -->
+            <a href="javascript:;" class="page-quick-sidebar-toggler"><i class="icon-login"></i></a>
+            <div class="page-quick-sidebar-wrapper">
+                <div class="page-quick-sidebar">
+                    <div class="nav-justified">
+                        
+                        <div class="tab-content">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END QUICK SIDEBAR -->
+        </div>
+        <!-- END PAGE CONTENT -->
+    </div>
+    <!-- END PAGE CONTAINER -->
+    <!-- BEGIN PRE-FOOTER -->
+   
+    <!-- END PRE-FOOTER -->
+    <!-- BEGIN FOOTER -->
+    <div class="page-footer">
+		<div class="page-footer">      
+			<div class="container">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="page-footer-inner">
+						2020 &copy; webexcel Technologies
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" align="right">
+					<span class="Footercenter" id="spnSessionTimer"></span>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <div class="scroll-to-top">
+        <i class="icon-arrow-up"></i>
+    </div>
+
+    <!-- END FOOTER -->
+    <!-- BEGIN JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+<script src="~/assets/global/plugins/respond.min.js"></script>
+<script src="~/assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+    <script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+
+      <script src="assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js" type="text/javascript" ></script>
+    <script src="assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" ></script>
+    <!-- IMPORTANT! fullcalendar depends on jquery-ui.min.js for drag & drop support -->
+    <script src="assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="Scripts/common.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/jquery-validation/js/additional-methods.min.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/select2/select2.min.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js"></script>
+    <script type="text/javascript" src="assets/global/plugins/bootstrap-markdown/lib/markdown.js"></script>
+    <script src="assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="assets/admin/layout3/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/admin/layout2/scripts/quick-sidebar.js" type="text/javascript"></script>
+    <script src="assets/admin/layout3/scripts/demo.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/index3.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/form-validation.js" type="text/javascript"></script>
+
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="assets/global/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jcrop/js/jquery.Jcrop.min.js"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+
+    <script src="assets/global/plugins/bootstrap-toastr/toastr.min.js"></script>
+    <script src="assets/admin/pages/scripts/ui-toastr.js"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+	
+	<script>
+        var sessionInterval = "";
+        jQuery(document).ready(function () {
+
+            var themeStyle = 'rounded';
+            var themeColor = 'grey';
+            var Layouts = 'Fluid';
+            var topMenu = 'dark';
+            var MegaMenuStyle = 'dark';
+            var topMenuMode = 'fixed';
+            var MegaMenuMode = 'fixed';
+            $("select[name=ddlThemeStyle]").val(themeStyle);
+            $('.theme-colors li.active').removeClass('active');
+            $('li[data-theme="' + themeColor + '"').addClass('active')
+
+            if (Layouts == 'fluid') {
+                $('.container').addClass('container-fluid').removeClass('container');
+            }
+            if (topMenu == 'light') {
+                $(".top-menu li:visible").removeClass('dropdown-dark')
+                $("select[name=ddlTopMenu]").val(topMenu);
+            }
+
+            if (MegaMenuStyle == 'light') {
+                $(".hor-menu").addClass('hor-menu-light')
+                $("select[name=ddlMegaMenuStyle]").val(MegaMenuStyle);
+            }
+
+            if (topMenuMode == 'fixed' && MegaMenuMode == 'fixed') {
+                MegaMenuMode = 'not-fixed';
+            }
+
+            if (topMenuMode == 'fixed') {
+                $('body').addClass('page-header-top-fixed');
+                $("select[name=ddlTopMenuMode]").val(topMenuMode);
+            }
+
+            if (MegaMenuMode == 'fixed') {
+                $('body').addClass('page-header-menu-fixed');
+                $("select[name=ddlMegaMenuMode]").val(MegaMenuMode);
+            }
+
+
+            refreshSession();
+
+          
+            Metronic.init(); // init metronic core componets
+            Layout.init(); // init layout
+            Demo.init(); // init demo(theme settings page)
+            QuickSidebar.init(); // init quick sidebar
+            Index.init(); // init index page
+            Tasks.initDashboardWidget(); // init tash dashboard widget
+
+            //setThemeStyle('boxed');
+            Demo.init();
+
+
+        });
+
+
+        function KeepSessionAlive() {
+            var url = '' + 'ConfigurationSettings/keepSessionAlive';
+            jQuery.get(url, null, function () {
+
+            }, "json");
+        };
+
+
+
+        var interval;
+        function refreshSession() {
+
+            clearInterval(interval);
+            clearInterval(sessionInterval);
+
+
+            var sessionMilSec = 0;
+            var lockTime = 0;
+            var sessionTimeOut = 0;
+            var appsessiontime = 0;
+
+            sessionMilSec = '1500';
+            appsessiontime = sessionMilSec;
+            lockTime = '2000';
+
+
+            var Lock = sessionMilSec - lockTime;
+            //sessionMilSec = 1000; 
+
+            interval = setInterval(function () {
+
+                var defaultsessiontime = 1180;//1200 secs (20 mins) default session time
+                var KeepSessioninterval = 0
+                KeepSessioninterval = appsessiontime - defaultsessiontime;
+
+
+                if (KeepSessioninterval > 0) {
+                    sessionInterval = setInterval("KeepSessionAlive", 1180);
+                }
+
+                if (sessionMilSec < Lock) {
+
+                    if (sessionMilSec < 1) {
+                        clearInterval(interval);
+                        clearInterval(sessionInterval);
+                        window.location = '' + "Admission/Instruction";
+                    }
+
+                    else {
+
+                        $('#spnSessionTimer').text('');
+                        $('#spnSessionTimer').text(sessionMilSec--);
+
+                        var min = Math.floor(sessionMilSec / (60), 2);
+                        var sec = Math.floor((sessionMilSec - (min * 60)), 2);
+                        $('#spnTimer').text(min + " : " + ('0' + sec).slice(-2));
+
+                     
+
+                    }
+                }
+                else {
+                    //$('#spnSessionTimer').text(sessionMilSec-- + ' sec.');
+
+                    sessionMilSec--;
+
+                    $('#spnSessionTimer').text('');
+                    $('#spnSessionTimer').text(sessionMilSec);
+
+
+                    var min = Math.floor(sessionMilSec / (60), 2);
+                    var sec = Math.floor((sessionMilSec - (min * 60)), 2);
+                    $('#spnTimer').text(min + " : " + ('0' + sec).slice(-2));
+
+
+                }
+            }, 1000);
+        };
+
+
+
+    </script>
+     
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

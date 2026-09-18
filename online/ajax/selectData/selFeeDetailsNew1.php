@@ -38,7 +38,7 @@ if($result->num_rows > 0) {
 		
 	}
 }
-$sql_feehead = "SELECT * FROM tbl_bill where `status` = '1'  and Year_Id = ".$yearId."";
+$sql_feehead = "SELECT * FROM tbl_bill where `status` = '1'";
 $exeFee	=	mysqli_query($dbconnect, $sql_feehead);
 $arrayfee = array();
 	while( $row = $exeFee->fetch_assoc() ) {

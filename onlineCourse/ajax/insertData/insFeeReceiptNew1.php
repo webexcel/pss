@@ -50,7 +50,7 @@ if( $cnt > 0 ) {
 	$p_id 	= 	$row['pay_id'];
 	
 	if($p_id != $payment_id){	
-		$sqlUpdate	= "UPDATE `v_course` SET `pay_id`= '".$payment_id."' WHERE `adno` = '".$ADNO."' and `status` = '0'";
+		$sqlUpdate	= "UPDATE `v_course` SET `pay_id`= '".$payment_id."' WHERE `adno` = '".$ADNO."' and `status` = '0' and `term`='2'";
 		$exesqlUpdate	=	$mysqli->query($sqlUpdate);
 	}
 	else{

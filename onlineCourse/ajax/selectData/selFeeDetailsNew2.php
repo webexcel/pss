@@ -30,7 +30,9 @@ $sqlFeeHistory	=	"SELECT `description`,`pay_id`,date(`insDate`) as `insDate`, `a
 $exeFeeHistory	=	mysqli_query($dbconnect,$sqlFeeHistory);
 $cntFeeHistory	=	$exeFeeHistory->num_rows;
 $t = 0;
+
 if( $cntFeeHistory > 0 ) {
+
 	$arrT2['TOT_HISTORY'] = array();
 	while( $row1 = $exeFeeHistory->fetch_assoc() ) {
 		$arrFeeHis = array();
@@ -39,14 +41,12 @@ if( $cntFeeHistory > 0 ) {
 		$arrFeeHis['pay_id']	=	$row1['pay_id'];
 		$arrFeeHis['game']		=	$row1['description'];
 		$arrFeeHis['amount']	=	$row1['amount'];
-		$arrT2['TOT_HISTORY'] 	= 	$arrFeeHis;
+		$arrT2['TOT_HISTORY'][] 	= 	$arrFeeHis;
 	}
 }
 
 $arr	=	array_merge($arr, $arrT2);
 $json_response = json_encode($arr);
-echo $json_response;
-exit;
-	
 
+echo $json_response;
 ?>

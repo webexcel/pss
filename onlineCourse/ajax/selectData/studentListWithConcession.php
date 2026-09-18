@@ -10,7 +10,7 @@ $yearId	= '6';
 
 	
 if( $adno != "" ) {
-	$query	=	" SELECT `class` AS CLASS_SECTION, `name`, `adno` FROM `v_course` WHERE `Year_Id` = '".$yearId."' AND `adno` = '".$adno."' and `status` = '0'";	
+	$query	=	" SELECT `class` AS CLASS_SECTION, `name`, `adno` FROM `v_course` WHERE `Year_Id` = '".$yearId."' AND `adno` = '".$adno."' and `status` = '0' limit 1 " ;
 }
 
 $result	=	mysqli_query($dbconnect, $query);

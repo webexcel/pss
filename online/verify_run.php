@@ -10,7 +10,7 @@ use Razorpay\Api\Api;
 use Razorpay\Api\Errors\SignatureVerificationError;
 $api = new Api($keyId, $keySecret);
 
-$query = "Select * from razorpay where status = 'START' and date(`start_time`) between '2026-04-01' and '2026-04-30' and `Year_Id` = '6'";
+$query = "Select * from razorpay where status = 'START' and date(`start_time`) between '2026-06-01' and '2026-06-30' and `Year_Id` = '6'";
 $res = $dbconnect->query($query);
 if($res -> num_rows > 0){
 while($row = mysqli_fetch_assoc($res)){

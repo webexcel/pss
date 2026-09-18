@@ -35,6 +35,26 @@
 			<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
 					
 						
+						<div class=" col-xs-12 col-sm-12 col-md-12">
+							<p><b>In-house workshop for English Teachers </b></p>
+							<p style="text-align:justify">An In-house  workshop titled "Unlock the Power of Poetry (As per NEP 2020)", was held for 4 hours for the teachers of the English Department of P S Senior Secondary school and PS Temple Green, Oragadam on Tuesday, 2 June 2026, at the school premises.</p>
+
+							<p style="text-align:justify">The programme  conducted by Smt. V. Jeyalakshmi, Head of the Department of English was aimed at highlighting the importance of adopting innovative and engaging approaches to teaching poetry in classrooms at the elementary, middle, high school and senior school levels.</p>
+
+							<p style="text-align:justify">Various aspects of poetry teaching were discussed, including the key elements of poetry, understanding the poet and the context in which a poem was written, and gaining clarity on poetic devices and attempting activities extrapolating a poetry's theme.</p>
+
+							<p style="text-align:justify">The session also focused on planning effective classroom activities in poetry teaching. Innovative group activities were conducted, enabling the teachers to actively participate and demonstrate the techniques and strategies learnt during the workshop.</p>
+
+							<p style="text-align:justify">The programme proved to be highly informative and interactive, equipping the participants with practical ideas and new approach to poetry reading and enjoyment.</p>
+							
+							<div class="col-md-4">
+							<img src="img/staff corner/work-con/0306261.jpeg" alt="" class="img-response"/>
+							</div>
+							<div class="col-md-4">
+							<img src="img/staff corner/work-con/0306262.jpeg" alt="" class="img-response"/>
+							</div>
+						</div>   
+
 						<div class=" col-xs-12 col-sm-12 col-md-12">						
 							<p style="text-align:justify">The Principal  Dr. Revathy Parameswaran   conducted   a Mathematics Workshop for all State Government teachers  handling classes XI & XII of Pondichery on May 2023 as a part of government initiative in converting all state board schools to CBSE Schools</p>
 							<div class="col-md-4">
