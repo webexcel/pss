@@ -33,7 +33,37 @@
 						                    </div>
 				                    </div>
 					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
-                    <div class=" col-xs-12 col-sm-12 col-md-12">
+                   
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="Aurix">
+					<p><b>Aurix - Amble 2026  @ P.S.Senior</b></p>
+					<p>On July 16th, the prestigious inter-school science and commerce cultural fests, PS AURIX and PS AMBLE, were formally inaugurated at the Dhakshinamurthi Auditorium by esteemed physicist Dr. Manjari Bagchi, who also gave an illuminating guest lecture on Astrophysics.</p>
+
+					<p>PS AURIX engaged over 400 participants from 20 schools. Through rigorous events—including Clues of Cosmos, Synapse Simulation, Celestial Marathon, and Family Feud—students demonstrated profound analytical reasoning and core scientific proficiency.</p>
+
+					<p>Subsequently, PS AMBLE hosted 300 delegates across 18 schools. Competitions such as Fiscal Conclave, Ledger Legends, Chaos Capital, and PS Hustle 4.0 rigorously evaluated the participants' market understanding and articulation. Notably, the signature PS Moot Court provided an unparalleled emulation of formal judicial proceedings.</p>
+
+					<p>The valedictory ceremony was graced by Chief Guest Dr. Prasanna Ram, a robotic surgeon from CURI hospital. He gave an extremely engaging talk on Robotics as the future of medical sciences. </p>
+
+					<p>DAV Boys Gopalapuram secured the PS AURIX trophy, while Vidya Mandir triumphed in PS AMBLE, thereby concluding a highly successful and intellectually enriching summit made possible by the efforts of event heads, volunteers and teacher representatives.</p>
+										
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class="col-md-3">
+							<img src="img/activity/project day/AFF125.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-3">
+							<img src="img/activity/project day/AFF126.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-3">
+							<img src="img/activity/project day/AFF127.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-3">
+							<img src="img/activity/project day/AFF128.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">
 					<p><b>PS AURIX 25 – Inspiring Young Minds through Science and Innovation</b></p>
 					<p>PS AURIX 25, the annual inter-school science fest, was successfully conducted on 17th and 18th July 2025. This flagship event served as an engaging and inspiring platform for students from Classes 
 					9 to 12 to explore scientific ideas beyond their textbooks and experience the true essence of science through innovation, experimentation, and inquiry.</p>

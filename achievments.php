@@ -14,6 +14,18 @@
 <link rel='stylesheet' id='font-awesome-css' href='wp-content\themes\genesis\css\font-awesome.min.css' type='text/css' media='all'>
 <link type="text/css" rel="stylesheet" href="wp-content\themes\genesis\css\style.css">
 
+<!-- Gallery photo viewer -->
+<link rel="stylesheet" type="text/css" href="wp-content/themes/genesis/css/gallery-lightbox.css">
+<script type="text/javascript" src="wp-content/themes/genesis/js/gallery-lightbox.js"></script>
+<style type="text/css">
+	#latest-tcs-inquizitive-2026,
+	#latest-bvm-stem-expo,
+	#latest-sanvikshiki-2026,
+	#latest-materials-quiz-2026{
+		scroll-margin-top:140px;
+	}
+</style>
+
 	<!-- end -->
 <body class="home blog">
 
@@ -30,7 +42,83 @@
 							<h1><span class="h3_trigger ggs_about_team" id="6">Achievements of Students<span></h1>
 						</div>
 				    </div>
-					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
+					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis" data-gallery-group="achievements" data-gallery-title="Achievements">
+					<div class=" col-xs-12 col-sm-12 col-md-12" id="latest-tcs-inquizitive-2026" data-event="TCSInQuizitive">
+						<p id="7"><b>Congratulations R. Sri Harsha (12D) and Avinash Krishna (12A)</b></p>
+							<p>In the TCS InQuizitive 2026, the 28th edition of India’s premier inter-school technology and general awareness quiz, hosted by Tata Consultancy Services, R. Sri Harsha of class 12D and Avinash Krishna of Class 12A, emerged as the runners up in Tamilnadu and Puducherry region, securing a voucher of Rs. 15,000 each along with official Tata &amp; Starbucks merchandise, competing against 800 teams from over 20 districts of Tamilnadu.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-4 col-sm-4 col-md-4">
+							<img src="img/achivements/achivv8.jpeg" alt="" class="img-response">
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" id="latest-bvm-stem-expo" data-event="BVMSTEM">
+						<p id="7"><b>Congratulations to BVM Stem Expo winners</b></p>
+							<p>Our students brought laurels to the school at the BVM STEM Science Expo held on 22 Aug 2026, showcasing their creativity, scientific thinking and problem-solving skills.</p>
+							<p>In STEM Tussle, Amruth and Raghav Rajesh of Class 8 C secured First Place. In STEM Sprouts, Ananya S and Samathmika S of Class 7 B won Third Place. Congratulations to our young achievers!</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-4 col-sm-4 col-md-4">
+							<img src="img/achivements/achivv6.jpeg" alt="" class="img-response">
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" id="latest-sanvikshiki-2026" data-event="SanvikshikiCulturals">
+						<p id="7"><b>P.S..Senior emerged as the overall winners at Sanvikshiki 2026</b></p>
+							<p>Sri Sankara Sr. Sec. School, Adyar conducted Sanskrit Interschool Culturals, SANVIKSHIKI, on 22nd August 2026.</p>
+							<p>Events like Mono acting, Group song, Prose chanting, Grammar quiz (nouns and verbs), Elocution, Drawing, Antyakshari were conducted in Sanskrit and 14 students from our school (classes 7 to 10) took part in the competition . About 10 students got prizes and our school was declared as the Overall winners of the competition.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-6 col-sm-6 col-md-6">
+							<img src="img/achivements/achivv5.jpeg" alt="" class="img-response">
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" id="latest-materials-quiz-2026" data-event="Sanvikshiki">
+						<p id="7"><b>Congratulations Shresth C Anchalia and S P Sudharsan !</b></p>
+							<p>Brahm Prakash Memorial Materials Quiz, a prestigious academic competition on material sciences, annually hosted by the Department of Metallurgical and Materials Engineering, IIT Madras, in association with the Indian Institute of Metals (IIM), Chennai Chapter, and the Materials &amp; Metallurgical Engg. Student Association (METSA) happened on 22nd August 2026.</p>
+							<p>Over 30+ teams across various schools from Chennai took part in this round of the Quiz. The competition provided an excellent opportunity for the students to engage in a stimulating intellectual challenge w.r.t. material sciences and elements.  The day also featured an educating tour to various labs including Ceramics Lab, Materials Lab, Additive Manufacturing Lab and Electron Microscope at Indian Institute of Technology, Madras.</p>
+							<p>This year, our school team consisting of Shresth C Anchalia (Class 12-A) and S P Sudharsan (Class 11-I), secured 1st prize at the Quiz and received a cash award of Rs. 5,000.  Our school team, representing Chennai Chapter of IIM, will now progress to the 34th National Brahm Prakash Memorial Materials Quiz scheduled to be organised at Indra Gandhi Centre of Atomic Research, IIM-Kalpakkam on 18th &amp; 19th of September.</p>
+							<p>It is indeed a proud moment our school to be again represented at the National Level of this prestigious academic competition, two years in a row (2025, 2026) and we congratulate Shresth C Anchalia for being a consistent team member representing our school during both these years.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-6 col-sm-6 col-md-6">
+							<img src="img/achivements/achivv7.jpeg" alt="" class="img-response">
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="Adarsh">
+						<p id="7"><b>Congratulations Adarsh B, V Arjun and Avinash Krishna !</b></p>
+							<p>Students of P. S. Senior Secondary School participated in the 9th edition of the inter-district Galaxy Science and Technology Quiz, organised by the Rotary Club of Chennai Galaxy and held at the Anna Centenary Library auditorium. Out of the 300 participating teams, the team consisting of Avinash Krishna, Adarsh B., and V Arjun. of Class 12A emerged as one of the finalists, securing 6th place and receiving their award from a district governor of rotary international, Suresh Jain.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-6 col-sm-6 col-md-6">
+							<img src="img/achivements/achivv4.jpeg" alt="" class="img-response">
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="Harsha">
+						<p id="7"><b>Congratulations J. Thejeshvar and Sri Harsha</b></p>
+							<p>The team comprising students, J. Thejeshvar and Sri Harsha from P.S Senior Secondary School, have been placed in the Top 10 out of 10,926 teams nationwide in the National Round of Founders of Tomorrow Season 2.</p>
+							<p>Organized by the Institute of Venture Building (IVB) and powered by the Indian Institute of Management Bangalore (IIM), this premier national startup competition recognizes the duo as under the Top 15 Upcoming Business Leaders nationally . The team advanced through the rigorous selection process by pitching their innovative startup idea, SkillBridge.</p>
+							<p>As the NATIONAL TOP 10, the team has secured a cash prize of ₹20,000 alongside direct admission into IVB’s UG Entrepreneurship program with a 20% scholarship. The team presented their live pitch before celebrity entrepreneur judges such as the Co-founder of ZOHO  (Kumar Vembu) at the Grand Finale held on July 18, 2026, at the IVB campus in Chennai.</p>
+													
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-6 col-sm-6 col-md-6">
+							<img src="img/achivements/achivv3.jpeg" alt="" class="img-response">
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="CVMUN">
+						<p id="7"><b>PS wins the Best delegation in CVMUN</b></p>
+							<p>Our school won the best school delegation at the Chettinad Vidyashram MUN held on 8th, 9th and 10th of July 2026. Students of our school won 4 high commendation awards, 9 special mentions, 2 honourable mentions and 2 verbal mentions and emerged the overall winners.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-6 col-sm-6 col-md-6">
+							<img src="img/achivements/achivv1.jpeg" alt="" class="img-response">
+						</div>
+						<div class=" col-xs-4 col-sm-4 col-md-4">
+							<img src="img/achivements/achivv2.jpeg" alt="" class="img-response">
+						</div>
+					</div>
+
+
 					<div class=" col-xs-12 col-sm-12 col-md-12">
 						<p id="7"><b>Congratulations S. Sahana</b></p>
 							<p>S. Sahana of Class II B won III place in the State  Level Geeta Chanting Competition 2025 conducted by Chinmaya Mission. She got the award for Exemplary performance. She also  won I place in District Level Geeta Chanting Competition 2025 .</p>
@@ -1146,7 +1234,7 @@ Medha.K of class 10 won the first place and Isanvi V Bharadwaj of class 9 won th
                         <h1><span class="h3_trigger ggs_about_team" id="6">Achievements of Students in the past<span></h1>
 				    </div>
 		    </div>
-			<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">		
+			<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis" data-gallery-group="achievements" data-gallery-title="Achievements">		
 					
 
 					

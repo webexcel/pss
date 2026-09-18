@@ -14,6 +14,9 @@
 <link rel='stylesheet' id='font-awesome-css' href='wp-content\themes\genesis\css\font-awesome.min.css' type='text/css' media='all'>
 <link type="text/css" rel="stylesheet" href="wp-content\themes\genesis\css\style.css">
 
+<!-- Gallery photo viewer -->
+<link rel="stylesheet" type="text/css" href="wp-content/themes/genesis/css/gallery-lightbox.css">
+
 	<!-- end -->
 <body class="home blog">
 
@@ -33,6 +36,178 @@
 						                    </div>
 				                    </div>
 					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
+					
+					<!-- Krishna Jayanthi Celebrations 2026 :: start -->
+					<div class="col-xs-12 col-sm-12 col-md-12" id="krishna-jayanthi-celebrations">
+						<p><b>Krishna Jayanthi Celebrations</b></p>
+						<p><b>KG Krishna Jayanthi Celebrations at P. S. Senior Secondary School</b></p>
+						<p>Our KG segment celebrated Krishna Jayanthi with devotion, joy, and colors on 4th September 2026.</p>
+						<p>The little ones came dressed as <b class="kj-inline-bold">Cute Krishnas, Radhas, and Gopikas</b>. Their sparkling attire, peacock feathers, and flutes brought the spirit of Vrindavan alive on campus.</p>
+						<p><b>Highlights of the Day:</b></p>
+						<p>1. Lighting the lamp and pooja by our Principal.</p>
+						<p>2. Invocation, Bhajans &amp; Dance</p>
+						<p>3. Activities - fist printing by PREKG, String the beads by LKG &amp; Pot Painting by our UKG children.</p>
+						<p>4. Mridangam solo performance by UKG child.</p>
+						<p>It was a day full of bhakthi, joy, and happy smiles. The celebration helped children understand our culture and festivals in a playful way.</p>
+						<p>Our Principal Dr. Mrs. Revathy Parameshwaran enlightened the day with her presence.</p>
+						<p>Happy Krishna Jayanthi &#127804;</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12 krishnajayanthi2026-gallery" data-gallery-group="kg-krishna-jayanthi-celebrations" data-gallery-title="Krishna Jayanthi Celebrations">
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/krishna-jayanti-2026-1.jpeg" alt="Krishna Jayanthi Celebrations" class="img-responsive"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/krishna-jayanti-2026-2.jpeg" alt="Krishna Jayanthi Celebrations" class="img-responsive"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/krishna-jayanti-2026-3.jpeg" alt="Krishna Jayanthi Celebrations" class="img-responsive"/>
+						</div>
+					</div>
+					<style>
+					.krishnajayanthi2026-gallery img { width: 100%; height: auto; margin-bottom: 20px; }
+					#krishna-jayanthi-celebrations { scroll-margin-top: 140px; }
+					#krishna-jayanthi-celebrations p b.kj-inline-bold {
+						display: inline;
+						color: inherit;
+						font-family: inherit;
+						font-size: inherit;
+						line-height: inherit;
+						margin: 0;
+						font-weight: bold;
+					}
+					</style>
+					<!-- Krishna Jayanthi Celebrations 2026 :: end -->
+					<!-- Onam Celebrations 2026 :: start -->
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p><b>Onam Celebrations</b></p>
+						<p>Onam, the harvest festival of Kerala, was celebrated at school on Tuesday, 25th August 2026, by the staff and students of KG Department. </p>
+						<p>Children brought colourful flowers for making flower rangoli (POOKALAM) which was a collaborative activity by the kg teachers. </p>
+						<p>The day was marked by various programmes like  Invocation, Bhagavad Gita, speech, Thiruvathira kali, Pulikali  and Uri adi. </p>
+						<p>Our Vice Principal  Mrs. R. Lakshmi, graced the celebration with her presence.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12 onam2026-gallery" data-gallery-group="kg-onam-celebrations" data-gallery-title="Onam Celebrations">
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/onam2026-1.jpeg" alt="Onam Celebrations - Pookalam flower rangoli" class="img-responsive"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/onam2026-2.jpeg" alt="Onam Celebrations - Invocation and Onam programmes" class="img-responsive"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/onam2026-3.jpeg" alt="Onam Celebrations - Thiruvathira kali" class="img-responsive"/>
+						</div>
+						<div class="clearfix"></div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/onam2026-4.jpeg" alt="Onam Celebrations - Pulikali" class="img-responsive"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/onam2026-5.jpeg" alt="Onam Celebrations - KG children and staff" class="img-responsive"/>
+						</div>
+						<div class="clearfix"></div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/onam2026-6.jpeg" alt="Onam Celebrations - Maveli" class="img-responsive"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/onam2026-7.jpeg" alt="Onam Celebrations - Maveli with the KG children" class="img-responsive"/>
+						</div>
+					</div>
+					<style>
+					.onam2026-gallery img { width: 100%; height: auto; margin-bottom: 20px; }
+					</style>
+					<!-- Onam Celebrations 2026 :: end -->
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p><b>SAY NO TO MOBILE</b></p>
+						<p>To create awareness about the excessive use of mobile and screen time and it's impact on children, our teachers of LKG presented a thoughtful and engaging skit titled "SAY NO TO MOBILES" on 28.7.26 for our students.</p>
+
+						<p>The skit highlighted how screen time can affect physical health, reduce attention span and limit real life interactions.</p>
+
+						<p>Through humourous yet impactful scenes, the skit showcased how children can choose outdoor play, reading books and quality family time over gadgets. The students were not only entertained but also deeply inspired by the message.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-say-no-to-mobile" data-gallery-title="SAY NO TO MOBILE">
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/mobile1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/mobile2.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/mobile3.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/mobile4.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/mobile5.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/mobile6.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/kg day/mobile7.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p><b> Dancing to the tunes- PREKG</b></p>
+						<p>Dancing to the beat!</p>
+						<p>Tiny feet, big smiles!</p>
+						<p>Learning through music and movement.</p>
+						<p>Building confidence, one step at a time.</p>
+						<p>Rhythm • Joy • Fun • Learning.</p>
+						<p>Every child is a shining star!	</p>		
+					</div>	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-dancing-to-the-tunes-prekg" data-gallery-title="Dancing to the tunes- PREKG">
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/kg day/dan1.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p><b>Newspaper Scribbling activities</b></p>				
+					</div>	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-newspaper-scribbling-activities" data-gallery-title="Newspaper Scribbling activities">
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/kg day/kkk3.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/kg day/kkk4.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+					
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p><b>KG-International Yoga Day</b></p>
+						<p> International Yoga Day was celebrated by the KG Department on 23rd  June 2026 - Wednesday. </p>
+
+						<p> Benefits and demonstrations of various Asanas were demonstrated by the teachers. </p>
+
+						<p> LKG and UKG children actively participated and performed the Asanas. </p>
+
+						<p> Yoga offers holistic development for kids by enhancing physical fitness, improving emotional regulation and boosting mental focus.  It builds strength and flexibility while teaching children valuable mindfulness tools to manage stress, reduce impulsivity and improve academic performance.</p>
+											
+					</div>	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-international-yoga-day" data-gallery-title="KG-International Yoga Day">
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/kg day/kkk1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/kg day/kkk2.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p><b> PREKG 2026-27</b></p>
+						<p> Here's to a joyful beginning of our PreKG journey</p>
+						<p>A day full of firsts..... First smile, First tears, first friendship</p>
+					</div>	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-prekg-2026-27" data-gallery-title="PREKG 2026-27">
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/kg day/prekg1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/kg day/prekg2.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
 					<div class="col-xs-12 col-sm-12 col-md-12">
 						<p><b>KG DAY CELEBRATIONS - 2025-26</b></p>
 						<p>KG Day was held on 28th January 2026, in our school campus.  The day was graced by the presence of the Chief Guest, Mrs. Jayashree Venkatraman, ( Principal, AMM Jain School), Hon. Correspondent,  Respected Principal, Vice-principals and teachers. </p>
@@ -41,7 +216,7 @@
 						<p>The children showcased their talents through a series of well coordinated act.  The event not only provided platform for student but also fostered their holistic development.</p> 
 						<p>The programme finally concluded with the National Anthem.</p>
 					</div>	
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-celebrations-2025-26" data-gallery-title="KG DAY CELEBRATIONS - 2025-26">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/kg261.jpeg" alt="" class="img-response"/>
 						</div>
@@ -89,7 +264,7 @@
 
 						<p>Our Honourable correspondent and Repected Principal graced the occasion with their presence and encouraged the children.</p>				
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-pongal-celebrations-2026" data-gallery-title="Pongal Celebrations 2026">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/pongel1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -122,7 +297,7 @@
 
 						<p>The day concluded with vote of thanks and National Anthem.</p>				
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-sports-day-2025" data-gallery-title="KG Sports Day 2025">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/10112025kg1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -139,7 +314,7 @@
 						Dr. Mrs. Revathy Parameshwaran, invocation and bhajans based on Lord krishna, bhagavad gita chanting, speech on importance of krishna jayanti, dance performance were rendered by our kg students.</p>
 											
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-gokulashtami-celebrations-2025" data-gallery-title="KG - Gokulashtami Celebrations 2025">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/2008251.jpeg" alt="" class="img-response"/>
 						</div>
@@ -154,7 +329,7 @@
 						<p>Market Day helped the children to experience how simulation  buying and selling works through market, making learning engaging and relevant to real life.</p> 
 						<p>Fruits and vegetables stalls were set and children enacted as vendors and customers.</p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-market-day-by-lkg-students" data-gallery-title="Market Day by LKG students">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/2807251.jpeg" alt="" class="img-response"/>
 						</div>
@@ -166,7 +341,7 @@
 						<p><b>Magic of Manners  by UKG students</b></p>
 						<p>UKG children performed a skit on MAGIC OF MANNERS on 24th July 2025 , Thursday to inculcate fundamental etiquettes among children in their day to day life.</p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-magic-of-manners-by-ukg-students" data-gallery-title="Magic of Manners by UKG students">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/2807253.jpeg" alt="" class="img-response"/>
 						</div>
@@ -175,7 +350,7 @@
 						<p><b>Green Day Celebrations by PREKG Students</b></p>
 						<p>GREEN DAY was celebrated by PREKG children on 25th July 2025, Friday.</p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-green-day-celebrations-by-prekg-students" data-gallery-title="Green Day Celebrations by PREKG Students">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/2807254.jpeg" alt="" class="img-response"/>
 						</div>
@@ -199,7 +374,7 @@
 						<p>The programme finally concluded with the National Anthem</p>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-celebrations-2024-25" data-gallery-title="KG DAY CELEBRATIONS - 2024-25">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/100210.jpeg" alt="" class="img-response"/>
 						</div>
@@ -236,7 +411,7 @@
 						<p>Our Honourable correspondent and Repected Principal graced the occasion with their presence and encouraged the children.	</p>			
 					
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-pongal-celebrations-2025" data-gallery-title="Pongal Celebrations 2025">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/091.jpeg" alt="" class="img-response"/>
 						</div>
@@ -247,7 +422,7 @@
 							<img src="img/activity/kg day/093.jpeg" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-pongal-celebrations-2025" data-gallery-title="Pongal Celebrations 2025">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/094.jpeg" alt="" class="img-response"/>
 						</div>
@@ -272,7 +447,7 @@
 						<p>Our Principal and the Chief Guest Mrs. Deepa Iyer PTA - President inaugurated the project day and encouraged the children with their presence.</p>
 											
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-project-day" data-gallery-title="KG Project Day">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/KG221.jpeg" alt="" class="img-response"/>
 						</div>
@@ -291,7 +466,7 @@
 											
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-fancy-dress-competition" data-gallery-title="KG-Fancy Dress Competition">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/kg15124.jpeg" alt="" class="img-response"/>
 						</div>
@@ -311,7 +486,7 @@
 						<p>PREKG YELLOW DAY ACTIVITY ON 21ST OCTOBER 2024.</p>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-prekg-yellow-day-activity" data-gallery-title="PREKG YELLOW DAY ACTIVITY">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/25kg1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -331,7 +506,7 @@
 						<p>Pre KG Celebrated Milk Day on 2nd September 2024, Monday.</p>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-milk-day-celebrations-2024" data-gallery-title="Milk Day Celebrations 2024">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/gkc12.jpeg" alt="" class="img-response"/>
 						</div>
@@ -342,10 +517,10 @@
 						<p>KG Department celebrated Gokulashtami with great joy and happiness  on Tuesday, 27th August 2024, in our school campus to mark the birth anniversary of Lord Krishna the eighth incarnation of Lord Vishnu. 
 On this day children were dressed up like Radha and krishna which added more colours to the festival.</p>
 <p>Various events were performed like lighting the lamp, pooja aarthi by our Principal Dr. Mrs. Revathy Parameshwaran, invocation and bhajans based on Lord krishna, bhagavad gita chanting, speech on importance of krishna jayanti, dance performance   were rendered by our kg students. 
-Our Principal Dr. Mrs. Revathy Parmeshwaran enlightened the day with her presence.</p>
+Our Principal Dr. Mrs. Revathy Parameshwaran enlightened the day with her presence.</p>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-gokulashtami-celebrations" data-gallery-title="Gokulashtami Celebrations">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/gkc1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -366,7 +541,7 @@ Our Principal Dr. Mrs. Revathy Parmeshwaran enlightened the day with her presenc
 exciting and creative Clay Modelling activity. The session aimed to discover their fine motor skills and imagination.</p>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-clay-activity" data-gallery-title="KG CLAY Activity">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/clay1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -380,7 +555,7 @@ exciting and creative Clay Modelling activity. The session aimed to discover the
 						<p>Pre KG Independence Day Celebration on 14th August 2024, Wednesday.</p>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-independence-day-activity-by-kg-children" data-gallery-title="Independence Day Activity by KG Children">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/tda3.jpeg" alt="" class="img-response"/>
 							<span style="text-align:center;"><b>PREKG</b></span>
@@ -402,7 +577,7 @@ exciting and creative Clay Modelling activity. The session aimed to discover the
 					</div>
 					
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-nutritious-food-week" data-gallery-title="Nutritious Food week">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/tda1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -419,7 +594,7 @@ exciting and creative Clay Modelling activity. The session aimed to discover the
 						<p>Our children actively participated and prepared delicious dishes like bhelpuri, vegetable and fruit salads, sandwich etc. It was amazing to watch our children decorating and garnishing their dishes which develops their creativity and thinking skills.</p>
 						<p>Children also used apron and chef caps which added beauty to this activity.</p>
 					</div>	
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-nutritious-food-week" data-gallery-title="Nutritious Food week">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/kkkg2.jpeg" alt="" class="img-response"/>
 						</div>
@@ -438,7 +613,7 @@ exciting and creative Clay Modelling activity. The session aimed to discover the
 						<p>Our Sr. Vice -Principal Mr. Sivakumar graced the day with his presence and appreciated the children. </p>
 						<p>It was a day of fun and excitement and would definitely be a memorable day.</p>
 					</div>	
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-family-day" data-gallery-title="Family Day">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/fam1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -447,7 +622,7 @@ exciting and creative Clay Modelling activity. The session aimed to discover the
 						</div>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-family-day" data-gallery-title="Family Day">
 							<a><p><b>Colour Day @ Kindergarten</b></p>	</a>	
 										
 							<p>LKG children celebrated COLOUR DAY on 27th June 2024.  The theme for the day was RAINBOW. The students dressed up in their favourite and rainbow colour attire. 
@@ -463,7 +638,7 @@ exciting and creative Clay Modelling activity. The session aimed to discover the
 							<p>PREKG celebrated TEDDY BEAR DAY on 28th June 2024, Friday as class activity.
 Children were asked to bring their favourite teddy bear.  Teachers briefed the children  about the importance of teddy bear, children enjoyed singing rhymes along with the teachers. 
 With lots of excitement and enthusiasm, children interacted with the teachers describing about their toy.</p>
-                            <div class=" col-xs-12 col-sm-12 col-md-12">
+                            <div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-teddy-bear-day-kindergarten" data-gallery-title="Teddy Bear Day @ Kindergarten">
 								<a href="primary-day.php"><img src="img/achivements/kg_Act1.jpeg" alt="" width="500px" height="auto" /></a>
 								<a href="primary-day.php"><img src="img/achivements/kg_Act2.jpeg" alt="" width="500px" height="auto" /></a>
                             </div>
@@ -473,7 +648,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						<p><b>Training for Primary and KG teachers on Learning difficulties</b></p>
 						<p>To raise awareness among teachers about  Learning difficulties among children and equip teachers with strategies to help children overcome the difficulties,  a workshop was organized for primary and upper KG teachers on Learning difficulties on 6.4.24. The workshop was conducted by Mrs. Geetha Raghavan and Mrs. Jayashree Raveendran from Kalvi Foundation. The workshop commenced with a briefing on different types of learning difficulties. Case studies were presented to help teachers analyze the learning difficulties. Strategies to overcome a few difficulties were demonstrated and discussed.</p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-training-for-primary-and-kg-teachers-on-learning-difficul" data-gallery-title="Training for Primary and KG teachers on Learning difficulties">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/kg-pri.jpeg" alt="" class="img-response"/>
 						</div>
@@ -494,7 +669,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 
 						<p>Our Correspondent, Principal and Vice- principals graced the occasion with their presence and encouraged the children.</p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-2023-2024" data-gallery-title="KG Day 2023-2024">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/kgd1.jpg" alt="" class="img-response"/>
 						</div>
@@ -508,7 +683,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/kg day/kgd4.jpg" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-2023-2024" data-gallery-title="KG Day 2023-2024">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/kg day/kgd5.jpg" alt="" class="img-response"/>
 						</div>
@@ -542,7 +717,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 
 						<p>The day ended with lots of joy and happiness.</p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-navaratri-celebrations" data-gallery-title="KG Navaratri Celebrations">
 						<div class=" col-xs-12 col-sm-3 col-md-3">									
 							<img src="img/activity/krishna/nav1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -563,7 +738,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 												
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-vinayaka-chathurthi-celebrations" data-gallery-title="Vinayaka Chathurthi celebrations">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/kg day/vc1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -579,7 +754,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						<p><b>Krishna Jayanthi Celebrations</b></p>
 						<p>Krishna Jayanthi was celebrated on 06/09/2023 by KG children</p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-krishna-jayanthi-celebrations" data-gallery-title="Krishna Jayanthi Celebrations">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/krishna/kr6.jpeg" alt="" class="img-response"/>
 						</div>
@@ -591,7 +766,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						</div>
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-krishna-jayanthi-celebrations" data-gallery-title="Krishna Jayanthi Celebrations">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/krishna/kr1.jpeg" alt="" class="img-response"/>
 						</div>	
@@ -604,7 +779,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-krishna-jayanthi-celebrations" data-gallery-title="Krishna Jayanthi Celebrations">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/krishna/kr8.jpeg" alt="" class="img-response"/>
 						</div>					
@@ -627,7 +802,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 												
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-onam-celebrations-2" data-gallery-title="Onam Celebrations">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/indep/onam5.jpeg" alt="" class="img-response"/>
 						</div>
@@ -649,7 +824,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 												
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-independence-day-celebration-by-kg-students" data-gallery-title="Independence day celebration by KG students">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/indep/i1.jpeg" alt="" class="img-response"/>
 						</div>
@@ -661,7 +836,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						</div>
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-independence-day-celebration-by-kg-students" data-gallery-title="Independence day celebration by KG students">
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/indep/i4.jpeg" alt="" class="img-response"/>
 						</div>
@@ -674,7 +849,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-independence-day-celebration-by-kg-students" data-gallery-title="Independence day celebration by KG students">
 					<p><b>KG Day Programme 27-01-2023 </b></p>
 						<p>KG Day was celebrated on Friday the 27th January 2023 at the open auditorium of our school.</p>
 						<p>Mrs. V. Meenakshi (Joint Director Of Employment – Department Of Employment & Training,Govt Of Tamilnadu) was the Chief Guest for the Programme.</p>
@@ -693,7 +868,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						</div>
 					</div>
 
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-programme-27-01-2023" data-gallery-title="KG Day Programme 27-01-2023">
 						<div class="col-md-3">
 							<img src="img/activity/Kg day/kgm5.jpeg" alt="" class="img-response"/>
 						</div>
@@ -707,7 +882,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/Kg day/kgm8.jpeg" alt="" class="img-response"/>
 						</div>
 					</div>	
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-programme-27-01-2023" data-gallery-title="KG Day Programme 27-01-2023">
 					<p><b>KG Day Programme 04-02-19 </b></p>
 						<p>KG Day was celebrated on Friday the 1st February  2019  at the open auditorium of our school.</p>
 						<p>Dr. Smita M. Bang, (Pathologist) was the Chief Guest for the Programme.</p>
@@ -725,7 +900,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/Kg day/img4.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-programme-04-02-19" data-gallery-title="KG Day Programme 04-02-19">
 						<div class="col-md-3">
 							<img src="img/activity/Kg day/img5.png" alt="" class="img-response"/>
 						</div>
@@ -739,7 +914,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/Kg day/img8.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-programme-04-02-19" data-gallery-title="KG Day Programme 04-02-19">
 					<p><b>Healthy Food Habits 31-07-19 </b></p>
 						<p>Students of UKG enacting  Healthy Food Habits</p>
 						
@@ -756,7 +931,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/Kg day/img12.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-healthy-food-habits-31-07-19" data-gallery-title="Healthy Food Habits 31-07-19">
 					<p>Students of PRE KG displaying charts of good habits</p>
 						
 						<div class="col-md-3">
@@ -772,7 +947,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/Kg day/img16.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-healthy-food-habits-31-07-19" data-gallery-title="Healthy Food Habits 31-07-19">
 					<p>Students of PRE KG displaying charts of good habits</p>
 						
 						<div class="col-md-3">
@@ -788,7 +963,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/Kg day/img16.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-healthy-food-habits-31-07-19" data-gallery-title="Healthy Food Habits 31-07-19">
 					<p><b>Enacting Courtesy Words 18-07-19</b></p>
 					<p>Students of LKG enacting Courtesy words.</p>
 						
@@ -803,7 +978,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						</div>
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-enacting-courtesy-words-18-07-19" data-gallery-title="Enacting Courtesy Words 18-07-19">
 					<p><b>Deepavali Celebrations – KG 31-10-19 </b></p>
 					<p>Deepavali Celebrations by KG Students</p>
 						
@@ -821,7 +996,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						</div>
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-deepavali-celebrations-kg-31-10-19" data-gallery-title="Deepavali Celebrations – KG 31-10-19">
 					<p><b>KG Activities 08-01-20</b></p>
 					<p style="text-align:justify;">On  19/12/2019 KG children celebrated Christmas. The stage decorated with crib, colourful festoons, bells and lights. Children dressed up as Santa Claus and angels and presented a  wonderful carol. Christmas cake was cut by our Principal and Vice Principal and sweets were distributed to the children</p>
 						
@@ -835,7 +1010,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 							<img src="img/activity/Kg day/img26.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-activities-08-01-20" data-gallery-title="KG Activities 08-01-20">
 					<p><b>Activity on Save Planet</b></p>
 					<p style="text-align:justify;">On 21/11/2019, as an initiative to save our planet from pollution and other deterioration, children of LKG performed an activity ‘Save the planet’ , to represent the ways to save the Earth.</p>
 						
@@ -848,7 +1023,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-activity-on-save-planet" data-gallery-title="Activity on Save Planet">
 					<p><b>Science Activity on Water</b></p>
 					<p style="text-align:justify;">On 22/11/2019 the UKG students spoke on the ‘Resources, Conservation and Contamination of Water’ and about ‘Water cycle’ using a Power Point Presentation. They also conducted small experiments like water solubility, buoyancy, oil and water, cleaning of muddy water, etc.</p>
 						
@@ -860,7 +1035,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						</div>						
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-science-activity-on-water" data-gallery-title="Science Activity on Water">
 					<p><b>Activity on Fruits & Vegetables</b></p>
 					<p style="text-align:justify;">On 29/11/19,  an  activity was conducted to make the children understand the importance of inclusion of fruits and vegetables in their diet. The class rooms were decorated with handmade charts, real fruits and vegetables. Children sang songs and rhymes together. The teachers narrated stories and talked about the importance of fruits and vegetables. Children were asked to dress up like fruits and vegetables and talk about the same.</p>
 						
@@ -870,7 +1045,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 											
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-activity-on-fruits-vegetables" data-gallery-title="Activity on Fruits &amp; Vegetables">
 					<p><b>KG Sports Meet</b></p>
 					<p style="text-align:justify;">On 08/01/2020 KG Sports Meet was conducted and children were given prizes for different sports events.</p>
 						
@@ -883,7 +1058,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 											
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-sports-meet" data-gallery-title="KG Sports Meet">
 					<p><b>KG DAY 14-02-20 </b></p>
 					<p style="text-align:justify;">KG day was celebrated on 14/02/2020. The theme was Incredible India and Folk Dances Of Tamil Nadu. The children showcased their talents through different state dance with their traditional outfit.</p>
 						
@@ -898,7 +1073,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
 						</div>					
 						
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="kg-kg-day-14-02-20" data-gallery-title="KG DAY 14-02-20">
 					<p><b>KG Celebrating Independence Day 17-08-21 </b></p>
 					<p style="text-align:justify;">KG students enthusiastically participated in the Independence Day Celebration. Teachers briefed them about the significance of Independence Day, tricolors of Indian flag (Tiranga) and other National Symbols.</p>
 						
@@ -939,6 +1114,7 @@ With lots of excitement and enthusiasm, children interacted with the teachers de
         <script src="wp-content\themes\genesis\js\classie.js"></script>
         <script src="wp-content\themes\genesis\js\selectFx.js"></script>
         <script src="wp-content\themes\genesis\js\jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="wp-content/themes/genesis/js/gallery-lightbox.js"></script>
 	<!-- end -->
   
 

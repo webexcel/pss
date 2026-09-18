@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
 <meta charset="UTF-8">
@@ -35,13 +35,67 @@
 			<div class="container">
                     																																																																														                         
 					<div class=" col-xs-12 col-sm-9 col-md-9">
-					<p>Annual Exam Portions 2025-26</p>
+
+					<p>September Quarterly Exam Portions - 2026-27</p>
+						<a href="pdf/portion/CLASS 1 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 1</a></br></br>
+						<a href="pdf/portion/CLASS 2 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 2</a></br></br>
+						<a href="pdf/portion/CLASS 3 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 3</a></br></br>
+						<a href="pdf/portion/CLASS 4 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 4</a></br></br>
+						<a href="pdf/portion/CLASS 5 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 5</a></br></br>
+						<a href="pdf/portion/CLASS 6 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 6</a></br></br>
+						<a href="pdf/portion/CLASS 7 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 7</a></br></br>
+						<a href="pdf/portion/CLASS 8 QUARTERLY portions-2026-27.pdf">Click here to view Quarterly Exam portions for Class 8</a></br></br>
+						<a href="pdf/portion/CLASS9-QUARTERLY PORTIONS.pdf" target="_blank">Click here to view Quarterly Exam portions for Class 9</a></br></br>
+						<a href="pdf/portion/CLASS10-QUARTERLY PORTIONS.pdf" target="_blank">Click here to view Quarterly Exam portions for Class 10</a></br></br>
+						<a href="pdf/portion/CLASS 11 COMMERCE- QUARTERLY PORTIONS.pdf" target="_blank">Click here to view Quarterly Exam portions for Class 11 (Commerce)</a></br></br>
+						<a href="pdf/portion/CLASS 11 SCIENCE- QUARTERLY PORTIONS.pdf" target="_blank">Click here to view Quarterly Exam portions for Class 11 (Science)</a></br></br>
+						<a href="pdf/portion/CLASS 12 COMMERCE- QUARTERLY PORTIONS.pdf" target="_blank">Click here to view Quarterly Exam portions for Class 12 (Commerce)</a></br></br>
+						<a href="pdf/portion/CLASS 12 SCIENCE- QUARTERLY PORTIONS.pdf" target="_blank">Click here to view Quarterly Exam portions for Class 12 (Science)</a></br></br>
+
+
+
+					<p>August Unit Test 2 Portions - 2026-27</p>
+						<a href="pdf/portion/CLASS 1 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 1</a></br></br>
+						<a href="pdf/portion/CLASS 2 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 2</a></br></br>
+						<a href="pdf/portion/CLASS 3 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 3</a></br></br>
+						<a href="pdf/portion/CLASS 4 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 4</a></br></br>
+						<a href="pdf/portion/CLASS 5 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 5</a></br></br>
+						<a href="pdf/portion/CLASS 6 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 6</a></br></br>
+						<a href="pdf/portion/CLASS 7 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 7</a></br></br>
+						<a href="pdf/portion/CLASS 8 UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 8</a></br></br>
+						<a href="pdf/portion/CLASS 9 UT2 PORTIONS -2026-27.pdf">Click here to view Unit test II portions for Class 9</a></br></br>
+						<a href="pdf/portion/Class10 UT3 portions-2026-27.pdf">Click here to view Unit test II portions for Class 10</a></br></br>
+						<a href="pdf/portion/CLASS 11 UT2 (commerce group)PORTIONS -2026-27.pdf">Click here to view Unit test II portions for Class 11(commerce)</a></br></br>
+						<a href="pdf/portion/CLASS 11 UT2 (science group)PORTIONS -2026-27.pdf">Click here to view Unit test II portions for Class 11(science)</a></br></br>
+						<a href="pdf/portion/CLASS 12 UT3 portions(commerce group)-2026-27.pdf">Click here to view Unit test II portions for Class 12(commerce)</a></br></br>
+						<a href="pdf/portion/CLASS 12 UT3 portions(science group)-2026-27.pdf">Click here to view Unit test II portions for Class 12(science)</a></br></br>
+
+
+
+					<p>July Unit Test Portions - 2026-27</p>
+						<a href="pdf/portion/CLASS 1 (1).pdf">Click here to view Unit test portions for Class 1</a></br></br>
+						<a href="pdf/portion/CLASS 2 (1).pdf">Click here to view Unit test portions for Class 2</a></br></br>
+						<a href="pdf/portion/CLASS 3 (1).pdf">Click here to view Unit test portions for Class 3</a></br></br>
+						<a href="pdf/portion/CLASS 4.pdf">Click here to view Unit test portions for Class 4</a></br></br>
+						<a href="pdf/portion/CLASS 5.pdf">Click here to view Unit test portions for Class 5</a></br></br>
+						<a href="pdf/portion/CLASS 6.pdf">Click here to view Unit test portions for Class 6</a></br></br>
+						<a href="pdf/portion/CLASS 7.pdf">Click here to view Unit test portions for Class 7</a></br></br>
+						<a href="pdf/portion/CLASS 8.pdf">Click here to view Unit test portions for Class 8</a></br></br>
+
+						<a href="pdf/portion/CLASS 9.pdf">Click here to view Unit test portions for Class 9</a></br></br>
+						<a href="pdf/portion/CLASS 10  UT2 portions-2026-27.pdf">Click here to view Unit test II portions for Class 10</a></br></br>
+						<a href="pdf/portion/CLASS 11 UT1 (commerce group)PORTIONS -2026-27.pdf">Click here to view Unit test portions for Class 11(commerce)</a></br></br>
+						<a href="pdf/portion/CLASS  11 UT1 (science Group)PORTIONS -2026-27 (1).pdf">Click here to view Unit test portions for Class 11(science)</a></br></br>
+						<a href="pdf/portion/CLASS  12 UT2 portions(commerce group)-2026-27.pdf">Click here to view Unit test II portions for Class 12(commerce)</a></br></br>
+						<a href="pdf/portion/CLASS  12 UT2 portions(science Group)-2026-27.pdf">Click here to view Unit test II portions for Class 12(science)</a></br></br>
+
+					<!--<p>Annual Exam Portions 2025-26</p>
 						<a href="pdf/class 6,7, and 8th std annual exam portions.pdf">Click here to view Annual Exam Portions Classes 1 and 2</a></br></br>
 						<a href="pdf/Class 3,4 and 5 annual portions.pdf">Click here to view Annual Exam Portions Classes 3 to 5</a></br></br>
 						<a href="pdf/class 1 and 2 annual portions 2025-2026.pdf">Click here to view Annual Exam Portions Classes 6 to 8</a></br></br>
 
 							
-					<!--<p>Half Yearly Portions 2025-26</p>
+					<p>Half Yearly Portions 2025-26</p>
 						<a href="pdf/CLASS 1 and Class 2 Half yearly portions.pdf">Click here to view Half Yearly Portions Classes 1 and 2</a></br></br>
 						<a href="pdf/CLASS 3,4 and 5 half yearly portions.pdf">Click here to view Half Yearly Portions Classes 3 and 5</a></br></br>
 						<a href="pdf/CLASS 6,7 AND 8 HALF YEARLY PORTIONS.pdf">Click here to view Half Yearly Portions Classes 6 and 8</a></br></br>
@@ -51,7 +105,7 @@
 						<a href="pdf/CLASS 11 AND 12 commerce group HALF YEARLY PORTIONS (1).pdf">
 							Click here to view Half Yearly Portions Classes 11 and 12 Commerce Group</a></br></br>
 						
-					<!--<p>Unit Test Portions 2025-26</p>
+					<p>Unit Test Portions 2025-26</p>
 						<a href="pdf/CLASS 1 and 2 UT3 portions.pdf">Click here to view Unit Test 3 Portions Classes 1 and 2</a></br></br>
 						<a href="pdf/CLASS 3 to 5 UT3 portions.pdf">Click here to view Unit Test 3 Portions Classes 3 to 5</a></br></br>
 						<a href="pdf/UT3 NOV CLASS 6,7 AND 8.pdf">Click here to view Unit Test 3 Portions Classes 6 to 8</a></br></br>

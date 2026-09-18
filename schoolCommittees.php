@@ -35,7 +35,7 @@
 		<div style="padding-top:150px" class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
                     																																																																														 
 				<div class=" col-xs-12 col-sm-12 col-md-12">
-				<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="zoom2">
 						<figure class="imag-effec"> 
 						<img src="img/new-cor.png" alt="" height="150px" width="200px"> </figure> 
@@ -45,35 +45,26 @@
 					<h4 class="tab2"><span class="tabs">Shri. P.C. Ramakrishna</span> <br>Chairman</h4>
 					
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="zoom2">
 						<figure class="imag-effec"> 
 						<img src="img/Correspondent.jpg" alt="" height="150px" width="200px"> </figure>		
 						</a>
-					</div><h4 class="tab2"><span class="tabs">Shri Pennathur Subramaniam Prabhakar</span><br>
+					</div><h4 class="tab2"><span class="tabs">Shri P.S Prabhakar</span><br>
 											Hony. Secy. & Correspondent</h4>
 					</div>
-				</div>
-				
-				<div class=" col-xs-12 col-sm-12 col-md-12">
-				<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="zoom2">
 						<figure class="imag-effec"> 
 						<img src="img/principal.jpg" alt="" height="150px" width="200px"> </figure> 
 						
 						</a>
-					</div><h4 class="tab2"><span class="tabs">Dr.(Smt.) Revathy Parameswaran</span><br>Member - Principal</h4>
-					
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="zoom2">
-						<figure class="imag-effec"> 
-						<img src="img/member.png" alt="" height="150px" width="200px"> </figure> 
-						
-						</a>
-					</div><h4 class="tab2"><span class="tabs">Shri.R.Sivakumar</span></br>Member - Teacher</h4>
-					</div>
+					<h4 class="tab2"><span class="tabs">Dr.(Smt.) Revathy Parameswaran</span><br>Member - Principal</h4>
+
 				</div>
+				
+				
 		
 					
 	
@@ -119,18 +110,20 @@
 								</tr>
 							  </thead>
 							  <tbody>
-								<tr><td>1</td><td>P S Sevalaya<br>Shri V. Muralidharan</td><td>Member</td></tr>
-								<tr><td>2</td><td>Col. C.R. Devanathan</td><td>Member</td></tr>
-								<tr><td>3</td><td>Ms. Prabha Dixit</td><td>Member</td></tr>
-								<tr><td>4</td><td>Shri. S. Sridharan</td><td>Member</td></tr>
-								<tr><td>5</td><td>Smt Sripriya Suresh</td><td>Member</td></tr>
-								<tr><td>6</td><td>Dr. J. Sundar</td><td>Member</td></tr>
-								<tr><td>7</td><td>Smt. Kanchana Mala S H</td><td>Member</td></tr>
-								<tr><td>8</td><td>Mrs. R Lakshmi</td><td>Member (Teacher)</td></tr>
-								<tr><td>9</td><td>Shri. G. Venkatasubramanian</td><td>Member (Representative PTA)</td></tr>
-								<tr><td>10</td><td>Smt. Deepa Iyer</td><td>Member (Representative PTA)</td></tr>
-								<tr><td>11</td><td>Shri. C.V. Krishnan</td><td>Special Invitee</td></tr>
-							  </tbody>
+								<tr><td>1</td><td>Shri V. Ravichandran</td><td>Member</td></tr>
+								<tr><td>2</td><td>Sevalaya<br>Shri V. Muralidharan</td><td>Member</td></tr>
+
+								<tr><td>3</td><td>Col. C.R. Devanathan</td><td>Member</td></tr>
+								<tr><td>4</td><td>Ms. Prabha Dixit</td><td>Member</td></tr>
+								<tr><td>5</td><td>Shri. S. Sridharan</td><td>Member</td></tr>
+								<tr><td>6</td><td>Smt Sripriya Suresh</td><td>Member</td></tr>
+								<tr><td>7</td><td>Dr. J. Sundar</td><td>Member</td></tr>
+								<tr><td>8</td><td>Smt. Kanchana Mala S H</td><td>Member</td></tr>
+								<tr><td>9</td><td>Mrs. R Lakshmi</td><td>Member (Teacher)</td></tr>
+								<tr><td>10</td><td>Mrs. P. Sudha </td><td>Member (Teacher)</td></tr>
+								<tr><td>11</td><td>Mr. J. Ramraj</td><td>Member (Representative PTA)</td></tr>
+								<tr><td>12</td><td>Smt. Deepa Iyer</td><td>Member (Representative PTA)</td></tr>
+															  </tbody>
 							</table>
 
 					<div class=" col-xs-12 col-sm-3 col-md-3">	

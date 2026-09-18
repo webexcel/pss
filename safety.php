@@ -58,8 +58,8 @@
 							<li>Shri. S.Sathish Yadav</li>
 							<li>Smt. Deepa Iyer (PTA President)</li>
 							<li>Smt. L.Preethi (PTA Secretary)</li>
-							<li>Abhinav Saran Kota (School Pupil Leader)</li>
-							<li>M M Liban Reyhan (School Pupil Leader)</li>
+							<li>Aradhana Suresh (School Pupil Leader)</li>
+							<li>P Mithran (School Pupil Leader)</li>
 
 						</ol>						
 					</div>

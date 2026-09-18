@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
 <meta charset="UTF-8">
@@ -33,22 +33,53 @@
 						                    </div>
 				                    </div>
 							<div class="container">
-								<div class=" col-xs-12 col-sm-9 col-md-9">
-									<p><b>2025 - 2026</b><p>
+								<div class=" col-xs-12 col-sm-8 col-md-8">
+									<p><b>2026 - 2027</b><p>
+									<p>Quarterly Examination Time table for Classes 1 to 5 (2026-27)</p>
+									<a href="pdf/portion/Classes 1 to 5 - Quarterly Examination - TIME TABLE 2026.pdf" target="_blank">
+										Click here to view Quarterly Exam timetable</a>
+										<br>
+										<br>
 
-									<p>Half Yearly Examination 2025-26</p>
-									<a href="pdf/Half Yearly Examination 2025 - TIME TABLE.pdf">
-										Click here to view Half Yearly Exam timetable</a>
+									
+									<p>Quarterly Examination Time table for Classes 9 to 12 (2026-27)</p>
+									<a href="pdf/portion/QUARTERLY EXAMINTION 26 TIME TABLE9TO 12.pdf" target="_blank">
+										Click here to view Quarterly Exam timetable for Classes 9 to 12</a>
 										<br>
 										<br>
-									<p>Class 10 and 12 PRE Board Examination 2025-26</p>	
-									<a href="pdf/PRE BOARD EXAMINATION 2025 - TIME TABLE.pdf">
-										Click here to view PRE Board Exam timetable</a>
+<p>Quarterly Examination Time table for Classes 6 to 8 (2026-27)</p>
+									<a href="pdf/portion/Classes 6 to 8- Quarterly Exam Time Table.pdf" target="_blank">
+										Click here to view Quarterly Exam timetable</a>
+										<br>
+										<br
+									<p>August Unit test Time table for Classes 1 to 5 (2026-27)</p>
+									<a href="pdf/portion/Classes 1 to 5 - August Unit Test - TIME TABLE 2026.pdf">
+										Click here to view Unit Test timetable</a>
 										<br>
 										<br>
-									<p>Class 10 and 12 Board Examination 2025-26</p>	
-									<a href="pdf/CLASS_10_12_BOARDEXAM_TIMETABLE_2025-26.pdf">
-										Click here to view Board Exam timetable</a>
+									<p>August Unit test Time table for Classes 6 to 8 (2026-27)</p>
+									<a href="pdf/portion/Classes 6 to 8 - August Unit Test - TIME TABLE 2026.pdf">
+										Click here to view Unit Test timetable</a>
+										<br>
+										<br>
+									<p>August Unit test Time table for Classes 9 to 12 (2026-27)</p>
+									<a href="pdf/portion/Classes 9 to 12 - August Unit Test - TIME TABLE 2026.pdf">
+										Click here to view Unit Test timetable</a>
+										<br>
+										<br>
+									<p>July Unit test Time table for Classes 1 to 5 (2026-27)</p>
+									<a href="pdf/portion/Classes 1 to 5 Unit Test Tine Table.pdf">
+										Click here to view Unit Test timetable</a>
+										<br>
+										<br>
+									<p>July Unit test Time table for Classes 6 to 8 (2026-27)</p>	
+									<a href="pdf/portion/Classes 6 to 8 - Unit Test Table.pdf">
+										Click here to view Unit Test timetable</a>
+										<br>
+										<br>
+									<p>July Unit test Time table for Classes 9 to 12 (2026-27)</p>	
+									<a href="pdf/portion/Class 9 to 12 - Unit Test Time Table.pdf">
+										Click here to view Unit Test timetable</a>
 										<br>
 										<br>
 									<!--<p>Quarterly Examination 2025-26</p>

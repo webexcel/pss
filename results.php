@@ -58,11 +58,11 @@ table{
 							<table class="table">
 							<tbody>
 							<tr>
-								<td colspan="4" class="text1">2026-2026 Class X</td>
+								<td colspan="4" class="text1">2025-2026 Class XII</td>
 							</tr>
 							<tr>
-							<td width=50% colspan=2><img src="img/ach/b6.jpeg" alt="" height="auto" width="300px"></td>
-							<td width=50% colspan=2><img src="img/ach/b5.jpeg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/Toppers/xii/t1sc.jpeg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/Toppers/xii/2.jpeg" alt="" height="auto" width="300px"></td>
 
 							</tr>
 							</tbody>
@@ -70,11 +70,11 @@ table{
 							<table class="table">
 							<tbody>
 							<tr>
-								<td colspan="4" class="text1">2026-2026 Class X</td>
+								<td colspan="4" class="text1">2025-2026 Class XII</td>
 							</tr>
 							<tr>
-							<td width=50% colspan=2><img src="img/ach/b4.jpeg" alt="" height="auto" width="300px"></td>
-							<td width=50% colspan=2><img src="img/ach/b3.jpeg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/Toppers/xii/t1e.jpeg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/Toppers/xii/4.jpeg" alt="" height="auto" width="300px"></td>
 
 							</tr>
 							</tbody>
@@ -82,13 +82,22 @@ table{
 							<table class="table">
 							<tbody>
 							<tr>
-								<td colspan="4" class="text1">2026-2026 Class X</td>
+								<td colspan="4" class="text1">2025-2026 Class XII</td>
 							</tr>
 							<tr>
-							<td width=50% colspan=2><img src="img/ach/b2.jpeg" alt="" height="auto" width="300px"></td>
-							<td width=50% colspan=2><img src="img/ach/b1.jpeg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/Toppers/xii/5.jpeg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/Toppers/xii/t1c.jpeg" alt="" height="auto" width="300px"></td>
 
 							</tr>
+<tr>
+								<td colspan="4" class="text1">2025-2026 Class XII</td>
+							</tr>
+							<tr>
+							<td width=50% colspan=2><img src="img/Toppers/xii/9.jpg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/Toppers/xii/8.jpeg" alt="" height="auto" width="300px"></td>
+
+							</tr>
+
 							</tbody>
 							</table>
 						</div>
@@ -98,9 +107,68 @@ table{
 							<p><a href="pdf/12-2425.pdf" target="_blank">Class XII Results 2024-25</a></p>
 							<br><br>-->
 							<p><b>2025-2026</b></p>
+							<p style="text-align:justify">CBSE Board exam toppers in Class XII 2025-26:</p>
+							<p><a href="pdf/CLASS12-RESULTS-CONSOLIDATED.pdf" target="_blank">Class XII Results 2025-26</a></p>
+						</div>   
+</div>
+
+
+<div class="row">
+<div class="row"> 
+
+						<div class=" col-xs-12 col-sm-9 col-md-9">
+							<table class="table">
+							<tbody>
+							<tr>
+								<td colspan="4" class="text1">2025-2026 Class X</td>
+							</tr>
+							<tr>
+							<td width=50% colspan=2><img src="img/ach/classX-2026-toppers.jpg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/ach/classX-2026-english.jpg" alt="" height="auto" width="300px"></td>
+
+							</tr>
+							</tbody>
+							</table>
+							<table class="table">
+							<tbody>
+							<tr>
+								<td colspan="4" class="text1">2025-2026 Class X</td>
+							</tr>
+							<tr>
+							<td width=50% colspan=2><img src="img/ach/classX-2026-tamil.jpg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/ach/classX-2026-sanskrit-hindi.jpg" alt="" height="auto" width="300px"></td>
+
+							</tr>
+							</tbody>
+							</table>
+							<table class="table">
+							<tbody>
+							<tr>
+								<td colspan="4" class="text1">2025-2026 Class X</td>
+							</tr>
+							<tr>
+							<td width=50% colspan=2><img src="img/ach/classX-2026-maths-science.jpg" alt="" height="auto" width="300px"></td>
+							<td width=50% colspan=2><img src="img/ach/classX-2026-social-science.jpg" alt="" height="auto" width="300px"></td>
+
+							</tr>
+
+							</tbody>
+							</table>
+						</div>
+						<div class=" col-xs-12 col-sm-3 col-md-3">	
+							<!--<p><b>2025-2026</b></p>
+							<p style="text-align:justify">CBSE Board exam toppers in Class X 2025-26:</p>
+							<p><a href="pdf/12-2425.pdf" target="_blank">Class XII Results 2025-26</a></p>
+							<br><br>-->
+							<p><b>2025-2026</b></p>
 							<p style="text-align:justify">CBSE Board exam toppers in Class X 2025-26:</p>
 							<p><a href="pdf/CLASS X-CONSOLIDATED RESULTS-2026-MEDIA.pdf" target="_blank">Class X Results 2025-26</a></p>
 						</div>   
+</div>
+
+
+<div class="row">
+
 
 						<div class=" col-xs-12 col-sm-9 col-md-9">
 							<table class="table">

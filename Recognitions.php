@@ -14,6 +14,15 @@
 <link rel='stylesheet' id='font-awesome-css' href='wp-content\themes\genesis\css\font-awesome.min.css' type='text/css' media='all'>
 <link type="text/css" rel="stylesheet" href="wp-content\themes\genesis\css\style.css">
 
+<!-- Photo viewer for the photos on this page -->
+<link rel="stylesheet" type="text/css" href="wp-content/themes/genesis/css/recognition-lightbox.css">
+<script type="text/javascript" src="wp-content/themes/genesis/js/recognition-lightbox.js"></script>
+<style type="text/css">
+	#latest-acharya-mani-2026{
+		scroll-margin-top:140px;
+	}
+</style>
+
 	<!-- end -->
 <body class="home blog">
 
@@ -32,8 +41,36 @@
                         <h1><span class="h3_trigger ggs_about_team" id="6">Recent Recognitions<span></h1>
 						                    </div>
 				                    </div>
-			<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
+			<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis" data-recognition-gallery="recognitions">
                     
+					<div class=" col-xs-12 col-sm-12 col-md-12" id="latest-gurumoorthy-best-teacher-2026">
+							<p><b>Congratulations Mr. P. Gurumoorthy !</b></p>	
+						<p>Mr P Gurumoorthy, a senior Physics teacher of our school was conferred with ‘The Best Teacher Award’ on 13th September 2026 (Sunday) at Mylapore Fine Arts Club, Mylapore, as part of the 44th Annual Meet of Humour Club International, Triplicane Chapter.</p>
+						<p>The function was graced by Pulavar M. Ramalingam as the Chief Guest. Dr. K. V. S. Gopalakrishnan, President, P. S. Educational Society, Mylapore, Chennai, was the Special Guest.</p>
+						<p>The ‘Best Teacher Award’ was presented to 18 teachers from across Tamil Nadu in recognition of their dedicated service and contribution to the field of education. The award was presented by Dr. K. V. S. Gopalakrishnan in the esteemed presence of Pulavar M. Ramalingam, the chief guest.</p>
+						<p>The highlight of the programme was an inspiring speech by the Chief Guest on the theme ‘Keep Learning’. He emphasised the importance of continuous learning and reminded the gathering that a teacher, while imparting knowledge to others, must also remain a lifelong learner.</p>
+						<p>The felicitation was a memorable occasion that celebrated the invaluable contribution of teachers to society.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="gallery/achievements.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" id="latest-acharya-mani-2026">
+							<p><b>Congratulations Mrs. S U Jaichitra,</b></p>	
+						<p>It is a moment of great pride for P S Senior Secondary school as the Chennai Sahodaya Schools Complex – Zone I – East Cluster, presented the Acharya Mani award, 2026–27, to Mrs S U Jaichitra, KG co-ordinator, for her dedicated service and contribution to education. The award ceremony was held on 5th September 2026, Teachers' day from 2 pm to 6 pm, at Radha Regent Hotel, Chennai, in a grand and befitting manner.</p>
+						<p>The programme was organised in two enriching segments. The first session featured a thought-provoking Teachers’ Day message and motivational address by Mahatria Ra, a prominent Indian spiritual leader, author, and thought leader, inspiring educators to reflect on their purpose and responsibility.</p>
+						<p>The second session comprised the Teachers’ Day felicitation and honouring of the awardees by Dr. N. Gopalaswami, IAS (Retd.), former Chief Election Commissioner of India, President of Vivekananda Education Society, Chancellor of National Sanskrit University, Tirupati, and a Padma Bhushan awardee.</p>
+						<p>The occasion celebrated the spirit of teaching, commitment and excellence, making it a truly memorable Teachers’ Day</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/acharya_mani_2026_1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/acharya_mani_2026_2.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
 					<div class=" col-xs-12 col-sm-12 col-md-12">
 							<p><b>Congratulations Mrs. K. Jayashree</b></p>	
 						<p>Mrs  K. Jayashree, Librarian , was presented  the “Best Teacher Award” for the year 2025 by the Chennai Sahodaya East Cluster  on 15th October, 2025.</p>
@@ -444,7 +481,7 @@ The chief guest of the function was Smt Arunima Mazumdar, Joint Secretary and He
                         <h1><span class="h3_trigger ggs_about_team" id="6">Recognitions in the past<span></h1>
 				    </div>
 		    </div>
-			<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
+			<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis" data-recognition-gallery="recognitions">
 
 					
 					<div class=" col-xs-12 col-sm-12 col-md-12">

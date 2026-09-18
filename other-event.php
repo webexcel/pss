@@ -34,7 +34,177 @@
 				                    </div>
 					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
 					
+
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="ruskin-bond-month">
+
+						<p><b>Ruskin Bond Month Celebrated</b></p>
+
+						<p>Our school  celebrated the month of July as Ruskin Bond Month with great enthusiasm to honour one of India's most beloved authors. Throughout the month, students participated in a variety of literary activities, including storytelling, book reviews, creative writing, quiz inspired by Ruskin Bond's works. The celebration concluded with the students of middle school participating in a written quiz on Ruskin Bond while students of classes 9-12 wrote a book review on the books they had read. This celebration inspired  students to develop a lifelong love for books and literature.</p>
+
+					</div>
 					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<div class=" col-xs-12 col-sm-6 col-md-6">
+							<img src="img/events/others/ruskinbond1.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="Exhibition">
+
+						<p id="1"><b>PS ATELIER '26 – Students' Annual Art Exhibition</b></p>
+						<p>PS ATELIER '26, the Students' Annual Art Exhibition of P. S. Senior Secondary School, CBSE, was held with great enthusiasm and grandeur on 10th July 2026 at the School Yoga Hall.</p>
+
+						<p>The exhibition was inaugurated by Shri A. Z. Ranjith, Veteran Artist, Photographer, and Visual Art Educator, by ceremoniously cutting the ribbon, in the gracious presence of the Principal, Dr. Revathy Parameswaran. The ribbon-cutting marked the official opening of the exhibition, following which the dignitaries toured the displays of students from classes 1 to 12 and appreciated the creativity and artistic excellence of the students.</p>
+
+						<p>Shri A. Z. Ranjith commended the students for their remarkable imagination, dedication, and artistic skills. He encouraged the budding artists to continue exploring their creativity and praised the school for providing an inspiring platform to showcase young talent.</p>
+
+						<p>The exhibition was also visited by CA P. S. Prabhakar, Hon. Secretary & Correspondent, who appreciated the outstanding efforts of the students and the Art Department. </p>
+
+						<p>Parents, students, teachers of the school visited the exhibition through the day. They admired the impressive collection of paintings, sculptures, craftwork, mixed-media creations, and traditional art forms displayed by students across various grades. The exhibition received widespread appreciation for its excellent presentation and the high standard of artistic expression.</p>
+
+						<p>The overwhelming response from visitors made PS ATELIER '26 a truly grand and memorable event.
+											
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/events/rn1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/events/rn2.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/events/rn3.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="lunch">
+					
+						<p id="1"><b>Millet Lunch Day – 29/6/26</b><br>
+						<p>Our students brought millet-based tiffins , as part of the Eco Club activity. Teachers shared how millets like ragi, jowar, and bajra are full of nutrition and good for the earth too. </p> 
+						<p>A big thank you to parents for making this healthy initiative a success!</p>				
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/events/lun1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/events/lun2.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/events/lun3.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="INVESTITURE-CEREMONY">
+					
+						<p id="1"><b>INVESTITURE CEREMONY AT P S SENIOR </b><br>
+						<p>The Investiture Ceremony of our school was conducted on 13/6/26 with great pride and dignity, marking the induction of the Student Council, Sports Council, and Class Leaders for the academic year.</p>
+
+						<p>The programme commenced majestically with the school band leading the procession, creating an atmosphere of discipline and enthusiasm. The elected leaders were formally invested with badges, symbolising their responsibilities and commitment to serving the school community.</p>
+
+						<p>The Chief Guest, Group Captain Vijay Kumar, distributed the leader badges and congratulated the newly elected office bearers. In his inspiring address, he emphasized the importance of preserving the school’s culture, upholding integrity, and leading by example. The council members then solemnly took the oath, administered by the principal Dr Smt Revathy Parameswaran, pledging to perform their duties with sincerity, dedication, and fairness.</p>
+
+						<p>The ceremony concluded on a motivating note, encouraging the young leaders to strive for excellence and contribute positively to the growth and reputation of the school.</p>
+											
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/_AV10124.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/_AV10125.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/_AV10135.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/_AV10155.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/_AV10056.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/_AV10048.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>	
+
+
+
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="kanchi-pontiff">
+
+						<p id="1"><b>KANCHI PONTIFF AT P.S.SENIOR SECONDARY SCHOOL</b><br>
+						<p>P.S. Senior Secondary School had the rare honour of welcoming His Holiness Pujyasri Sankara Vijayendra Saraswathi on the evening of June 10, 2026, at 5:00 p.m. The visit, organised by the school management, was one of the most significant events of the school's Golden Jubilee celebrations.</p>
+
+						<p>The programme commenced with a traditional "Poorna Kumbam" accorded to His Holiness. Students, staff members, parents, and devotees gathered in large numbers to seek his blessings. The school Correspondent Sri P S Prabhakar welcomed the gathering. The Secretary of P S Education society Dr Sri K V S Gopalakrishnan addressed the audience.</p>
+
+						<p>During his visit, His Holiness blessed the school management, teaching and non-teaching staff, and the entire student community. He commended the school in imparting value based education and in shaping the students holistically. </p>
+
+						<p>Students of Classes X and XII received special blessings and words of encouragement as they prepare for important academic milestones in their lives.</p>
+
+						<p>The serene and spiritual atmosphere created by the presence of His Holiness left a lasting impression on everyone present. His message emphasised the importance of values, discipline, humility, and dedication to learning. </p>
+
+						<p>The Principal of the school Dr Smt Revathy Parameswaran, in her vote of thanks expressed her gratitude to all the people from the Mutt, and mainly to Periyavaa for his presence, and divine blessings bestowed upon the institution and its members.</p>
+							
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/ka1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/ka2.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/ka3.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/ka4.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/ka5.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/ka6.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>	
+
+
+
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="birthday-50th">
+
+						<p id="1"><b>PS SENIOR CELEBRATES 50th BIRTHDAY </b><br>
+						<p>In commemoration of our school's 50th birthday on 9th June 2026,  a special assembly was conducted in P S Senior Secondary school grounds with great enthusiasm and pride. The occasion marked five decades since the school’s founding on 9th June 1976. </p>
+
+						<p>Our esteemed Correspondent, Sri. P.S. Prabhakar, addressed the gathering and shared inspiring insights into our legacy. He highlighted the contributions of our visionary founders. Pennathur Subramania Iyer, our revered founder, established the boys school which eventually stands today as the P S Higher secondary School. His vision of spreading quality education and building character laid the foundation for the institution. </p>
+
+						<p>With the same vision of imparting holistic education, Sri P C Sekar started our CBSE school on 9th June 1976. Our respected Principal Dr Smt Revathy Parameswaran  spoke about the founder’s mission, emphasizing education and discipline as the prime motto of our institution. She urged students to be curious and service-minded. The assembly concluded with heartfelt wishes to all students, encouraging them to work hard, uphold integrity, respect elders, and strive to fulfill the founders’ vision by becoming responsible citizens. </p>			
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/Photo1.jpg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-6 col-md-6">									
+							<img src="img/events/Photo2.jpg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+												
+							<img src="img/events/photo3.jpg" alt="" class="img-response"/>
+					
+						
+					</div>
+						
+
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="geetham-bioplay">
 					<p><b>Golden Jubilee Celebrations - Kaatriniley Varum Geetham - a bio-play on Bharat Ratna Smt. M.S.Subbulakshmi</b></p>
 					</div>
 					<div class=" col-xs-12 col-sm-12 col-md-12">												
@@ -675,6 +845,50 @@
         <script src="wp-content\themes\genesis\js\jquery.mCustomScrollbar.concat.min.js"></script>
 	<!-- end -->
   
+
+	<!-- Show only the event passed via ?event=<slug>; no param shows the full page -->
+	<script type="text/javascript">
+	(function () {
+		var params = new URLSearchParams(window.location.search);
+		var ev = params.get('event');
+		if (!ev) return;
+
+		var container = document.querySelector('.break-genesis');
+		if (!container) return;
+
+		var children = Array.prototype.slice.call(container.children);
+
+		// A "start" block begins a new event: a col-md-12 whose first <p> holds a <b> heading.
+		function isStart(el) {
+			if (!el.classList || !el.classList.contains('col-md-12')) return false;
+			for (var i = 0; i < el.children.length; i++) {
+				var c = el.children[i];
+				if (c.tagName === 'P' && c.getElementsByTagName('b').length > 0) return true;
+			}
+			return false;
+		}
+
+		// Group each heading with the image/content blocks that follow it.
+		var groups = [], current = null;
+		children.forEach(function (el) {
+			if (isStart(el)) {
+				current = { start: el, members: [el] };
+				groups.push(current);
+			} else if (current) {
+				current.members.push(el);
+			}
+		});
+
+		var target = groups.filter(function (g) {
+			return g.start.getAttribute('data-event') === ev;
+		})[0];
+		if (!target) return; // unknown slug: leave the full page visible
+
+		children.forEach(function (el) { el.style.display = 'none'; });
+		target.members.forEach(function (el) { el.style.display = ''; });
+		window.scrollTo(0, 0);
+	})();
+	</script>
 
 </body>
 </html>

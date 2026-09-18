@@ -13,6 +13,7 @@
 <link type="text/css" rel="stylesheet" href="wp-content\themes\genesis\genesis-content-bottom-inner-pages-links.css">
 <link rel='stylesheet' id='font-awesome-css' href='wp-content\themes\genesis\css\font-awesome.min.css' type='text/css' media='all'>
 <link type="text/css" rel="stylesheet" href="wp-content\themes\genesis\css\style.css">
+<link rel="stylesheet" type="text/css" href="wp-content/themes/genesis/css/gallery-lightbox.css">
 
 	<!-- end -->
 <body class="home blog">
@@ -33,7 +34,104 @@
 						                    </div>
 				                    </div>
 					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
-					
+
+					<!-- Teachers' Day Celebrations 2026 :: start -->
+					<div class=" col-xs-12 col-sm-12 col-md-12" id="teachers-day-celebrations">
+						<p><b>Teachers' Day Celebrations</b></p>
+						<p>Teachers’ Day was celebrated with warmth and gratitude at PS Senior Secondary School on September 5 2026. Greetings filled the air as students expressed their love and appreciation for the teachers who guide, inspire and shape their lives.</p>
+						<p>The Principal extended heartfelt greetings to the teaching fraternity. Members of the Student Council presented bouquets to the Principal as a gesture of respect and appreciation.</p>
+						<p>At the special meeting that followed, the Correspondent, Sri P. S. Prabhakar, expressed his gratitude to the teachers for their dedicated service and invaluable contribution to the school. The Principal felicitated teachers who had completed ten years of service and announced the recipients of the Best Teacher Awards, recognising their commitment and excellence.</p>
+						<p>The PTA added a lively touch to the celebrations by organising a variety of entertaining games for the teachers. Winners were presented with gifts, adding to the festive spirit. A Mehendi Corner and an energetic Zumba session provided teachers with opportunities to relax, unwind and enjoy themselves.</p>
+						<p>The celebrations concluded on a warm and gracious note with lunch hosted by the Management. It was a memorable day that honoured the educators whose dedication continues to make a lasting difference in the lives of the students.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="teachers-day-2026" data-gallery-title="Teachers' Day Celebrations">
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/td2026_1.jpeg" alt="Teachers' Day Celebrations" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/td2026_2.jpeg" alt="Teachers' Day Celebrations" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/td2026_3.jpeg" alt="Teachers' Day Celebrations" class="img-response"/>
+						</div>
+					</div>
+					<style>
+					#teachers-day-celebrations { scroll-margin-top: 140px; }
+					</style>
+					<!-- Teachers' Day Celebrations 2026 :: end -->
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<p><b>Independence Day Celebrations 2026</b></p>
+						<p>P S SENIOR SECONDARY SCHOOL CELEBRATES INDEPENDENCE DAY</p>
+						<p>P. S. Senior Secondary School celebrated 80th Independence Day on 15th August 2026 with great patriotic fervour and enthusiasm. The Scouts and Guides welcomed the Principal, Dr. Revathy Parameswaran and the Vice principals. The programme commenced with the Tamizh Thai Vaazhthu and the prayer. This was followed by the hoisting of the National Flag by the Principal. The National Anthem was sung.</p>
+						<p>The students presented patriotic songs and a classical dance on the occasion. The highlight of the programme was the presentation by the Kindergarten children, who dressed up as freedom fighters from Tamil Nadu and spoke about their lives and contributions. The middle school students delivered speeches in English, Tamil and Hindi, highlighting the significance of Independence and the future responsibilities of students.</p>
+						<p>The cultural programmes emphasised the values of unity, sacrifice and patriotism. The Principal addressed the students, teachers and parents and reminded them that freedom must be exercised with a sense of responsibility. She advised the students to give their best to the nation.</p>
+						<p>The celebration inspired the students to uphold their duty as Indian citizens and contribute towards the progress of the nation. The programme concluded on a proud and memorable note.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="independence-day-2026" data-gallery-title="Independence Day Celebrations 2026">
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/id2026_1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/id2026_2.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/id2026_3.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="independence-day-2026" data-gallery-title="Independence Day Celebrations 2026">
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/id2026_4.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">
+							<img src="img/activity/Special Events/id2026_5.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<p><b>World Music Day</b></p>
+						<p>On the occasion of World Music Day (June 21st) , our  middle school presented songs followed by the rendering of 'Maitreem bajatha', a song composed by the Paramacharya of the Kanchi Mutt.</p>
+
+		
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo7.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo8.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<p><b>International yoga day Celebrations</b></p>						
+						<p>International Yoga Day was celebrated to raise awareness of the value and advantages of yoga. The students of the middle school performed yogasanas in commemoration of International Yoga Day.</p>
+		
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo2.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo3.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo4.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo5.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/activity/Special Events/yo6.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
 					<div class=" col-xs-12 col-sm-12 col-md-12">
 						<p><b>PS Codessey 2025</b></p>						
 						<p>The third edition of P.S.Senior Secondary School’s annual computer science fest, PS Codessey, was held on the 17th of October 2025. The event witnessed an overwhelming number of participants — over a hundred students representing twenty schools from in and around Chennai participated, making this year’s fest the largest edition to date. Codessey ’25 boasted a diverse array of six events. Apart from the classic events like Binary Blitz, CodeFusion, and Task Manager, three new events were introduced — Syntax Snap, Robotopia and The Glitch. In every event, participants were tested on their knowledge of computer science concepts, their critical thinking capabilities, and their creativity. Codessey served as a shared platform for students to express their ideas and learn from others. The valedictory ceremony was graced by Dr. K V Subrahmanyam, the Dean of Studies at the Chennai Mathematical Institute, who delivered an intriguing lecture on the Fast Fourier Transform. The overall trophy was taken home by team of students from Chennai Public School, Anna Nagar. The enthusiasm and energy displayed by the participants made Codessey ’25 truly memorable.</p>
@@ -1186,7 +1284,70 @@ The event concluded with a Vote of Thanks and distribution of sweets</p>
         <script src="wp-content\themes\genesis\js\classie.js"></script>
         <script src="wp-content\themes\genesis\js\selectFx.js"></script>
         <script src="wp-content\themes\genesis\js\jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="wp-content/themes/genesis/js/gallery-lightbox.js"></script>
 	<!-- end -->
+
+	<!-- Puts every event on this page into its own lightbox album, so clicking any
+	     photo opens it full size with the same Previous/Next navigation. An event
+	     runs from its bold heading up to the next bold heading; blocks that were
+	     given an album by hand keep the one they already have. -->
+	<script type="text/javascript">
+	(function () {
+		var container = document.querySelector('.break-genesis');
+		if (!container) {
+			return;
+		}
+
+		// A block starts a new event when one of its own <p> children holds a <b>.
+		function headingOf(el) {
+			var kids = el.children || [];
+			for (var i = 0; i < kids.length; i++) {
+				if (kids[i].tagName !== 'P') {
+					continue;
+				}
+				var bold = kids[i].getElementsByTagName('b');
+				if (bold.length) {
+					var text = (bold[0].textContent || bold[0].innerText || '').replace(/\s+/g, ' ');
+					text = text.replace(/^ +| +$/g, '');
+					if (text) {
+						return text;
+					}
+				}
+			}
+			return null;
+		}
+
+		var blocks = container.children || [];
+		var group = '';
+		var title = '';
+		var count = 0;
+
+		for (var i = 0; i < blocks.length; i++) {
+			var block = blocks[i];
+			var heading = headingOf(block);
+
+			if (heading) {
+				count++;
+				group = 'special-event-' + count;
+				title = heading;
+			}
+
+			if (!group) {
+				continue;
+			}
+			// Photos already placed in an album keep the album they were given.
+			if (block.getAttribute('data-gallery-group')) {
+				continue;
+			}
+			if (!block.getElementsByTagName('img').length) {
+				continue;
+			}
+
+			block.setAttribute('data-gallery-group', group);
+			block.setAttribute('data-gallery-title', title);
+		}
+	})();
+	</script>
   
 
 </body>

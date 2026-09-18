@@ -13,6 +13,7 @@
 <link type="text/css" rel="stylesheet" href="wp-content\themes\genesis\genesis-content-bottom-inner-pages-links.css">
 <link rel='stylesheet' id='font-awesome-css' href='wp-content\themes\genesis\css\font-awesome.min.css' type='text/css' media='all'>
 <link type="text/css" rel="stylesheet" href="wp-content\themes\genesis\css\style.css">
+<link rel="stylesheet" type="text/css" href="wp-content/themes/genesis/css/gallery-lightbox.css">
 
 	<!-- end -->
 <body class="home blog">
@@ -33,16 +34,63 @@
 						                    </div>
 				                    </div>
 					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
-                    
+
 					<div class=" col-xs-12 col-sm-12 col-md-12">
-						<p><b>49th ANNUAL DAY CELEBRATIONS</b></p>					
+						<p><b>GOLDEN JUBILEE ANNUAL DAY CELEBRATIONS AT PS SENIOR SECONDARY SCHOOL</b></p>
+						<p>PS Senior Secondary School celebrated its Golden Jubilee Annual Day at Narada Gana Sabha on August 7 and 8 2026. The two-day event brought together eminent dignitaries, proud alumni, and students.</p>
+						<p>On day one, the Chief Guest T R Santhana Krishnan, Chairman, Data Tracks, Singapore emphasized handling artificial intelligence with responsibility, understanding, and commitment. He highlighted the role of teachers in shaping the students through character building, an effort that goes a long way in their future. The school Chairman Sri P C Ramakrishna detailed the school's development in his address. The Principal Dr Revathy Parameswaran presented the Annual Report cataloguing the achievements of the academic year 2025-26. The golden Jubilee magazine Panorama was released by the chief guest and the first copy was received by Sri C V Krishnan, Secretary of P S Educational Society.</p>
+						<p>The Chief Guest on 8th August was Dr J. Radhakrishnan, IAS, Director of Anna Institute of Management and Training. The Guest of Honour was Padmashri Dr. V. Kamakoti, Director of IIT Madras and an alumnus of the P S Senior Secondary school.</p>
+						<p>Dr. J. Radhakrishnan in his address, praised the school's character-building education and urged the students to stay rooted to tradition yet be modern. Dr V Kamakoti shared his school memories, advising students to excel in co-curricular activities besides academics, participate in Olympiads, and reap the best out of their campus opportunities. The Coffee Table Book highlighting the 50 glorious years of the school was released by the Chief Guest and the first copy was received by the Guest of honour Dr V Kamakoti.</p>
+						<p>Distinguished faculty members received the Vidya Ganapathi award and Long service awards, while the student achievers were honored for excellence in academics and sports. The grand finale featured a spectacular cultural performance titled "Srinivasa Tirukkalyanam." Blending music, dance, and a Tamil play, the vibrant LED backdrops, apt dialogues, melodious music and the graceful dance sequence transported the audience into the ethereal world of Vaikunta, concluding a landmark celebration fit for the books.</p>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="golden-jubilee-2026" data-gallery-title="Golden Jubilee Annual Day Celebrations 2026">
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad2.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad3.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="golden-jubilee-2026" data-gallery-title="Golden Jubilee Annual Day Celebrations 2026">
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad4.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad5.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad6.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="golden-jubilee-2026" data-gallery-title="Golden Jubilee Annual Day Celebrations 2026">
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad7.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad8.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad9.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="golden-jubilee-2026" data-gallery-title="Golden Jubilee Annual Day Celebrations 2026">
+						<div class="col-md-4">
+							<img src="img/activity/annual day/gjad10.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+					<div class=" col-xs-12 col-sm-12 col-md-12">
+						<p><b>49th ANNUAL DAY CELEBRATIONS</b></p>				
 						<p>The Golden Jubilee Annual Day of P.S. Senior Secondary School, Mylapore, was celebrated on 22nd and 23rd August 2023 at Narada Gana Sabha. The Chief Guest on the first day was Dr R Seetharaman, Former CEO, Doha Bank. He gave a very profound speech on how destiny is a matter of choice and the role of discipline in shaping one’s life. The Chairman of the school Sri P C Ramakrishna said that students must fly high, yet always remember their roots. The Principal Dr Smt Revathy Parameswaran read out the Annual Report highlighting the school’s activities, results and events of the academic year that ended.</p> 
 						<p>On 23rd August, The President of PS Education Society Sri K V S Gopalakrishnan addressed the audience and spoke on the importance of our culture and tradition. The Chief Guest was Shri R D Nazeem, Additional Chief Secretary, Government of Himachal of Himachal Pradesh, and an alumnus of the school. He recalled with fondness the role the school had played in his formative years. He quoted a few episodes from his school days to show how the overall development of the students was aimed at, as the fundamental purpose of education. He distributed prizes to children who had excelled in academic and co-curricular activities. The school newsletter Mystique was released. The students presented a cultural entertainment on the theme ‘Incredible India’. The programmes were received with great fanfare and enthusiasm by the spectators</p>
 					</div>
 					<div class=" col-xs-12 col-sm-12 col-md-12">
 						<a href="pdf/AnnualDay_Report_2025.pdf"><b><u>Click here to view the Annual report 2025</u></b></a>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-49" data-gallery-title="49th Annual Day Celebrations">
 						<div class="col-md-3">
 							<img src="img/activity/annual day/pss_0909251.jpg" alt="" class="img-response"/>
 						</div>
@@ -72,7 +120,7 @@
 						<a href="pdf/AnnualDay-2024.pdf"><b><u>Click here to view the Annual report 2024</u></b></a>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-48" data-gallery-title="48th Annual Day Celebrations">
 						<div class="col-md-3">
 							<img src="img/activity/annual day/aday1.jpg" alt="" class="img-response"/>
 						</div>
@@ -86,7 +134,7 @@
 							<img src="img/activity/annual day/aday4.jpg" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-48" data-gallery-title="48th Annual Day Celebrations">
 						<div class="col-md-3">
 							<img src="img/activity/annual day/aday5.jpg" alt="" class="img-response"/>
 						</div>
@@ -100,7 +148,7 @@
 							<img src="img/activity/annual day/aday8.jpg" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-48" data-gallery-title="48th Annual Day Celebrations">
 						<div class="col-md-3">
 							<img src="img/activity/annual day/aday9.jpg" alt="" class="img-response"/>
 						</div>
@@ -123,7 +171,7 @@
 						<a href="pdf/ANNUAL DAY 6th August 2024.pdf"><b><u>Click here to view the Annual Day invitation - 06/08/2024</u></b></a>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-47" data-gallery-title="47th Annual Day Celebrations">
 					<p><b>47th ANNUAL DAY CELEBRATIONS</b></p>
 					
 					
@@ -146,7 +194,7 @@
 							
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">	
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-47" data-gallery-title="47th Annual Day Celebrations">	
 						<div class=" col-xs-12 col-sm-4 col-md-4">									
 							<img src="img/activity/indep/in3.jpeg" alt="" class="img-response"/>
 						</div>
@@ -159,7 +207,7 @@
 						
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-47" data-gallery-title="47th Annual Day Celebrations">
 						<div class="col-md-4">
 							<img src="img/activity/annual day/music.jpeg" alt="" class="img-response"/>
 						</div>
@@ -176,7 +224,7 @@
 						<p><a href="pdf/Annual Day Invite Day2.pdf"><u>Click here to view the Annual Day Invitation - 10/08/2023</u></a></p>
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-46" data-gallery-title="46th Annual Day Celebrations">
 						<p><b>46th ANNUAL DAY CELEBRATIONS</b></p>
 						<p>The 46th Annual Day of the school was celebrated on the 6th and 7th of November 2022 at Narada Gana Sabha.</p>
 						<ul><li>On 7th November 2022 – Dr. S. Vaidhyasubramaniam,Vice Chancellor, SASTRA Deemed University, Thanjavur was the chief guest.</li></ul>
@@ -190,7 +238,7 @@
 							<img src="img/activity/annual day/as3.jpg" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-46" data-gallery-title="46th Annual Day Celebrations">
 						<div class="col-md-4">
 							<img src="img/activity/annual day/as4.jpg" alt="" class="img-response"/>
 						</div>
@@ -201,7 +249,7 @@
 							<img src="img/activity/annual day/as6.jpg" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-46" data-gallery-title="46th Annual Day Celebrations">
 						<div class="col-md-4">
 							<img src="img/activity/annual day/as7.jpg" alt="" class="img-response"/>
 						</div>
@@ -224,7 +272,7 @@
 																	
 					</div>
 
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-46" data-gallery-title="46th Annual Day Celebrations">
 						<ul><li>On 6th November 2022 – Dr. S. Raja Sabapathy,Director, Ganga Hospital, Coimbatore was the chief guest.</li></ul>
 						<div class="col-md-4">
 							<img src="img/activity/annual day/as10.jpg" alt="" class="img-response"/>
@@ -261,7 +309,7 @@
 						</div>																	
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-2022-mar26" data-gallery-title="Annual Day - 26/03/2022">
 					
 						<div class="col-md-4">
 							<img src="img/activity/annual day/13.jpg" alt="" class="img-response"/>
@@ -276,7 +324,7 @@
 					</div>
 										
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-2022-mar26" data-gallery-title="Annual Day - 26/03/2022">
 						<div class="col-md-4">
 							<img src="img/activity/annual day/7.jpg" alt="" class="img-response"/>
 						</div>
@@ -287,7 +335,7 @@
 							<img src="img/activity/annual day/3.jpg" alt="" class="img-response"/>
 						</div>		
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-2022-mar26" data-gallery-title="Annual Day - 26/03/2022">
 					
 						<div class="col-md-4">
 							<img src="img/activity/annual day/2.jpg" alt="" class="img-response"/>
@@ -298,7 +346,7 @@
 						
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-2022-mar25" data-gallery-title="Annual Day - 25/03/2022">
 					<p>Annual Day - 25/03/2022</p>
 						<div class="col-md-4">
 							<img src="img/activity/annual day/11.jpg" alt="" class="img-response"/>
@@ -323,7 +371,7 @@
 					<div class=" col-xs-12 col-sm-12 col-md-12">
 						<p><a href="pdf/Annual Day - Invite & Instructions for parents.pdf"><u>Click here to view the Annual Day Instructions</u></a></p>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-43" data-gallery-title="43rd Annual Day Celebration">
 					<p><b>43rd ANNUAL DAY CELEBRATION</b></p>
 						<p>The 43rd Annaul Day of the school was celebrated on the 9th and 10th of August 2019 at Narada Gana Sabha.</p>
 						<ul><li>On 9th August 2019 – Dr. Sudha Seshayyan ,Vice Chancellor, Tamil Nadu Dr. MGR Medical University  was the Chief Guest. Shri Kapil Viswanathan, Vice Chairman, Krea University, a distinguished alumnus of the school was the Guest of Honour.</li></ul>
@@ -340,7 +388,7 @@
 							<img src="img/activity/annual day/img4.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-43" data-gallery-title="43rd Annual Day Celebration">
 						<p>On 10th August 2019 – Dr. Akila Srinivasan, Managing Director, Shriram Life Insurance was the chief guest.</p>
 						<div class="col-md-3">
 							<img src="img/activity/annual day/img5.png" alt="" class="img-response"/>
@@ -355,7 +403,7 @@
 							<img src="img/activity/annual day/img9.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-43" data-gallery-title="43rd Annual Day Celebration">
 						
 						<div class="col-md-3">
 							<img src="img/activity/annual day/img15.png" alt="" class="img-response"/>
@@ -370,7 +418,7 @@
 							<img src="img/activity/annual day/img13.png" alt="" class="img-response"/>
 						</div>
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-43" data-gallery-title="43rd Annual Day Celebration">
 						
 						<div class="col-md-4">
 							<img src="img/activity/annual day/img16.png" alt="" class="img-response"/>
@@ -378,7 +426,7 @@
 						
 					</div>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-42" data-gallery-title="42nd Annual Day Celebration">
 					<p><b>42nd ANNUAL DAY CELEBRATION</b></p>
 						<p>The 42nd Annaul Day of the school was celebrated on the 9th and 10th of August 2018. </p>
 						<ul><li>On 9th August 2018 – Dr. Lalitha Balakrishnan (Principal,M.O.P Vaishnav college of Women)  was the Chief Guest.</li>
@@ -398,7 +446,7 @@
 					<p>On the 10th of August 2018 Swami Bodhamayananda (Director Vivekanada Institute of Human Excellence) was the chief guest. Shri T.S.Krishnamurthy(President, P.S.Educational Society) presided over the function.</p>
 					<p>Shri G Jagannath  a distinguished alumnus of the school was the Guest of Honour.	</p>
 					
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-42" data-gallery-title="42nd Annual Day Celebration">
 					
 
 						<div class="col-md-4">
@@ -412,7 +460,7 @@
 						</div>
 					
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-41" data-gallery-title="41st Annual Day Celebration">
 					<p><b>41st ANNUAL DAY CELEBRATION</b></p>
 						<p>The 41st Annaul Day  of the school was celebrated on the 25th and 26th of August 2017.</p>
 						<ul>
@@ -432,7 +480,7 @@
 						</div>
 					
 					</div>
-					<div class=" col-xs-12 col-sm-12 col-md-12">
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-gallery-group="annual-day-41" data-gallery-title="41st Annual Day Celebration">
 						<div class="col-md-4">
 							<img src="img/activity/annual day/img27.png" alt="" class="img-response"/>
 						</div>
@@ -473,6 +521,7 @@
         <script src="wp-content\themes\genesis\js\classie.js"></script>
         <script src="wp-content\themes\genesis\js\selectFx.js"></script>
         <script src="wp-content\themes\genesis\js\jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="wp-content/themes/genesis/js/gallery-lightbox.js"></script>
 	<!-- end -->
   
 

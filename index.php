@@ -22,16 +22,14 @@
 
 <?php include("header.php"); ?>
 
-<br>
-
 <style>
 .merqee {
-  padding: 10px;
-  font-size: 18px;
+  padding: 6px;
+  font-size: 16px;
   margin-top: 9%;
   margin-left: 1%;
   margin-right: 1%;
-  border: 3px solid #395c97;
+  border: none;
 }
 
 .merqee a {
@@ -45,23 +43,13 @@
 }
 </style>
 
-<marquee behavior="scroll" class="merqee" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-  
-  <a href="pdf/CLASS X-CONSOLIDATED RESULTS-2026-MEDIA.pdf">P S Senior delivers outstanding results in the CBSE Class X Board Examination yet again</a> |   
-  <a href="">Kind attention Parents The School reopens for the new academic year 2026-27 on 01/04/2026 Principal</a> | 
-  <a href="pdf/Book Issue Dates - 2026-2027.pdf">Book issue details 2026-27</a> |  
-  <a href="other-event.php">Golden Jubilee Celebrations - Kaatriniley Varum Geetham - a bio-play on Bharat Ratna Smt. M.S.Subbulakshmi</a> |
-  <a href="admissions-prekg.php">Important Information Regarding Admission for the academic year 2026-27. Due to rains the last date for submission of applications to KG sections has been extended till next week. </a>|
-  <a href="goldenjubilee.php">Golden Jubilee Celebrations - POD Cast Series</a> |
-  <a href="recognitions.php">Hearty Congratulations to our Principal Dr Revathy Parameswaran for receiving National Teachers' Award 2025</a> |
-  <a href="ls040625.php">Integrated Classroom programme for Class 9</a> |
-  <a href="ls300525.php">School reopening dates</a> |
-  <a href="results.php">CBSE Results 2024-25</a> |
-  <a href="https://srikanchimahaswamiiasacademy.com/admission/">Sri Kanchi Mahaswami IAS Academy - Admissions open for 2025-26 batch</a> |
+<marquee behavior="scroll" class="merqee" direction="left" onmouseover="this.stop();" onmouseout="this.start();" >
+  <a href="annual-day.php">Golden Jubilee Annual Day Celebration</a> |
+  <a href="sports-day.php">Annual Sports Day 2026</a> |
 
 
 </marquee>
-  <br>
+ 
 <!------------------------------- banner --------------------------->
  <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
     <!-- Indicators -->
@@ -183,49 +171,35 @@
 						<div id="carousel-example" class="carousel slide" data-ride="carousel">
 							  <div class="carousel-inner">
 							    <ul class="containers">
-									<li><a href="pdf/CLASS X-CONSOLIDATED RESULTS-2026-MEDIA.pdf">P S Senior delivers outstanding results in the CBSE Class X Board Examination yet again</a></li>
-									<li><a href="achievments.php">Congratulations S. Sahana</a></li>
-								<li><a href="pdf/Book Issue Dates - 2026-2027.pdf">Book issue details 2026-27</a></li>
-								<li><a href="sports-achievments.php">Congratulations C H Sai Sachel</a></li>
-								<li><a href="mun.php">Clarion PS MUN 2025</a></li>
-								<li><a href="latestatpss.php">Important Information Regarding Admission for the academic year 2026-27</a></li>
-								<li><a href="achievements.php">Congratulations R Sahitya</a></li>
-								<li><a href="other-event.php">P.S. Senior Joins ‘Rise for the Sea’ Beach Clean-up along the Marina coast</a></li>
-								<li><a href="sports-achievments.php">Congratulations B Kedarnath</a></li>
-								<li><a href="other-event.php">TEACHERS’ DAY CELEBRATION AND FELICITATION TO THE PRINCIPAL</a></li>
-								<li><a href="annual-day.php">49th ANNUAL DAY CELEBRATIONS</a></li>
-								<li><a href="Recognitions.php">Hearty Congratulations to Our Principal</a></li>
-								<li><a href="UpcomingEvents.php">Click here to view the Annual day invitation 2025</a></li>
-								<li><a href="events.php">Annual Sports Day 2025</a></li>
-								<li><a href="special-event.php">PS AMBLE 2025</a></li>
-								<li><a href="project-day.php">PS AURIX 25 – Inspiring Young Minds through Science and Innovation</a></li>
-								<li><a href="other-event.php">Kargil Vijay Diwas Celebration</a></li>
-								<li><a href="Scintillations.php">Scintillations 2025</a></li>
-								<li><a href="Career-Counselling.php">Career opportunities in Law and Finance</a></li>
-								<li><a href="other-event.php">Value Education initiative</a></li>
+									<li><a href="Recognitions.php#latest-gurumoorthy-best-teacher-2026">Congratulations Mr. P. Gurumoorthy !</a></li>
+									<li><a href="sports-day.php#primary-sports-day-2026">Primary Sports Day 2026</a></li>
+									<li><a href="Recognitions.php#latest-acharya-mani-2026">Congratulations Mrs. S U Jaichitra,</a></li>
+									<li><a href="special-event.php#teachers-day-celebrations">Teachers' Day Celebrations</a></li>
+									<li><a href="kgday.php#krishna-jayanthi-celebrations">Krishna Jayanthi Celebrations</a></li>
+									<li><a href="achievments.php#latest-tcs-inquizitive-2026">Congratulations R. Sri Harsha (12D) and Avinash Krishna (12A)</a></li>
+									<li><a href="achievments.php#latest-bvm-stem-expo">Congratulations to BVM Stem Expo winners</a></li>
+									<li><a href="achievments.php#latest-sanvikshiki-2026">P.S..Senior emerged as the overall winners at Sanvikshiki 2026</a></li>
+									<li><a href="achievments.php#latest-materials-quiz-2026">Congratulations Shresth C Anchalia and S P Sudharsan !</a></li>
+									<li><a href="kgday.php">Onam Celebrations at P.S.Senior - KG Department</a></li>
+									<li><a href="sports-day.php">PS Senior Secondary School Celebrates 50th Sports Day</a></li>
+									<li><a href="special-event.php">Independence Day Celebrations 2026</a></li>
+								<li><a href="annual-day.php">GOLDEN JUBILEE ANNUAL DAY CELEBRATIONS</a></li>
+									<li><a href="achievments.php?event=Adarsh">Congratulations Adarsh B, V Arjun and Avinash Krishna !</a></li>
+									<li><a href="achievments.php?event=Harsha">Congratulations J. Thejeshvar and Sri Harsha</a></li>
+									<li><a href="achievments.php?event=CVMUN">MPS wins the Best delegation in CVMUN</a></li>
+									<li><a href="project-day.php?event=Aurix">Aurix - Amble 2026  @ P.S.Senior</a></li>	
+								<li><a href="other-event.php?event=Exhibition">P.S Senior Celebrates 50th Birthday</a></li>	
+								<li><a href="other-event.php?event=lunch">Millet Lunch Day – 29/6/26</a></li>
 								<li><a href="special-event.php">International yoga day Celebrations</a></li>
-								<li><a href="other-event.php">Investiture Ceremony of the Student Council (2025–26)</a></li>
-								<li><a href="ls0406s25.php">Integrated Classroom programme for Class 9</a></li>
-								<li><a href="Recognitions.php">Research Science Initiative-Chennai Summer Program at IIT Madras</a></li>
-								<li><a href="ls300525.php">School reopening dates</a></li>
-								<li><a href="GLM.php">GLPSS Convocation ceremony 2025</a></li>
-								<li><a href="results.php">Class X and Class XII results - An outstanding performance by our Students.</a></li>
-								<li><a href="bmw.php">The unforgettable trek experience - Brahmatal, Uttarakhand</a></li>
-								<li><a href="Recognitions.php">Our School has won a prestigious award for Excellence in Educational Standards</a></li>
-								<li><a href="workshop-host.php">Workshop on Understanding and teaching children with Learning Difficulties</a></li>
-								<li><a href="other-event.php">Bagless Day</a></li>
-								<li><a href="other-event.php">Menstrual Health Awareness Programme</a></li>
-								<li><a href="pdf/ls0305.pdf">TNPSC Group-1 Mock Interview</a></li>
-								<li><a href="other-event.php">P.S. Senior Students take initiative for a Cleaner Coast</a></li>
-								<li><a href="achievments.php">Congratulations Anirudh Kumaran and Arnav Mahadevan !</a></li>
-								<li><a href="pdf/ls0305.pdf">TNPSC Group-1 Mock Interview</a></li>
-								<li><a href="pdf/sri_kanchi.pdf">Admissions open @ Sri Kanchi Mahaswami Academy for Civil Services ( A unit of P.S.Educational Society)</a></li>
-								<li><a href="achievments.php">Congratulations Samrutha M</a></li>
-								<li><a href="pdf/FeeDetails_25-26.pdf">FEES FOR ACADEMIC YEAR 2025-26</a></li>
-								<li><a href="pdf/Book_distribution_Schedule1.pdf">BOOK ISSUE DETAILS FOR  2025-26</a></li>
-					
-								
-							
+								<li><a href="Scintillations.php?event=Scintillations">Scintillations 2026 – A Celebration of Talent and Creativity</a></li>
+								<li><a href="other-event.php?event=INVESTITURE-CEREMONY">INVESTITURE CEREMONY AT P S SENIOR </a></li>
+								<li><a href="other-event.php?event=kanchi-pontiff">KANCHI PONTIFF AT P.S.SENIOR SECONDARY SCHOOL</a></li>
+								<li><a href="other-event.php?event=birthday-50th">P.S Senior Celebrates 50th Birthday</a></li>
+								<li><a href="studentcouncil.php">Student Council Members (2026-27)</a></li>
+								<li><a href="workshop-con.php">In-house workshop for English Teachers </a></li>								
+								<li><a href="results.php">P S Senior delivers outstanding results in the CBSE Class X & XII Board Examination yet again</a></li>
+								<li><a href="latestatpss.php">Important Information Regarding Admission for the academic year 2026-27</a></li>
+								<li><a href="Recognitions.php">Hearty Congratulations to Our Principal</a></li>
 								</ul>
 								
 							  </div>						  
@@ -639,7 +613,9 @@ items.each(function(){
   }
 });
 
-containers.css({ height: containerHeight, overflow: "hidden" });
+// overflow-y auto gives the list its own scrollbar, so the mouse wheel walks
+// through every headline instead of waiting for the ticker to come round.
+containers.css({ height: containerHeight, overflowY: "auto", overflowX: "hidden" });
   
 function vertCycle() {
   var firstItem = containers.find('li.first').html();
@@ -658,67 +634,17 @@ var init = setInterval("vertCycle()",intervalSec);
 containers.hover(function(){
   clearInterval(init);
 }, function(){
+  // back to the top so the ticker carries on looking the way it always has
+  this.scrollTop = 0;
   init = setInterval("vertCycle()",intervalSec);
 });
 		
 </script>
-<style>
-  #onLoadModal .modal-dialog {
-    max-width: 80% !important;
-    width: 80% !important;
-  }
-
-  #onLoadModal img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-</style>
-
-<div class="modal fade" id="onLoadModal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body" style="padding:0;">
-        <img src="img/ach/b6.jpeg" class="img-responsive" alt="Popup Banner">
-      </div>
-      <div class="modal-footer text-center">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!--<div class="modal fade" id="onLoadModal" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body" style="padding:0;">
-        <img src="https://pssenior.edu.in/img/dp1.jpg" class="img-responsive" id="banner_popup" alt="Popup Banner">
-      </div>
-      <div class="modal-footer text-center">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>-->
-
-
 <!-- Old jQuery + Bootstrap 3 JS -->
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<!-- Trigger Modal on Load -->
 
-
- <script>
-  $(document).ready(function () {
-    // Show the first modal on page load
-    $('#onLoadModal1').modal('show');
-/*
-    // Open the second modal when the first modal is fully hidden
-    $('#onLoadModal1').on('hidden.bs.modal', function () {
-      $('#onLoadModal').modal('show');
-    });*/
-  });
-</script>
 </body>
 </html>
 
@@ -755,6 +681,32 @@ h1.home_page_h1 {
 }
 ul.containers {
   padding: 0;
+}
+
+/* Slim scroll control for the Latest at P.S.Senior list. overscroll-behavior
+   keeps the wheel on the list itself instead of carrying on down the page. */
+ul.containers {
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #395c97 #e8eaf0;
+}
+
+ul.containers::-webkit-scrollbar {
+  width: 8px;
+}
+
+ul.containers::-webkit-scrollbar-track {
+  background: #e8eaf0;
+  border-radius: 4px;
+}
+
+ul.containers::-webkit-scrollbar-thumb {
+  background: #395c97;
+  border-radius: 4px;
+}
+
+ul.containers::-webkit-scrollbar-thumb:hover {
+  background: #2c4a7c;
 }
 /*ul.containers {
   width: 20em;

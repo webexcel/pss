@@ -52,6 +52,8 @@
 							<a href="https://pssenior.edu.in/online" class="btn btn-primary" target="_blank"><b>ONLINE FEE PAYMENT</b></a>
 							<a href="https://pssenior.edu.in/integratedFees/" class="btn btn-primary" target="_blank"><b>Integrated Fees Class XI</b></a>
 							<a href="https://pssenior.edu.in/onlineCourse/" class="btn btn-primary" target="_blank"><b>Integrated Fees Class IX and X</b></a>
+							<!--<a href="https://pssenior.edu.in/OnlineCoching/" class="btn btn-primary" target="_blank"><b>Sports Coaching</b></a>-->
+						
 						</div>
 						<div>
 							<a id="nav-expander" class="nav-expander fixed mobile_menu_bar">

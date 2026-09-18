@@ -54,7 +54,7 @@
 							<p><a href="pdf/Land_Certificate.pdf" target="_blank"><b>7 . Land_Certificate</b></a></p>
 							<p><a href="pdf/EXTENSIONOFAFFILIATION_LATEST_UPTP31.03.2029.pdf" target="_blank"><b>8 . Recent CBSE ExtensionofAffiliation Order</b></a></p>	
 							<p><a href="pdf/Society Registration Certificate.pdf" target="_blank"><b>9 . Society Registration Certificate</b></a></p>
-							<p><a href="pdf/FeeDetails_25-26.pdf" target="_blank"><b>10 . FEE STRUCTURE </b></a></p>						
+							<p><a href="pdf/FEE-STRUCTURE.pdf" target="_blank"><b>10 . Fee Structure 2026-2027 </b></a></p>						
 							<p><a href="pdf/Self Certificate.pdf" target="_blank"><b>11 . Self Certificate</b></a></p>
 							
 					</div>

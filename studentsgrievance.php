@@ -42,34 +42,35 @@
 					<p><u></u><strong><span style="color: #395c97;"><u>MEMBERS OF THE STUDENT GRIEVANCE COMMITTEE</u></span></strong></p>
 					<p><u>CORE TEAM</u></p>
 					<ol>
-					<li>Smt. Revathy Parameswaran, Principal</li>
-					<li>Smt. R. Lakshmi</li>
+					<li>Dr. Revathy Parameswaran, Principal</li>
+					<li>Mrs. R. Lakshmi</li>
 					<li>School Pupil Leader</li>
 					<li>Assistant School Pupil Leader</li>
 					</ol>
 					<p><u>PRIMARY TEAM</u></p>
 					<ol>
-					<li>Sethu Parvathy A</li>
-					<li>Sudha V Raaman</li>
-					<li>R.Subhashini</li>
+					
+					<li>Mrs. Sudha V Raaman</li>
+					<li>Mrs. R.Subhashini</li>
 					</ol>
 					<p><u>MIDDLE TEAM</u></p>
 					<ol>
-					<li>Rajeswari Ravishankar</li>
-					<li>Shanthi Satish</li>
-					<li>Chitra Narayanan</li>
+					<li>Mrs. Rajeswari Ravishankar</li>
+					<li>Mrs. Sairama</li>
+					
 					</ol>
 					<p><u>SECONDARY SCHOOL TEAM</u></p>
 					<ol>
-					<li>Madhumita C</li>
-					<li>J Jamuna</li>
+					<li>Mr. V Thirumurugan</li>
+					<li>Mrs. P Sweetlin Sheeba Paulin</li>
+					
 					</ol>
 					<p><u>SENIOR SECONDARY SCHOOL TEAM</u></p>
 					<ol>
-					<li>V Jeyalakshmi</li>
-					<li>R. Sripriya</li>
-					<li>S U Gopalakrishnan</li>
-					<li>Smt. N S R Rajeshwari</li>
+					<li>Mrs. P. Sudha</li>
+					<li>Mr. S U Gopalakrishnan</li>
+					<li>Mrs. V Jeyalakshmi</li>
+					<li>Mrs. R. Sripriya</li>
 					</ol>						
 					</div>
 					<div class=" col-xs-12 col-sm-3 col-md-3">	

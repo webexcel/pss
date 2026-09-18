@@ -66,23 +66,17 @@
     <tr><td>13</td><td>Mrs. Muthulakshmi Rajesh</td><td>Member</td><td>lakrajesh21@gmail.com</td></tr>
     <tr><td>14</td><td>Mr. S. Thilak</td><td>Member</td><td>ssthilak78@gmail.com</td></tr>
     <tr><td>15</td><td>Mrs. R. Lakshmi</td><td>Vice Principal</td><td>lux.kannan@gmail.com</td></tr>
-    <tr><td>16</td><td>Mrs. P. Sudha</td><td>Associate Vice Principal</td><td>sudhaanandh@gmail.com</td></tr>
-    <tr><td>17</td><td>Mrs. S. U. Jaichitra</td><td>Teacher Member</td><td>Sujchitra71@gmail.com</td></tr>
+    <tr><td>16</td><td>Mrs. P. Sudha</td><td>Vice Principal</td><td>sudhaanandh@gmail.com</td></tr>
+    <tr><td>17</td><td>Mr. S. U. Gopalakrishnan</td><td>Associate Vice Principal</td><td>gk_maths@yahoo.com</td></tr>
     <tr><td>18</td><td>Mrs. Rajeswari Ravishankar</td><td>Teacher Member</td><td>raji151967@gmail.com</td></tr>
     <tr><td>19</td><td>Mrs. Sudha V Raaman</td><td>Teacher Member</td><td>sudharaaman@gmail.com</td></tr>
-    <tr><td>20</td><td>Mr. R. Sivakumar</td><td>Senior Vice Principal</td><td>prsivaku042@gmail.com</td></tr>
-    <tr><td>21</td><td>Mrs. Padmasri Nirmalkumar</td><td>Consultant</td><td>padmahnk@gmail.com</td></tr>
-    <tr><td>22</td><td>Mr. S. U. Gopalakrishnan</td><td>Teacher Member</td><td>gk_maths@yahoo.com</td></tr>
+    <tr><td>20</td><td>Mrs. R. Subhashini</td><td>Teacher Member</td><td>maths_subhashini@pssenior.edu.in</td></tr>
+    <tr><td>21</td><td>Mrs. S. U. Jaichitra</td><td>Teacher Member</td><td>Sujchitra71@gmail.com</td></tr>
   </tbody>
 </table>
 					
 					</div>
-					<div class=" col-xs-12 col-sm-3 col-md-3">	
-						
-							
-						
-					</div>
-
+					
               </div>
           </div>
       </div>

@@ -47,15 +47,13 @@
 						<strong><span style="color: #395c97;">STUDENT SAFEGUARDING ADVISORY COMMITTEE</span></strong></u></p>
 						<ol>
 						<li>Dr. Revathy Parameswaran, Principal</p>
-						<li>Mrs. R Lakshmi, Computer Science Teacher</p>
+						<li>Mrs. R Lakshmi, Vice Principal</p>
 						<li>Mr. P. Muthuselvam, Physical Education Teacher</p>
-						<li>Mrs. R. Geethalakshmi, Member,Parent Teacher Association</p>
-						<li>Mr. Ranganathan Sundaram, Member, Parent Teacher Association</p>
+						<li>Mrs. Deepa Iyer, President, Parent Teacher Association</p>
+						<li>Mr. Ranganathan Sundaram, President, Alumni Association</p>
 						<li>Mr. P.S. Prabhakar, Hony. Secy. & Correspondent</p>
-						<li>Mrs. N. Logeswari, Non-teaching Staff</p>
-						<li>Dr. Sita Sundar Ram, Educationist and Member of  P.S. Educational Society</p>
 						<li>Mrs. Geeta Ramaseshan, Advocate and Social Activist</p>
-						<li>Mr. R. V. Giridhar, Government Recognized Counsellor</p>
+						<li>Ms. D. Madhumitha, School Counsellor</p>
 
 						</ol>
 						<p><b>Any Complaints can be sent to <u>principal@pssenior.edu.in</u></b></p>

@@ -38,7 +38,7 @@
 					<div class=" col-xs-12 col-sm-9 col-md-9">
 						
 						<p style="text-align:justify">It is the constant endeavour of P. S. Senior Secondary School  to mould students into responsible citizens of tomorrow.  An important aspect of Indian citizenship is democracy - the power  to choose the right people to lead us.  Our institution follows a democratic setup in the election of student representatives.  Students of  Class 12 contest for different posts in the student council elections, such as the School Pupil Leader, Cultural Secretary, Sports Secretary and TFE Editor. Students of classes 9 to 12 elect their representatives by casting their vote to the student leaders.  These student leaders form a council of the school that help organise inter, intra competitions - co-curricular and sports such as the Scintillations,  as well as the MUN (Model United Nations).  TFE (The Fourth Estate) conducts inter school competitions for junior classes “Renaissance” and maintains a TFE board in the science block that showcases the artistic talents of the children across the classes</p>
-						<p><u></u><strong><span style="color: #395c97;"><u>STUDENT COUNCIL MEMBERS (2025-26)</u></span></strong></p>
+						<p><u></u><strong><span style="color: #395c97;"><u>STUDENT COUNCIL MEMBERS (2026-27)</u></span></strong></p>
 							<table border="1" cellpadding="5" cellspacing="0">
 							  <thead>
 								<tr>
@@ -48,28 +48,30 @@
 								</tr>
 							  </thead>
 							  <tbody>
-								<tr><td>1</td><td>ABHINAV SARAN K V</td><td>SCHOOL PUPIL LEADER</td></tr>
-								<tr><td>2</td><td>M M LIBAN REYHAN</td><td>SCHOOL PUPIL LEADER</td></tr>
-								<tr><td>3</td><td>H SHYAM SUNDAR</td><td>CULTURAL SECRETARY</td></tr>
-								<tr><td>4</td><td>ABHINAV ASHWIN VARMA</td><td>CULTURAL SECRETARY</td></tr>
-								<tr><td>5</td><td>AKSHAYA ASHOK</td><td>THE FOURTH ESTATE EDITOR</td></tr>
-								<tr><td>6</td><td>J DHWANI</td><td>THE FOURTH ESTATE EDITOR</td></tr>
-								<tr><td>7</td><td>GOVIND KRISHNA</td><td>SPORTS SECRETARY</td></tr>
-								<tr><td>8</td><td>ASHWATH RAGHAVAN</td><td>SPORTS SECRETARY</td></tr>
-								<tr><td>9</td><td>S NITHYASREE</td><td>SPORTS SECRETARY</td></tr>
-								<tr><td>10</td><td>PRIYADHARSHINI M</td><td>SPORTS SECRETARY</td></tr>
-								<tr><td>11</td><td>AMRITHA ASHOK</td><td>MEMBER</td></tr>
-								<tr><td>12</td><td>M R PRANAV VIJAY</td><td>MEMBER</td></tr>
-								<tr><td>13</td><td>KRITHIGA G</td><td>MEMBER</td></tr>
-								<tr><td>14</td><td>A. VAINAVI</td><td>MEMBER</td></tr>
-								<tr><td>15</td><td>MAHIMA SRIDHAR</td><td>MEMBER</td></tr>
-								<tr><td>16</td><td>DIYA RANJITH</td><td>MEMBER</td></tr>
-								<tr><td>17</td><td>HIRANMAYEE</td><td>MEMBER</td></tr>
-								<tr><td>18</td><td>JANAANI V</td><td>MEMBER</td></tr>
-								<tr><td>19</td><td>THANISHA NETRA R</td><td>MEMBER</td></tr>
-								<tr><td>20</td><td>KAUSHALAN J</td><td>MEMBER</td></tr>
-								<tr><td>21</td><td>R. MEDHA</td><td>MEMBER</td></tr>
-								<tr><td>22</td><td>SHRIJANI S</td><td>MEMBER</td></tr>
+								<tr><td>1</td><td>ARADHANA SURESH</td><td>SCHOOL PUPIL LEADER</td></tr>
+								<tr><td>2</td><td>P. MITHRAN</td><td>SCHOOL PUPIL LEADER</td></tr>
+								<tr><td>3</td><td>SRIYA NYAPATHI</td><td>CULTURAL SECRETARY</td></tr>
+								<tr><td>4</td><td>SURE ABHIJITH</td><td>CULTURAL SECRETARY</td></tr>
+								<tr><td>5</td><td>ABHINAV RAJESHNATHAN X</td><td>THE FOURTH ESTATE EDITOR</td></tr>
+								<tr><td>6</td><td>ARPITHA BADRINATH</td><td>THE FOURTH ESTATE EDITOR</td></tr>
+								<tr><td>7</td><td>KEDARNATH B</td><td>SPORTS SECRETARY</td></tr>
+								<tr><td>8</td><td>K DHRITHI</td><td>SPORTS SECRETARY</td></tr>
+								<tr><td>9</td><td>R K PRAVEEN KUMAR</td><td>ASST. SPORTS SECRETARY</td></tr>
+								<tr><td>10</td><td>U HARSHENI M</td><td>ASST. SPORTS SECRETARY</td></tr>
+								<tr><td>11</td><td>SHRESTH C ANCHALIA</td><td>MEMBER</td></tr>
+								<tr><td>12</td><td>DHIVYA R</td><td>MEMBER</td></tr>
+								<tr><td>13</td><td>ANANYA M</td><td>MEMBER</td></tr>
+								<tr><td>14</td><td>DILIP D S</td><td>MEMBER</td></tr>
+								<tr><td>15</td><td>SANJAY KARTHIC T G</td><td>MEMBER</td></tr>
+								<tr><td>16</td><td>SHRIMAYI K A</td><td>MEMBER</td></tr>
+								<tr><td>17</td><td>R SAHITHYA</td><td>MEMBER</td></tr>
+								<tr><td>18</td><td>SRIVIDHYA C</td><td>MEMBER</td></tr>
+								<tr><td>19</td><td>ANIRUDDH B</td><td>MEMBER</td></tr>
+								<tr><td>20</td><td>R SHRIHARSHA</td><td>MEMBER</td></tr>
+								<tr><td>21</td><td>MADHAV SHRIRAAM</td><td>MEMBER</td></tr>
+								<tr><td>22</td><td>P MADHUMITA</td><td>MEMBER</td></tr>
+								<tr><td>21</td><td>S MEENAKSHI</td><td>MEMBER</td></tr>
+								<tr><td>22</td><td>R NIDHEESH</td><td>MEMBER</td></tr>
 							  </tbody>
 							</table>
 

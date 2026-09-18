@@ -35,7 +35,32 @@
 					<div class="container about_slider_bg   academics_the_curriculum  residential_school_content   container-fluid container-fluid break-genesis">
                     
 					
-					
+					<div class=" col-xs-12 col-sm-12 col-md-12" data-event="Scintillations">
+			
+					<p><b>Scintillations 2026 – A Celebration of Talent and Creativity</b></p>
+
+					<p>P.S. Senior Secondary School successfully hosted its much-awaited inter-school cultural extravaganza, Scintillations 2026, on 19 and 20 June, celebrating the spirit of the Golden Jubilee Year. Our Correspondent Sri P S Prabhakar and our Principal Dr Smt Revathy Parameswaran were present for the event,  inaugurated by Chief Guest Sri Sayee Rakshith,  young and popular violinist who inspired the participants with his encouraging words and officially declared the fest open.</p>
+
+					<p>More than twenty schools enthusiastically participated in a wide range of innovative competitions, including Green Screen, Lexicon, Stress Interview, Dance, Short Film Making, Da Vinci Code, Role Rumble, and several other engaging events. Each competition was thoughtfully designed to nurture creativity, artistic expression, articulation, language proficiency, collaboration, and quick thinking, providing students with a vibrant platform to showcase their diverse talents.</p>
+
+					<p>The valedictory function, held on 20 June, was graced by Kalaimamani Dr. Nityasree Mahadevan the renowned Carnatic vocalist, as the Chief Guest. She lauded the school for organizing the cultural festival on such a grand scale and appreciated the meticulous planning and enthusiastic participation that made the event a resounding success. Congratulating all the participants for their remarkable performances, she distributed prizes and certificates to the winners, bringing two days of spirited competition and joyful learning to a memorable close.</p>
+
+					<p>PSBB K K Nagar emerged the winners and Chettinad Vidhyashram were the runners up.</p>
+
+					</div>
+					<div class=" col-xs-12 col-sm-12 col-md-12">	
+						<div class=" col-xs-12 col-sm-4 col-md-4">									
+							<img src="img/events/www1.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">																	
+							<img src="img/events/www2.jpeg" alt="" class="img-response"/>
+						</div>
+						<div class=" col-xs-12 col-sm-4 col-md-4">																	
+							<img src="img/events/www3.jpeg" alt="" class="img-response"/>
+						</div>
+					</div>
+
+
 					<div class=" col-xs-12 col-sm-12 col-md-12">
 			
 					<p><b>Scintillations 2025</b></p>
