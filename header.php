@@ -81,7 +81,7 @@
 						<li><a href="contact.php">Contact Us</a></li>
 					</ul>
 				</li>
-				<li id="menu-item-5192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5192">
+				<!--<li id="menu-item-5192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5192">
 				<a href="#">Admissions</a>
 					<ul class="sub-menu" >	
 						<li><a href="admissions-XI.php">Admissions STD-XI</a></li> 
@@ -90,7 +90,7 @@
 						<li><a href="admissions.php">Admissions I-IX</a></li>       
 						<li><a href="tcDetails.php">TC Details</a></li>
 					</ul>
-				</li>
+				</li>-->
 				<li id="menu-item-5198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5192" style="width:120%">
 				<a href="soon.php"> School Committees</a>
 					<ul class="sub-menu"  style="width:130%">
