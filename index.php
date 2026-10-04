@@ -640,9 +640,31 @@ containers.hover(function(){
 });
 		
 </script>
+<div id="onLoadModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body" style="padding:0;">
+        <a href="admissions-prekg.php">
+          <img src="wp-content/Vijayadasami-PreKG-Admissions.png" class="img-responsive" alt="Vijayadasami Pre-KG Admissions">
+        </a>
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Old jQuery + Bootstrap 3 JS -->
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Trigger Modal on Load -->
+<script>
+  $(document).ready(function () {
+    $('#onLoadModal').modal('show');
+  });
+</script>
 
 
 </body>
