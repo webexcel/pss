@@ -29,17 +29,6 @@ function e(?string $string): string {
 }
 
 /**
- * Allow only users logged in to the school admin panel (/admin)
- */
-function requireAdmin(): void {
-    initSession();
-    if (empty($_SESSION['user_logged_in'])) {
-        header('Location: ../../admin/login.php');
-        exit;
-    }
-}
-
-/**
  * Format amount for display
  */
 function formatAmount(float $amount): string {

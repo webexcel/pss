@@ -26,7 +26,6 @@
 						
 						<li class="fc2"><a href="studentsgrievance.php">Student Grievance</a></li>
 						<li class="fc2"><a href="contact.php">Contact</a></li>
-						<li class="fc2"><a href="login/index.php">Admin Login</a></li>
 					</ul>	
 					</div>
 				</div>	
