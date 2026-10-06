@@ -1,0 +1,168 @@
+/*
+ * Clarion PSMUN Registration - additions on top of integratedFees/assets/css/style.css
+ */
+
+.container {
+    max-width: 560px;
+}
+
+.card-header p {
+    margin-top: 6px;
+    color: var(--text-secondary);
+}
+
+/* Landing choices */
+.type-choices {
+    display: grid;
+    gap: 16px;
+}
+
+.type-choice {
+    display: block;
+    padding: 20px 22px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.type-choice:hover {
+    border-color: var(--primary-400);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+}
+
+.type-choice h4 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+.type-choice p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+
+.type-choice-amount {
+    font-weight: 700;
+    color: var(--primary-700);
+}
+
+/* Form */
+.form-section-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin: 24px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.form-section-title:first-child {
+    margin-top: 0;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.optional {
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+/* Delegate rows */
+.delegate-list {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.delegate-row {
+    display: grid;
+    grid-template-columns: 28px 1fr 90px 32px;
+    gap: 8px;
+    align-items: center;
+}
+
+.delegate-row input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    background: var(--gray-50);
+}
+
+.delegate-row input:focus {
+    outline: none;
+    border-color: var(--primary-500);
+    background: white;
+}
+
+.delegate-no {
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+.delegate-remove {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: var(--error-50);
+    color: var(--error-600);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.delegate-remove:hover {
+    background: var(--error-100);
+}
+
+/* Total */
+.total-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 14px 18px;
+    border-radius: var(--border-radius-sm);
+    background: var(--primary-50);
+    color: var(--primary-900);
+}
+
+.total-box strong {
+    font-size: 1.35rem;
+}
+
+.back-link {
+    color: var(--primary-700);
+    text-decoration: none;
+}
+
+.receipt-delegates {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.receipt-delegates span {
+    color: var(--text-secondary);
+}
+
+@media (max-width: 480px) {
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .delegate-row {
+        grid-template-columns: 22px 1fr 70px 32px;
+        gap: 6px;
+    }
+}
