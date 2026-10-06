@@ -29,6 +29,17 @@ function e(?string $string): string {
 }
 
 /**
+ * Allow only users logged in to the school admin panel (/admin)
+ */
+function requireAdmin(): void {
+    initSession();
+    if (empty($_SESSION['user_logged_in'])) {
+        header('Location: ../../admin/login.php');
+        exit;
+    }
+}
+
+/**
  * Format amount for display
  */
 function formatAmount(float $amount): string {
@@ -81,17 +92,21 @@ function validateRegistration(string $type, array $input): array {
     ];
 
     if ($type === MUN_TYPE_INTERNAL) {
-        $name = cleanText($input['student_name'] ?? '', 100);
-        $class = cleanText($input['class_section'] ?? '', 30);
-        $data['adno'] = cleanText($input['adno'] ?? '', 50);
+        // Only the admission number comes from the form; the rest comes from the school database
+        $student = findSchoolStudent((string) ($input['adno'] ?? ''));
+        if (!$student) {
+            return [['Admission number not found. Please check and try again.'], $data];
+        }
 
-        if ($name === '') $errors[] = 'Student name is required.';
-        if ($class === '') $errors[] = 'Class & section is required.';
-        if ($data['adno'] === '') $errors[] = 'Admission number is required.';
+        $data['adno'] = $student['adno'];
+        $data['contact_name'] = $student['name'];
+        $data['mobile'] = $student['mobile'];
+        $data['email'] = ''; // collected by Razorpay Checkout, saved after payment
+        $data['delegates'][] = ['name' => $student['name'], 'class' => $student['class']];
+        $data['delegate_count'] = 1;
+        $data['amount'] = MUN_FEE_PER_DELEGATE;
 
-        $data['delegates'][] = ['name' => $name, 'class' => $class];
-        // Parent / student contact name defaults to the student
-        if ($data['contact_name'] === '') $data['contact_name'] = $name;
+        return [[], $data];
     } else {
         $data['school_name'] = cleanText($input['school_name'] ?? '', 150);
         $data['branch'] = cleanText($input['branch'] ?? '', 100) ?: null;
@@ -129,6 +144,49 @@ function validateRegistration(string $type, array $input): array {
     $data['amount'] = $data['delegate_count'] * MUN_FEE_PER_DELEGATE; // paise
 
     return [$errors, $data];
+}
+
+/**
+ * Look up one of our students by admission number in the current academic year
+ */
+function findSchoolStudent(string $adno): ?array {
+    $adno = cleanText($adno, 50);
+    if ($adno === '') {
+        return null;
+    }
+
+    $yearSql = MUN_YEAR_ID === null ? '(SELECT MAX(`Year_Id`) FROM `v_studentlist`)' : '?';
+    $params = MUN_YEAR_ID === null ? [$adno] : [$adno, MUN_YEAR_ID];
+
+    $stmt = getDBConnection()->prepare("
+        SELECT `ADMISSION_ID`, `NAME`, `Standard`, `Section`, `contact`
+        FROM `v_studentlist`
+        WHERE `ADMISSION_ID` = ? AND `Year_Id` = {$yearSql}
+        LIMIT 1
+    ");
+    $stmt->execute($params);
+    $row = $stmt->fetch();
+
+    if (!$row) {
+        return null;
+    }
+
+    // contact may hold more than one number; take the first valid mobile
+    preg_match('/[6-9]\d{9}/', preg_replace('/[\s-]/', '', (string) $row['contact']), $mobile);
+
+    return [
+        'adno' => (string) $row['ADMISSION_ID'],
+        'name' => trim((string) $row['NAME']),
+        'class' => trim($row['Standard'] . '-' . $row['Section'], '- '),
+        'mobile' => $mobile[0] ?? '',
+    ];
+}
+
+/**
+ * Show only the last 4 digits of a mobile number
+ */
+function maskMobile(string $mobile): string {
+    return $mobile === '' ? '' : str_repeat('•', max(0, strlen($mobile) - 4)) . substr($mobile, -4);
 }
 
 /**
@@ -179,16 +237,25 @@ function createPaymentRecord(string $orderId, string $receipt, array $data): int
 }
 
 /**
- * Mark payment as completed
+ * Mark payment as completed.
+ * Returns true only if this call changed the row (false if already completed or not found).
  */
 function updatePaymentCompleted(string $orderId, string $paymentId, string $signature, string $paydetails): bool {
+    // Our students don't enter email/mobile on the form, so keep what they gave in Razorpay Checkout
+    $details = json_decode($paydetails, true) ?: [];
+    $email = filter_var($details['email'] ?? '', FILTER_VALIDATE_EMAIL) ?: '';
+    $mobile = substr(preg_replace('/\D/', '', (string) ($details['contact'] ?? '')), -10);
+
     $pdo = getDBConnection();
     $stmt = $pdo->prepare("
         UPDATE psmun_fee_payments
-        SET status = 'COMPLETED', payment_id = ?, signature = ?, paydetails = ?, end_time = NOW()
+        SET status = 'COMPLETED', payment_id = ?, signature = ?, paydetails = ?, end_time = NOW(),
+            email = IF(email = '', ?, email),
+            mobile = IF(mobile = '', ?, mobile)
         WHERE order_id = ? AND status IN ('START', 'FAILED')
     ");
-    return $stmt->execute([$paymentId, $signature, $paydetails, $orderId]);
+    $stmt->execute([$paymentId, $signature, $paydetails, $email, $mobile, $orderId]);
+    return $stmt->rowCount() > 0;
 }
 
 /**

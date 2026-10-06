@@ -18,8 +18,12 @@ define('MUN_EVENT_NAME', 'Clarion PSMUN 2026');
 define('MUN_EDITION', '13th Edition');
 
 // Fee per delegate
-define('MUN_FEE_PER_DELEGATE', 90000);          // ₹900 in paise
-define('MUN_FEE_PER_DELEGATE_DISPLAY', 900);    // ₹900 in rupees
+define('MUN_FEE_PER_DELEGATE', 95000);          // ₹950 in paise
+define('MUN_FEE_PER_DELEGATE_DISPLAY', 950);    // ₹950 in rupees
+
+// Academic year (Year_Id in v_studentlist) our students are looked up in.
+// null = latest year in v_studentlist, so students who have left are not found.
+define('MUN_YEAR_ID', null);
 
 // Group booking limit for other school students
 define('MUN_MAX_GROUP_SIZE', 30);

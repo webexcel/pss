@@ -38,7 +38,7 @@ if ($type === MUN_TYPE_INTERNAL && isInternalStudentRegistered($data['adno'])) {
     jsonError(400, 'Admission No. ' . $data['adno'] . ' has already paid the registration fee.');
 }
 
-// Amount is calculated on the server (count x ₹900)
+// Amount is calculated on the server (count x fee per delegate)
 $amount = $data['amount'];
 
 $receipt = 'PSMUN-' . ($type === MUN_TYPE_INTERNAL ? 'I' : 'E') . '-' . time() . '-' . bin2hex(random_bytes(3));

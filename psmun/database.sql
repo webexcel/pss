@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS `psmun_fee_payments` (
   `payment_id` VARCHAR(50) DEFAULT NULL COMMENT 'Razorpay payment_id',
   `signature` VARCHAR(500) DEFAULT NULL COMMENT 'Razorpay signature',
   `paydetails` TEXT NOT NULL COMMENT 'JSON payment response',
+  `email_sent_at` DATETIME DEFAULT NULL COMMENT 'Confirmation email sent time',
 
   PRIMARY KEY (`id`),
   UNIQUE KEY `idx_order_id` (`order_id`),

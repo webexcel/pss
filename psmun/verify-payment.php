@@ -4,6 +4,7 @@
  */
 
 require_once __DIR__ . '/includes/functions.php';
+require_once __DIR__ . '/includes/mailer.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('Location: index.php');
@@ -36,10 +37,8 @@ if (!$payment) {
 $paymentDetails = fetchPaymentDetails($paymentId);
 $paydetailsJson = json_encode($paymentDetails ?: ['payment_id' => $paymentId]);
 
-if (!updatePaymentCompleted($orderId, $paymentId, $signature, $paydetailsJson)) {
-    // Payment succeeded at Razorpay; the webhook will retry the update
-    error_log("PSMUN: failed to update payment record for order: {$orderId}");
-}
+// Sends the confirmation email unless the webhook already completed this order
+completePaymentAndNotify($orderId, $paymentId, $signature, $paydetailsJson);
 
 initSession();
 $_SESSION['psmun_last_order'] = $orderId;

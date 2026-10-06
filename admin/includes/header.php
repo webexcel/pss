@@ -93,6 +93,9 @@
                                     </ul>
                                 </li>
                                 <li>
+                                    <a href="../psmun/admin/"><i class="fa fa-globe fa-fw"></i> PSMUN Registrations</a>
+                                </li>
+                                <li>
                                     <a href="admin_users.php"><i class="fa fa-users fa-fw"></i> Users</a>
                                 </li>
                             </ul>

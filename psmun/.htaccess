@@ -1,7 +1,7 @@
 # Clarion PSMUN Registration Fee - Security Rules
 
 # Deny access to sensitive directories and files
-<FilesMatch "^(\.env|\.git|composer\.(json|lock)|database\.sql)$">
+<FilesMatch "^(\.env|\.git|composer\.(json|lock)|.*\.sql)$">
     Order allow,deny
     Deny from all
 </FilesMatch>

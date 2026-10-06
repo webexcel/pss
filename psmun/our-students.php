@@ -1,6 +1,6 @@
 <?php
 /**
- * Registration Form - P.S. Senior students
+ * Registration Form - P.S. Senior students (admission number only)
  */
 
 require_once __DIR__ . '/includes/functions.php';
@@ -16,43 +16,39 @@ require_once __DIR__ . '/templates/header.php';
 <div class="card">
     <div class="card-header">
         <h3>P.S. Senior Students</h3>
-        <p>Fill in the details and pay the registration fee of <?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?>.</p>
+        <p>Enter your admission number to pay the registration fee of <?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?>.</p>
     </div>
 
     <div class="card-body">
         <form id="psmun-form" class="mun-form" data-type="<?= MUN_TYPE_INTERNAL ?>" novalidate>
             <div class="form-group">
-                <label for="student_name">Student Name *</label>
-                <input type="text" id="student_name" name="student_name" maxlength="100" required>
-            </div>
-
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="adno">Admission No. *</label>
-                    <input type="text" id="adno" name="adno" maxlength="50" required autocomplete="off">
-                </div>
-                <div class="form-group">
-                    <label for="class_section">Class &amp; Section *</label>
-                    <input type="text" id="class_section" name="class_section" maxlength="30" placeholder="e.g., IX-B" required>
+                <label for="adno">Admission Number *</label>
+                <div class="lookup-row">
+                    <input type="text" id="adno" name="adno" maxlength="50" required autocomplete="off" autofocus>
+                    <button type="button" id="lookup-button" class="btn btn-secondary">Find</button>
                 </div>
             </div>
 
-            <div class="form-group">
-                <label for="mobile">Parent Mobile No. *</label>
-                <input type="tel" id="mobile" name="mobile" maxlength="10" inputmode="numeric" pattern="[6-9][0-9]{9}" required>
-            </div>
+            <div id="student-details" class="student-details" hidden>
+                <table class="receipt-table">
+                    <tr><td>Name</td><td><strong id="student-name"></strong></td></tr>
+                    <tr><td>Class</td><td id="student-class"></td></tr>
+                    <tr id="student-mobile-row"><td>Registered Mobile</td><td id="student-mobile"></td></tr>
+                </table>
+                <p class="details-note">Not your details? Change the admission number and press Find again.</p>
 
-            <div class="form-group">
-                <label for="email">Email *</label>
-                <input type="email" id="email" name="email" maxlength="150" required>
-            </div>
+                <div id="already-paid" class="alert alert-success" hidden>This student has already paid the registration fee.</div>
 
-            <div class="total-box">
-                <span>Amount Payable</span>
-                <strong><?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?></strong>
-            </div>
+                <div id="pay-section">
+                    <div class="total-box">
+                        <span>Amount Payable</span>
+                        <strong><?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?></strong>
+                    </div>
 
-            <button type="submit" class="btn btn-primary btn-block">Pay <?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?></button>
+                    <button type="submit" class="btn btn-primary btn-block">Pay <?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?></button>
+                    <p class="details-note">Enter your email in the payment window to receive the confirmation.</p>
+                </div>
+            </div>
         </form>
     </div>
 

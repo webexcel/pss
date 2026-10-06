@@ -59,11 +59,71 @@
         form.querySelector('#school_name').focus();
     }
 
+    // ---------- Admission number lookup (our students) ----------
+
+    const lookupButton = document.getElementById('lookup-button');
+    const adnoInput = document.getElementById('adno');
+    let student = null;
+
+    async function lookupStudent() {
+        clearError();
+        student = null;
+        document.getElementById('student-details').hidden = true;
+
+        if (adnoInput.value.trim() === '') {
+            showError('Please enter your admission number.');
+            adnoInput.focus();
+            return;
+        }
+
+        lookupButton.classList.add('loading');
+        lookupButton.disabled = true;
+
+        try {
+            const result = await postJson('lookup-student.php', {
+                adno: adnoInput.value.trim(),
+                csrf_token: config.csrfToken
+            });
+
+            student = result;
+            document.getElementById('student-name').textContent = result.name;
+            document.getElementById('student-class').textContent = result.class;
+            document.getElementById('student-mobile').textContent = result.mobile;
+            document.getElementById('student-mobile-row').hidden = !result.mobile;
+            document.getElementById('already-paid').hidden = !result.already_paid;
+            document.getElementById('pay-section').hidden = result.already_paid;
+            document.getElementById('student-details').hidden = false;
+        } catch (error) {
+            showError(error.message);
+        } finally {
+            lookupButton.classList.remove('loading');
+            lookupButton.disabled = false;
+        }
+    }
+
+    if (lookupButton) {
+        lookupButton.addEventListener('click', lookupStudent);
+        // Details must be looked up again if the number changes
+        adnoInput.addEventListener('input', function() {
+            student = null;
+            document.getElementById('student-details').hidden = true;
+        });
+    }
+
     // ---------- Submit + payment ----------
 
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
         clearError();
+
+        // Our students: Enter / Pay first finds the student, then pays
+        if (studentType === 'INTERNAL') {
+            if (!student) {
+                lookupStudent();
+                return;
+            }
+            if (student.already_paid) return;
+        }
 
         if (!form.checkValidity()) {
             form.reportValidity();
@@ -88,6 +148,10 @@
             data[input.name] = input.value.trim();
         });
 
+        if (student) {
+            data.adno = student.adno;
+        }
+
         if (delegateList) {
             data.delegates = Array.from(delegateList.querySelectorAll('.delegate-row')).map(row => ({
                 name: row.querySelector('.delegate-name').value.trim(),
@@ -98,8 +162,12 @@
         return data;
     }
 
-    async function createOrder(data) {
-        const response = await fetch('create-order.php', {
+    function createOrder(data) {
+        return postJson('create-order.php', data);
+    }
+
+    async function postJson(url, data) {
+        const response = await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
@@ -113,7 +181,7 @@
         }
 
         if (!response.ok || !result.success) {
-            throw new Error(result.error || 'Failed to create order');
+            throw new Error(result.error || 'Something went wrong. Please try again.');
         }
 
         return result;

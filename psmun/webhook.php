@@ -8,6 +8,7 @@
  */
 
 require_once __DIR__ . '/includes/functions.php';
+require_once __DIR__ . '/includes/mailer.php';
 
 header('Content-Type: application/json');
 
@@ -30,7 +31,7 @@ if ($payment && $orderId !== '') {
 
     if ($existing && $existing['status'] !== 'COMPLETED') {
         if (($event['event'] ?? '') === 'payment.captured') {
-            updatePaymentCompleted($orderId, $payment['id'] ?? '', '', json_encode($payment));
+            completePaymentAndNotify($orderId, $payment['id'] ?? '', '', json_encode($payment));
             error_log("PSMUN webhook: payment COMPLETED for order: {$orderId}");
         } elseif (($event['event'] ?? '') === 'payment.failed') {
             updatePaymentFailed($orderId, json_encode($payment));

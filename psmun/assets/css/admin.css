@@ -1,0 +1,175 @@
+/*
+ * Clarion PSMUN - Admin registrations page
+ */
+
+:root {
+    --navy: #122D57;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --bg: #f1f5f9;
+    --card: #ffffff;
+    --blue: #1d4ed8;
+    --green: #047857;
+    --green-bg: #d1fae5;
+    --amber: #b45309;
+    --amber-bg: #fef3c7;
+    --red: #b91c1c;
+    --red-bg: #fee2e2;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 18px 24px;
+    background: var(--navy);
+    color: #fff;
+}
+
+.topbar h1 { margin: 0; font-size: 20px; }
+.topbar p { margin: 4px 0 0; color: #cbd5e1; font-size: 13px; }
+.topbar-link { color: #fff; text-decoration: none; font-weight: 500; }
+
+.page { padding: 24px; max-width: 1400px; margin: 0 auto; }
+
+.flash { padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; }
+.flash-success { background: var(--green-bg); color: var(--green); }
+.flash-error { background: var(--red-bg); color: var(--red); }
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.stat-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+.stat-value { font-size: 26px; }
+.stat-sub { color: var(--muted); font-size: 13px; }
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.filters input, .filters select {
+    padding: 9px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font: inherit;
+    background: #fff;
+}
+
+.filters input[type="search"] { flex: 1 1 280px; }
+
+.btn {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 8px;
+    background: var(--navy);
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-ghost { background: #fff; color: var(--text); border: 1px solid var(--border); }
+.btn-export { background: var(--green); margin-left: auto; }
+
+.result-count { color: var(--muted); margin: 0 0 8px; }
+
+.table-wrap {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+.reg-table { width: 100%; border-collapse: collapse; }
+
+.reg-table th, .reg-table td {
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+}
+
+.reg-table th {
+    background: #f8fafc;
+    color: var(--muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+}
+
+.reg-table tbody tr:hover { background: #f8fafc; }
+.reg-table .num { text-align: right; white-space: nowrap; }
+.reg-table code { font-size: 12px; }
+
+.muted { color: var(--muted); font-size: 13px; }
+.warn { color: var(--amber); font-weight: 600; font-size: 13px; }
+.empty { text-align: center; color: var(--muted); padding: 32px; }
+
+.badge, .status {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.badge-internal { background: #dbeafe; color: var(--blue); }
+.badge-external { background: #ede9fe; color: #6d28d9; }
+.status-completed { background: var(--green-bg); color: var(--green); }
+.status-start { background: var(--amber-bg); color: var(--amber); }
+.status-failed, .status-cancelled { background: var(--red-bg); color: var(--red); }
+
+details summary { cursor: pointer; color: var(--blue); white-space: nowrap; }
+.delegates { margin: 8px 0 0; padding-left: 20px; line-height: 1.6; }
+
+.inline-form { display: inline; }
+
+.link-btn {
+    border: none;
+    background: none;
+    padding: 0;
+    margin-left: 6px;
+    color: var(--blue);
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    .page { padding: 16px; }
+    .btn-export { margin-left: 0; }
+}

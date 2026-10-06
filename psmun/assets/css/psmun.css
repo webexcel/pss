@@ -6,6 +6,35 @@
     max-width: 560px;
 }
 
+[hidden] {
+    display: none !important;
+}
+
+/* Admission number lookup */
+.lookup-row {
+    display: flex;
+    gap: 8px;
+}
+
+.lookup-row input {
+    flex: 1;
+}
+
+.lookup-row .btn {
+    padding: 12px 20px;
+}
+
+.student-details {
+    margin-top: 8px;
+}
+
+.details-note {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin: 8px 0 16px;
+    text-align: center;
+}
+
 .card-header p {
     margin-top: 6px;
     color: var(--text-secondary);
