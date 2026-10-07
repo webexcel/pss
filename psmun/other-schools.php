@@ -16,7 +16,7 @@ require_once __DIR__ . '/templates/header.php';
 <div class="card">
     <div class="card-header">
         <h3>Other School Students</h3>
-        <p><?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?> per delegate. Add all delegates from your school to pay once for the group.</p>
+        <p><?= formatAmount(MUN_FEE_PER_DELEGATE_DISPLAY) ?> per student. Add all students from your school to pay once for the group.</p>
     </div>
 
     <div class="card-body">
@@ -51,11 +51,11 @@ require_once __DIR__ . '/templates/header.php';
                 </div>
             </div>
 
-            <h4 class="form-section-title">Delegates</h4>
+            <h4 class="form-section-title">Student</h4>
 
             <div id="delegate-list" class="delegate-list" data-max="<?= MUN_MAX_GROUP_SIZE ?>"></div>
 
-            <button type="button" id="add-delegate" class="btn btn-secondary btn-block btn-sm">+ Add Delegate</button>
+            <button type="button" id="add-delegate" class="btn btn-secondary btn-block btn-sm">+ Add Student</button>
 
             <div class="total-box">
                 <span>
