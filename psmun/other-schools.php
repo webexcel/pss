@@ -36,7 +36,7 @@ require_once __DIR__ . '/templates/header.php';
             <h4 class="form-section-title">Contact Person</h4>
 
             <div class="form-group">
-                <label for="contact_name">Name (Teacher / Parent / Student) *</label>
+                <label for="contact_name">Name (Student) *</label>
                 <input type="text" id="contact_name" name="contact_name" maxlength="100" required>
             </div>
 
@@ -76,7 +76,7 @@ require_once __DIR__ . '/templates/header.php';
 <template id="delegate-row-template">
     <div class="delegate-row">
         <span class="delegate-no"></span>
-        <input type="text" class="delegate-name" placeholder="Delegate name" maxlength="100" required>
+        <input type="text" class="delegate-name" placeholder="Student name" maxlength="100" required>
         <input type="text" class="delegate-class" placeholder="Class" maxlength="30" required>
         <button type="button" class="delegate-remove" title="Remove" aria-label="Remove delegate">&times;</button>
     </div>
